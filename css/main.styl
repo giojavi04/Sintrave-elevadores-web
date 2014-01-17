@@ -1,0 +1,104 @@
+celeste = #0088CC
+celeste_claro = #2B9CD4
+celeste_oscuro = #006699
+celeste_bajo = #89C4E2
+
+fondo = #151515
+fondo_claro = #2B3336
+
+letra = #B9DFF1
+
+rojo = #E3242D
+rojo_oscuro = #B91C23
+rojo_claro = #e74c3c
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans")
+@import url("http://fonts.googleapis.com/css?family=Titan+One")
+
+border-radius()
+	-moz-border-radius arguments
+	-ms-border-radius arguments
+	-o-border-radius arguments
+	-webkit-border-radius arguments
+	border-radius arguments
+
+box-shadow()
+	-moz-box-shadow arguments
+	-ms-box-shadow arguments
+	-o-box-shadow arguments
+	-webkit-box-shadow arguments
+	box-shadow arguments
+
+text-shadow()
+	-moz-text-shadow arguments
+	-ms-text-shadow arguments
+	-o-text-shadow arguments
+	-webkit-text-shadow arguments
+	text-shadow arguments
+
+body
+	background fondo
+	font-family 'Open Sans', sans-serif
+	font-size 16px
+	margin 0
+	text-align center
+
+h1, h2, h3,h4, ul, p, a
+	margin 0 
+	padding 0
+
+img
+	width 100%
+
+header
+	background celeste
+	margin 0
+	padding 0
+	overflow hidden
+	text-align center
+	width 100%
+	#header
+		margin 0 auto
+		padding 0
+		width 50%
+		#logo
+			margin 0 auto
+			padding 1em
+			img
+				cursor pointer
+				padding 0 0 1em 0
+				vertical-align middle
+				width 100px
+			h1
+				color letra
+				font-size 2.5em
+				font-family Helvetica
+				font-weight bold
+				letter-spacing 2px
+				/*text-shadow 1px 1px letra, -1px -1px #555*/
+		nav
+			font-size 1em
+			font-weight bold
+			margin 0.5em 0 1.5em 0
+			width 100%
+			ul
+				list-style none
+				li
+					background celeste_claro
+					display inline-block
+					margin 0 -2px
+					transition all ease 0.4s
+					vertical-align top
+					zoom 1
+					a
+						color letra
+						font-family Helvetica
+						display block 
+						padding 0.9em 0.5em
+						text-decoration none
+				li:hover
+					background celeste_oscuro
+				li:first-child
+					border-radius(5px 0 0 5px)
+				li:last-child
+					border-radius(0 5px 5px 0)
