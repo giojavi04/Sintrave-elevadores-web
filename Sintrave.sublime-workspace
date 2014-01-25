@@ -4,12 +4,112 @@
 		"selected_items":
 		[
 			[
-				"h",
-				"http"
+				"border",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"letra",
+				"letra_oscura"
+			],
+			[
+				"bo-",
+				"border-radius"
+			],
+			[
+				"les",
+				"letra_oscura"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"letr",
+				"letra_oscura"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"bo",
+				"both"
 			],
 			[
 				"tra",
-				"transparent"
+				"transition"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ce",
+				"celeste_claro"
+			],
+			[
+				"b",
+				"border-radius"
+			],
+			[
+				"celeste_",
+				"celeste_claro"
+			],
+			[
+				"celest",
+				"celeste_oscuro"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"j",
+				"jms-link"
+			],
+			[
+				"colo",
+				"color-stop"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cele",
+				"celeste"
+			],
+			[
+				"e",
+				"edi_fondo"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bod",
+				"border-radius"
 			],
 			[
 				"celes",
@@ -20,28 +120,8 @@
 				"sans-serif"
 			],
 			[
-				"cele",
-				"celeste_oscuro"
-			],
-			[
-				"bo",
-				"bold"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
 				"celeste_o",
 				"celeste_oscurote"
-			],
-			[
-				"celeste_",
-				"celeste_oscurito"
-			],
-			[
-				"tex",
-				"text-shadow"
 			],
 			[
 				"a",
@@ -58,14 +138,6 @@
 			[
 				"d",
 				"document"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"bor",
-				"border-right"
 			],
 			[
 				"w",
@@ -86,14 +158,6 @@
 			[
 				"ul",
 				"ul"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"border",
-				"border"
 			],
 			[
 				"he",
@@ -136,10 +200,6 @@
 				"margin-top"
 			],
 			[
-				"e",
-				"ease"
-			],
-			[
 				"read",
 				"readFileSync"
 			],
@@ -158,10 +218,6 @@
 			[
 				"bord",
 				"border-radius"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"10px",
@@ -222,10 +278,6 @@
 			[
 				"ti",
 				"titulo_nav"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"head",
@@ -332,10 +384,6 @@
 				"no-repeat"
 			],
 			[
-				"back",
-				"background-size"
-			],
-			[
 				"u",
 				"ul	Tag"
 			],
@@ -376,10 +424,6 @@
 				"label	Tag"
 			],
 			[
-				"fo",
-				"footer	Tag"
-			],
-			[
 				"se",
 				"section	Tag"
 			],
@@ -400,38 +444,35 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Javier/dev/sintrave_new/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1186,
+				"buffer_size": 5411,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n	<meta charset=\"utf-8\" />\n	<meta name=\"viewport\" \n		content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n	<title>Puls4: Comunidad para gente atractiva y millonaria</title>\n	<link rel=\"stylesheet\" href=\"css/normalize.css\" />\n	<link rel=\"stylesheet\" href=\"css/puls4.css\" />\n	<script src=\"jquery-2.0.3.min.js\"></script>\n</head>\n<body>\n	<header>\n		<div class=\"logo\">\n			<img src=\"imagenes/logo.png\" alt=\"Puls4\" />\n		</div>\n		<div class=\"titular\">\n			<h1 class=\"titulo\">\n				Puls4: Comunidad profesional de gente atractiva\n			</h1>\n			<div>\n				<a class=\"filtro\" href=\"#\">\n					Stylus\n				</a>\n				<a class=\"publicar\" href=\"#\">\n					Publicar\n				</a>\n			</div>\n			<div>\n				<a href=\"#12\" class=\"sizer\">A</a>\n				<a href=\"#16\" class=\"sizer\">A</a>\n				<a href=\"#22\" class=\"sizer\">A</a>\n			</div>\n		</div>\n		<div class=\"usuario\">\n			<figure class=\"avatar\">\n				<img src=\"imagenes/avatar.jpg\" alt=\"freddier\" />\n			</figure>\n			<a class=\"flechita\" href=\"#\"></a>\n		</div>\n	</header>\n	<nav>\n		<ul class=\"menu\">\n			<li><a href=\"#\">Python</a></li>\n			<li><a href=\"#\">HTML5</a></li>\n			<li><a href=\"#\">Javascript</a></li>\n			<li><a href=\"#\">Django</a></li>\n			<li><a href=\"#\">CSS3</a></li>\n			<li><a href=\"#\">Python</a></li>\n			<li><a href=\"#\">HTML5</a></li>\n			<li><a href=\"#\">Javascript</a></li>\n			<li><a href=\"#\">Django</a></li>\n			<li><a href=\"#\">CSS3</a></li>\n		</ul>\n	</nav>\n	<form action=\"\">\n		<p><label for=\"titulo\">Título</label><input name=\"titulo\" type=\"text\"></p>\n		<p><label for=\"autor\">Autor</label><input name=\"autor\" type=\"text\"></p>\n		<p><label for=\"tag\">Tag</label><input name=\"tag\" type=\"text\"></p>\n		<p><label for=\"imagen\">Imagen</label><input name=\"imagen\" type=\"file\"></p>\n		<input type=\"submit\" value=\"Publicar\">\n	</form>\n	<section class=\"posts\">\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">12</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">33</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">5</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">156</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">156</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n		<article class=\"post\">\n			<div class=\"descripcion\">\n				<figure class=\"imagen\">\n					<img src=\"imagenes/foto.jpg\" />\n				</figure>\n				<div class=\"detalles\">\n					<h2 class=\"titulo\">\n						Colores, gradientes y texto 3D con Sass y Compass\n					</h2>\n					<p class=\"autor\">\n						por <a href=\"#\">Diana Reyes</a>\n					</p>\n					<a class=\"tag\" href=\"#\">CSS3</a>\n					<p class=\"fecha\">hace <strong>20</strong> min</p>\n				</div>\n			</div>\n			<div class=\"acciones\">\n				<div class=\"votos\">\n					<a class=\"up\" href=\"#\"></a>\n					<span class=\"total\">156</span>\n					<a class=\"down\" href=\"#\"></a>\n				</div>\n				<div class=\"datos\">\n					<a class=\"comentarios\" href=\"#\">\n						10\n					</a>\n					<a class=\"estrellita\" href=\"#\"></a>\n				</div>\n			</div>\n		</article>\n	</section>\n	<footer>\n		<h3>\n			<strong>Powered by Platzi</strong>\n			<span class=\"mejor\">\n				mejorando.la 2013\n			</span>\n		</h3>\n	</footer>\n	<script>\n	$(function() {\n		function crearSizer(pixels) {\n			return function() {\n				$('body').css('font-size', pixels+'px');\n			}\n		}\n\n		$('.sizer').each(function(i, link) {\n			var pixels = $(link).prop('hash').substring(1);\n			$(link)\n				.css('font-size', pixels+'px')\n				.on('click', crearSizer(pixels));\n		});\n\n		function mostrarForm() {\n			$('form').slideToggle();\n		}\n\n		$('.publicar').on('click', mostrarForm);\n\n		function procesarForm(e) {\n			e.preventDefault();\n			var titulo = $('input[name=titulo]').val();\n			var autor = $('input[name=autor]').val();\n			var tag = $('input[name=tag]').val();\n			// var imagen = $('input[name=imagen]').val();\n			\n			$('section.posts').prepend('<article class=\"post\"> ' +\n	'		<div class=\"descripcion\"> ' +\n'				<figure class=\"imagen\"> ' +\n'					<img src=\"imagenes/foto.jpg\" /> ' +\n'				</figure> ' +\n'				<div class=\"detalles\"> ' +\n'					<h2 class=\"titulo\"> ' +\n						titulo +\n'					</h2> ' +\n'					<p class=\"autor\"> ' +\n'						por <a href=\"#\">' + autor + '</a> ' +\n'					</p> ' +\n'					<a class=\"tag\" href=\"#\">'+tag+'</a> ' +\n'					<p class=\"fecha\">hace <strong>0</strong> min</p> ' +\n'				</div> ' +\n'			</div> ' +\n'			<div class=\"acciones\"> ' +\n'				<div class=\"votos\"> ' +\n'					<a class=\"up\" href=\"#\"></a> ' +\n'					<span class=\"total\">0</span> ' +\n'					<a class=\"down\" href=\"#\"></a> ' +\n'				</div> ' +\n'				<div class=\"datos\"> ' +\n'					<a class=\"comentarios\" href=\"#\"> ' +\n'						0 ' +\n'					</a> ' +\n'					<a class=\"estrellita\" href=\"#\"></a> ' +\n'				</div> ' +\n'			</div> ' +\n'		</article>');\n			\n			$('form input[type=text]').val('');\n			$('form').slideUp();\n		}\n\n		$('form').on('submit', procesarForm);\n\n		function crearContador(inicial) {\n			var contador = inicial || 0;\n			return {\n				up : function() {\n					return ++contador;\n				},\n				down : function() {\n					return --contador;\n				}\n			};\n		};\n\n		$('.total').each(function(i, elem) {\n			var contador = crearContador(elem.innerHTML);\n			$(elem)\n				.siblings('.up').on('click', function() {\n					$(elem).html(contador.up());\n				})\n				.siblings('.down').on('click', function() {\n					$(elem).html(contador.down());\n				})\n		});\n	});\n	</script>\n</body>\n</html>\n\n\n\n\n\n\n\n\n\n\n",
-			"file": "/C/Users/Javier/Downloads/mejorfront_2g/index.html",
-			"file_size": 8684,
-			"file_write_time": 130282242140000000,
+			"file": "css/main.styl",
 			"settings":
 			{
-				"buffer_size": 8683,
+				"buffer_size": 6572,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Javier/Downloads/OnScrollEffectLayout/index.html",
+			"settings":
+			{
+				"buffer_size": 4757,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Javier/dev/sintrave_new/css/main.styl",
+			"file": "/C/Users/Javier/Downloads/OnScrollEffectLayout/css/component.css",
 			"settings":
 			{
-				"buffer_size": 2265,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Javier/dev/jp/css/main.styl",
-			"settings":
-			{
-				"buffer_size": 1523,
-				"line_ending": "Windows"
+				"buffer_size": 2228,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -442,12 +483,16 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"Package Control: List Packages"
+				"sty",
+				"Set Syntax: Stylus"
 			],
 			[
 				"pac",
-				"Package Control: Disable Package"
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
 			],
 			[
 				"p",
@@ -468,10 +513,6 @@
 			[
 				"iden",
 				"Indentation: Convert to Tabs"
-			],
-			[
-				"sty",
-				"Set Syntax: Stylus"
 			],
 			[
 				"set",
@@ -518,7 +559,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -535,6 +576,26 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/sintrave_new/css/style.css",
+		"/C/Users/Javier/dev/sintrave_new/css/main.styl",
+		"/C/Users/Javier/Downloads/otros/para sintrave/para_sintrave/index2.html",
+		"/C/wamp/www/sintrave_new/css/slider.styl",
+		"/C/wamp/www/sintrave_new/css/style2.styl",
+		"/C/wamp/www/sintrave_new/css/style.styl",
+		"/C/Users/Javier/Downloads/otros/para sintrave/para_sintrave/css/style.css",
+		"/C/wamp/www/sintrave_new/js/vendor/jquery.cslider.js",
+		"/C/wamp/www/sintrave_new/css/style2.css",
+		"/C/wamp/www/sintrave_new/css/nojs.css",
+		"/C/Users/Javier/Downloads/para sintrave/SLIDER/js/jquery.cslider.js",
+		"/C/Users/Javier/Downloads/para sintrave/SLIDER/index2.html",
+		"/C/Users/Javier/Downloads/para sintrave/SLIDER/css/style2.css",
+		"/C/Users/Javier/Downloads/para sintrave/SLIDER/css/demo.css",
+		"/C/Users/Javier/Desktop/view-source www.webcoursesagency.com.htm",
+		"/C/Users/Javier/Desktop/style.css",
+		"/C/Users/Javier/dev/jp/css/main.styl",
+		"/C/Users/Javier/dev/sintrave_new/index.html",
+		"/C/wamp/www/sintrave_new/js/vendor/main.js",
+		"/C/Users/Javier/Downloads/mejorfront_2g/index.html",
 		"/C/Users/Javier/dev/sintrave_new/Sintrave.sublime-project",
 		"/C/Users/Javier/dev/sintrave_new/server.js",
 		"/C/Users/Javier/dev/mongodb_chat/chat.js",
@@ -543,9 +604,7 @@
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/User/Stylus.sublime-settings",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Javier/dev/jp/css/main.styl",
 		"/C/Users/Javier/dev/sintrave_new/js/vendor/main.js",
-		"/C/Users/Javier/dev/sintrave_new/index.html",
 		"/C/wamp/www/sintrave_ec/index.html",
 		"/C/wamp/www/sintrave_ec/style.css",
 		"/C/wamp/www/sintrave_ec/style/js/scripts.js",
@@ -644,25 +703,7 @@
 		"/C/wamp/www/pulse_sintrave/Gruntfile.js",
 		"/C/wamp/www/pulse_sintrave/public/js/backbone/models/articlejs",
 		"/C/wamp/www/pulse_sintrave/css/responsive.styl",
-		"/C/wamp/www/pulse_sintrave/css/main.styl",
-		"/C/wamp/www/pulse_sintrave/index.html",
-		"/C/wamp/www/pulse_sintrave/css/fuentes.styl",
-		"/C/wamp/www/front_end_f/css/main.styl",
-		"/C/wamp/www/pulse_sintrave/css/main.css",
-		"/C/Users/Javier/Downloads/puls3-master/index.html",
-		"/C/wamp/www/sintrave_ec/contact.html",
-		"/C/wamp/www/sintrave_ec/contact/contact.php",
-		"/C/Users/Javier/Downloads/puls3-master/public/css/estilos.css",
-		"/C/Users/Javier/Downloads/puls3-master/package.json",
-		"/C/wamp/www/sintrave_ec/p_a_panoramico.html",
-		"/C/wamp/www/sintrave_ec/galeria.html",
-		"/C/wamp/www/sintrave_ec/gitpull.php",
-		"/C/wamp/www/sintrave_ec/p_a_montaplatos.html",
-		"/C/wamp/www/sintrave_ec/services.html",
-		"/C/wamp/www/sintrave_ec/p_s_residenciales.html",
-		"/C/wamp/www/sintrave_ec/p_escaleras_pasillos.html",
-		"/C/wamp/www/sintrave_ec/p_e_hidraulico.html",
-		"/C/wamp/www/sintrave_ec/p_e_autos.html"
+		"/C/wamp/www/pulse_sintrave/css/main.styl"
 	],
 	"find":
 	{
@@ -680,6 +721,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cbp",
+			"15em",
+			"letra_oscura",
+			"img",
+			"figure",
+			"celeste",
+			"200px",
+			"Read",
+			"5px",
+			"3px",
+			"linear",
+			"size",
+			"background",
+			"images",
 			"celeste_oscurote",
 			" inline-block\n		",
 			"celeste_oscurito",
@@ -745,23 +800,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Javier/dev/sintrave_new/index.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1186,
+						"buffer_size": 5411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								745
+								4426,
+								4426
 							]
 						],
 						"settings":
@@ -860,25 +915,147 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1904.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Javier/Downloads/mejorfront_2g/index.html",
+					"file": "css/main.styl",
 					"settings":
 					{
-						"buffer_size": 8683,
+						"buffer_size": 6572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								620,
-								620
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/Javier/Downloads/OnScrollEffectLayout/index.html",
+					"settings":
+					{
+						"buffer_size": 4757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1812,
+								1812
 							]
 						],
 						"settings":
@@ -977,141 +1154,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Javier/dev/sintrave_new/css/main.styl",
-					"settings":
-					{
-						"buffer_size": 2265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1545,
-								1545
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 923.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Javier/dev/jp/css/main.styl",
+					"file": "/C/Users/Javier/Downloads/OnScrollEffectLayout/css/component.css",
 					"settings":
 					{
-						"buffer_size": 1523,
+						"buffer_size": 2228,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1176,
-								1176
+								1700,
+								1008
 							]
 						],
 						"settings":
@@ -1205,11 +1266,11 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 490.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1234,11 +1295,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

@@ -1,0 +1,184 @@
+.jms-slideshow {
+	height: 460px;
+	margin: 0 auto -20px auto;
+	max-width: 1600px;
+	min-width: 240px;
+	position: relative;
+	width: 100%;
+}
+.jms-wrapper {
+	min-width: 400px;
+	height: 440px;
+	background-color: #0088CC;
+	background-clip: padding-box;
+	-moz-background-clip: padding;
+	-ms-background-clip: padding;      
+	-o-background-clip: padding;
+	-webkit-background-clip: padding;
+	border: 0px solid #fff;
+	border: 0px solid rgba(255, 255, 255, 0.5);
+	outline: none;
+	width: auto;
+}
+
+.step {	
+	display: block;
+    height: 420px;
+	width: 950px;
+}
+.step:not(.active) {
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	opacity: 0;
+}
+.jms-content{
+	clear: both;
+	margin: 0px 370px 0px 20px;
+	position: relative;
+}
+.step h3{
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	text-align: left;
+	padding: 60px 0 10px 0;
+}
+.step p {
+	color: #fff;
+	float: left;
+	font-size: 1.8em;
+	font-weight: normal;
+	position: relative;
+	text-align: left;
+	text-shadow: 1px 1px #fff, -1px -1px #555;
+	margin: 0;
+}
+a.jms-link{
+	background: #4C4C4C;
+	border-bottom: solid 3px #151515;
+	-moz-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 40px;
+	opacity: 0.8;
+	padding: 8px 15px;
+	text-decoration: none;
+	clear: both;
+}
+a.jms-link:hover{
+	text-decoration: underline;
+}
+.step:not(.active) a.jms-link{
+	margin-top: 80px;
+	opacity: 0;
+}
+.step img{
+	position: absolute;
+	right: 0px;
+	top: 30px;
+	width: 360px;
+}
+.jms-dots{
+	bottom: 20px;
+	left: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	z-index: 2000;
+}
+.jms-dots span{
+	background: #777;
+	border-radius: 50%;
+	box-shadow: 
+		1px 1px 1px rgba(0,0,0,0.1) inset, 
+		1px 1px 1px rgba(255,255,255,0.3);
+	cursor: pointer;
+	height: 12px;
+	display: inline-block;
+	margin: 3px;
+	position: relative;
+	width: 12px;
+}
+.jms-dots span.jms-dots-current:after{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+	border-radius: 50%;
+	content: '';
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	height: 8px;
+	left: 2px;
+	top: 2px;
+	position: absolute;
+	width: 8px;
+}
+.jms-arrows{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.jms-arrows span{
+	position: absolute;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	cursor: pointer;
+	height: 80px;
+	margin-top: -40px;
+	top: 50%;
+	width: 30px;
+	z-index: 2000;
+}
+.jms-arrows span.jms-arrows-prev{
+	background: #fff url(../img/arrow_left.png) no-repeat 50% 50%;
+	left: -10px;
+}
+.jms-arrows span.jms-arrows-next{
+	background: #fff url(../img/arrow_right.png) no-repeat 50% 50%;
+	right: -10px;
+}
+/* Not supported style */
+.jms-wrapper.not-supported{
+	background-color: #E3D8FF;
+	background-color: rgba(227, 216, 268, 1);
+}
+.jms-wrapper.not-supported:after{
+	content: 'The slideshow functionality is not supported on your device.';
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+	display: block;
+}
+.jms-wrapper.not-supported .step{
+	display: none;
+	position: relative;
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+	margin: 20px auto;
+}
+.jms-wrapper.not-supported .step:first-of-type{
+	display: block;
+}
+.jms-wrapper.not-supported .step:not(.active) a.jms-link{
+	opacity: 1;
+	margin-top: 40px;
+}

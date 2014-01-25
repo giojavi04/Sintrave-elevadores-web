@@ -1,12 +1,13 @@
 celeste = #0088CC
 celeste_claro = #2B9CD4
-celeste_oscuro = #006699
+celeste_oscuro = #036BA5
 celeste_bajo = #89C4E2
 
-fondo = #151515
-fondo_claro = #2B3336
+fondo = #2B3336
+fondo_oscuro = #151515
 
-letra = #B9DFF1
+letra = #ffffff
+letra_oscura = #A9A9A9
 
 rojo = #E3242D
 rojo_oscuro = #B91C23
@@ -14,6 +15,30 @@ rojo_claro = #e74c3c
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans")
 @import url("http://fonts.googleapis.com/css?family=Titan+One")
+@font-face {
+	font-family: 'sin_icons';
+	src:url('fonts/sin_icons.eot');
+	src:url('fonts/sin_icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/sin_icons.woff') format('woff'),
+		url('fonts/sin_icons.ttf') format('truetype'),
+		url('fonts/sin_icons.svg#sin_icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+background-clip()
+	-moz-background-clip arguments
+	-ms-background-clip arguments
+	-o-background-clip arguments
+	-webkit-background-clip arguments
+	background-clip arguments
+
+background-size()
+	-moz-background-size arguments
+	-ms-background-size arguments
+	-o-background-size arguments
+	-webkit-background-size arguments
+	background-size arguments
 
 border-radius()
 	-moz-border-radius arguments
@@ -29,6 +54,27 @@ box-shadow()
 	-webkit-box-shadow arguments
 	box-shadow arguments
 
+filter()
+	-moz-filter arguments
+	-ms-filter arguments
+	-o-filter arguments
+	-webkit-filter arguments
+	filter arguments
+
+gradient()
+	-moz-gradient arguments
+	-ms-gradient arguments
+	-o-gradient arguments
+	-webkit-gradient arguments
+	gradient arguments
+
+linear-gradient()
+	-moz-linear-gradient arguments
+	-ms-linear-gradient arguments
+	-o-linear-gradient arguments
+	-webkit-linear-gradient arguments
+	linear-gradient arguments
+
 text-shadow()
 	-moz-text-shadow arguments
 	-ms-text-shadow arguments
@@ -36,69 +82,233 @@ text-shadow()
 	-webkit-text-shadow arguments
 	text-shadow arguments
 
+transition()
+	-moz-transition arguments
+	-ms-transition arguments
+	-o-transition arguments
+	-webkit-transition arguments
+	transition arguments
+
 body
 	background fondo
-	font-family 'Open Sans', sans-serif
+	font-family 'Helvetica neue', sans-serif
 	font-size 16px
 	margin 0
 	text-align center
 
-h1, h2, h3,h4, ul, p, a
+h1, h2, h3, h4, ul, p, a
 	margin 0 
 	padding 0
 
-img
-	width 100%
-
+h1, h2, h3, h4, h5, h6
+	color inherit
+	font-family inherit
+	font-weight bold
+	text-rendering optimizelegibility
+/* --- header --- */
 header
-	background celeste
+	background fondo
 	margin 0
 	padding 0
 	overflow hidden
 	text-align center
+	top 0
 	width 100%
-	#header
-		margin 0 auto
+	#logo_nav
+		margin 0 auto 1em auto
 		padding 0
-		width 50%
+		position relative
+		width 80%
+		#logo, nav
+			display inline-block
+			vertical-align top
 		#logo
-			margin 0 auto
-			padding 1em
+			margin 1em 0 0 -15em
+			padding 0
+			position relative
+			width 25%
+			img, h1
+				display inline-block
+				vertical-align top
 			img
 				cursor pointer
-				padding 0 0 1em 0
 				vertical-align middle
-				width 100px
+				width 50px
 			h1
 				color letra
-				font-size 2.5em
+				font-size 1.8em
 				font-family Helvetica
-				font-weight bold
 				letter-spacing 2px
+				margin 0 0.2em
+				vertical-align middle
 				/*text-shadow 1px 1px letra, -1px -1px #555*/
 		nav
 			font-size 1em
 			font-weight bold
-			margin 0.5em 0 1.5em 0
-			width 100%
+			float right
+			margin 1em 0 0 0
+			width 45%
 			ul
 				list-style none
 				li
-					background celeste_claro
 					display inline-block
-					margin 0 -2px
-					transition all ease 0.4s
+					margin 0
 					vertical-align top
 					zoom 1
 					a
+						border-bottom 2px solid #aaa
 						color letra
 						font-family Helvetica
 						display block 
 						padding 0.9em 0.5em
+						transition (all ease-in-out 0.3s)
 						text-decoration none
-				li:hover
-					background celeste_oscuro
-				li:first-child
-					border-radius(5px 0 0 5px)
-				li:last-child
-					border-radius(0 5px 5px 0)
+					a:hover
+						border-bottom 2px solid rojo_claro
+						color rojo_claro
+header:after
+	content ""
+	display block
+	border 4.25em solid transparent
+	border-top-color celeste
+	border-top-widht 1.5em
+	position absolute
+	left 50%
+	/*bottom -3.65625em*/
+	margin-left -4.25em
+	z-index 900
+
+/* --- Section_Home --- */
+#s_section
+	color letra_oscura
+	margin 5.5em auto 0 auto
+	overflow hidden
+	width 80%
+	#s_a_descripcion
+		margin 0.6em 0
+		img
+			opacity .6
+			transition (.5s)
+			width 100px
+		img:hover
+			opacity 1
+		h3
+			font-size 1.2em
+			margin 1em 5em
+	.s_a_section
+		margin 2em 0 0.5em 0
+		/* Text styl */
+		h2
+			font-size 3em
+			font-weight 300
+			line-height 2
+		p
+			font-size 1.1em
+			font-weight 100
+			line-height 1.5
+			text-align justify
+		/* fin stilo de texto */
+		&:after
+		&:before
+			content " "
+			display table
+		&:after
+			clear both
+		.s_a_side
+			float left
+			margin 0
+			min-height 12em
+			padding 1em 0
+			overflow hidden
+			-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+			-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+			transition: transform 0.5s, opacity 0.5s;
+			width 50%
+			&:after
+			&:before
+				content ""
+				display table
+			&:after
+				clear both
+		.s_a_side_right
+			text-align left
+			.icon
+				/*background letra_oscura*/
+				border 5px solid letra_oscura
+				border-radius (50%)
+				margin 0 140px
+				float left
+				transition (all ease-in-out 0.2s)
+			.icon:hover
+				border 5px solid letra
+				border-radius (100px 25px 100px 25px)
+			.icon_garantia
+				&:before
+					color letra_oscura
+					content "\e600"
+					display inline-block
+					font-family "sin_icons"
+					font-size 10em
+					padding 0.2em
+			.icon_mantenimiento
+				&:before
+					color letra_oscura
+					content "\e602"
+					display inline-block
+					font-family "sin_icons"
+					font-size 10em
+					padding 0.2em
+		.s_a_side_left
+			text-align right
+			.icon
+				/*background letra_oscura*/
+				border 5px solid letra_oscura
+				border-radius (50%)
+				margin 0 140px
+				float right
+				transition (all ease-in-out 0.2s)
+			.icon:hover
+				border 5px solid letra
+				border-radius (25px 100px 25px 100px) 
+			.icon_seguridad
+				&:before
+					color letra_oscura
+					content "\e601"
+					display inline-block
+					font-family "sin_icons"
+					font-size 10em
+					padding 0.2em
+			.icon_comercio
+				&:before
+					color letra_oscura
+					content "\e603"
+					display inline-block
+					font-family "sin_icons"
+					font-size 10em
+					padding 0.2em
+		/* Initial state (hidden or anything else) */
+		.s_a_init .s_a_side {
+			opacity: 0;
+		}
+
+		.s_a_init .s_a_side-left {
+			-webkit-transform: translateX(-80px);
+			-moz-transform: translateX(-80px);
+			transform: translateX(-80px);
+		}
+
+		.s_a_init .s_a_side-right {
+			-webkit-transform: translateX(80px);
+			-moz-transform: translateX(80px);
+			transform: translateX(80px);
+		}
+
+		/* Animated state */
+		/* add you final states (transition) or your effects (animations) for each side */
+		.s_a_section.s_a_animate .s_a_side-left,
+		.s_a_section.s_a_animate .s_a_side-right {
+			-webkit-transform: translateX(0px);
+			-moz-transform: translateX(0px);
+			transform: translateX(0px);
+			opacity: 1;
+		}
