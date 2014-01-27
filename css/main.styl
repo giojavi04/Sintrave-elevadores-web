@@ -9,7 +9,7 @@ fondo_oscuro = #151515
 letra = #ffffff
 letra_oscura = #A9A9A9
 
-rojo = #E3242D
+rojo = #E64135
 rojo_oscuro = #B91C23
 rojo_claro = #e74c3c
 
@@ -53,6 +53,13 @@ box-shadow()
 	-o-box-shadow arguments
 	-webkit-box-shadow arguments
 	box-shadow arguments
+
+box-sizing()
+	-moz-box-sizing arguments
+	-ms-box-sizing arguments
+	-o-box-sizing arguments
+	-webkit-box-sizing arguments
+	box-sizing arguments
 
 filter()
 	-moz-filter arguments
@@ -105,79 +112,95 @@ h1, h2, h3, h4, h5, h6
 	font-family inherit
 	font-weight bold
 	text-rendering optimizelegibility
+
+.clearfix, .approves, .dead-line, .sale-container, .course.sale .date, .pre_footer, .footer
+	zoom 1
+.clearfix:after, .approves:after, .dead-line:after, .sale-container:after,.course.sale .date:after, .pre_footer:after, .footer:after
+	clear both
+	content "\0020"
+	display block
+	height 0 
+	visibility hidden
+.clear
+	display block
+	clear both
+	zoom 1
 /* --- header --- */
 header
-	background fondo
+	border-top 5px solid rojo
+	height 85px
 	margin 0
 	padding 0
-	overflow hidden
-	text-align center
 	top 0
 	width 100%
-	#logo_nav
-		margin 0 auto 1em auto
+	z-index 99
+	#logo
+		float left
+		margin 8px 0 0 8em
 		padding 0
-		position relative
-		width 80%
-		#logo, nav
+		h1, img
 			display inline-block
 			vertical-align top
-		#logo
-			margin 1em 0 0 -15em
-			padding 0
-			position relative
-			width 25%
-			img, h1
+		h1
+			color letra
+			font-size 1.8em
+			font-family Helvetica
+			letter-spacing 2px
+			margin 0 0 0 0.2em
+			vertical-align middle
+			/*text-shadow 1px 1px letra, -1px -1px #555*/
+		img
+			cursor pointer
+			vertical-align middle
+			width 50px
+	nav
+		font-size 1em
+		font-weight bold
+		float right
+		margin 8px 8em 0 0
+		ul
+			list-style none
+			li
 				display inline-block
+				margin 0
 				vertical-align top
-			img
-				cursor pointer
-				vertical-align middle
-				width 50px
-			h1
-				color letra
-				font-size 1.8em
-				font-family Helvetica
-				letter-spacing 2px
-				margin 0 0.2em
-				vertical-align middle
-				/*text-shadow 1px 1px letra, -1px -1px #555*/
-		nav
-			font-size 1em
-			font-weight bold
-			float right
-			margin 1em 0 0 0
-			width 45%
-			ul
-				list-style none
-				li
-					display inline-block
-					margin 0
-					vertical-align top
-					zoom 1
-					a
-						border-bottom 2px solid #aaa
-						color letra
-						font-family Helvetica
-						display block 
-						padding 0.9em 0.5em
-						transition (all ease-in-out 0.3s)
-						text-decoration none
-					a:hover
-						border-bottom 2px solid rojo_claro
-						color rojo_claro
-header:after
-	content ""
-	display block
-	border 4.25em solid transparent
-	border-top-color celeste
-	border-top-widht 1.5em
-	position absolute
-	left 50%
-	/*bottom -3.65625em*/
-	margin-left -4.25em
-	z-index 900
+				zoom 1
+				a
+					border-bottom 2px solid #aaa
+					color letra
+					font-family Helvetica
+					display block 
+					padding 0.9em 0.5em
+					transition (all ease-in-out 0.3s)
+					text-decoration none
+				a:hover
+					border-bottom 2px solid rojo
+					color rojo
+				.selected
+					color rojo
+					border-bottom 2px solid rojo
+footer, .pre_footer
+	box-sizing (border-box)
+	padding 1em
+	width 100%
 
+/* --- Footer --- */
+footer
+	color letra_oscura
+	#f_left
+		float left
+		a
+			color letra
+			font-size 0.9em
+			vertical-align middle
+		a:hover
+			color rojo
+	#f_right
+		float right
+		p
+			font-size 0.9em
+			vertical-align middle
+					
 /* --- Section_Home --- */
 #s_section
 	color letra_oscura
@@ -312,3 +335,112 @@ header:after
 			transform: translateX(0px);
 			opacity: 1;
 		}
+
+/* --- Triangulo Slider --- */
+.jms-slideshow:after
+	content ""
+	display block
+	border 4.25em solid transparent
+	border-top-color celeste
+	border-top-widht 1.5em
+	position absolute
+	left 50%
+	/*bottom -3.65625em*/
+	margin-left -4.25em
+	z-index 900
+
+/* --- pre-footer_Home --- */
+.pre_footer
+	background celeste
+	aside
+		float right
+		margin 2.3em 2em 0 0
+		a
+			background celeste_bajo
+			.ico
+				
+				border 1px solid letra
+				border-radius (50%)
+				float right
+				margin 0 0.6em 0 0
+				padding 0.4em
+				transition (all ease-in-out 0.2s)
+			.ico-facebook
+				&:before
+					color letra
+					content "\e604"
+					display block
+					font-family "sin_icons"
+					font-size 2em
+					padding 0.1em
+					transition (all ease-in-out 0.2s)
+			.ico-facebook:hover
+				border 2px solid #3b5998
+				&:before
+					color #3b5998
+			.ico-twitter
+				&:before
+					color letra
+					content "\e605"
+					display block
+					font-family "sin_icons"
+					font-size 2em
+					padding 0.1em
+					transition (all ease-in-out 0.2s)
+			.ico-twitter:hover
+				border 2px solid #9AE4E8
+				&:before
+					color #9AE4E8
+			.ico-google
+				&:before
+					color letra
+					content "\e606"
+					display block
+					font-family "sin_icons"
+					font-size 2em
+					padding 0.1em
+					transition (all ease-in-out 0.2s) 
+			.ico-google:hover
+				border 2px solid #CE3D2B
+				&:before
+					color #CE3D2B
+	#p_f_direccion
+		color letra
+		float left
+		margin 0 0 0 2em
+		text-align left
+		vertical-align middle
+		width 320px
+		h2
+			font-size 1.2em
+			line-height 1.4
+			text-shadow 1px 1px letra, -1px -1px #555
+		p
+			font-family Helvetica, Arial
+			font-size 0.9em
+			line-height 1.7
+			margin 0 0 0 1em
+	#mapa
+		float left
+		margin 0 0 0 10em
+		&:before
+			color celeste_oscuro
+			content "\e60b"
+			display inline-block
+			font-family "sin_icons"
+			font-size 8em
+			margin 0
+			text-shadow none
+			vertical-align middle
+	#social
+		float right
+		margin 0 10em 0 0
+		&:before
+			color celeste_oscuro
+			content "\e60a"
+			display inline-block
+			font-family "sin_icons"
+			font-size 8em
+			margin 0
+			text-shadow none
+			vertical-align middle

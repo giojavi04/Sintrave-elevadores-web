@@ -46,6 +46,7 @@
 	padding: 60px 0 10px 0;
 }
 .step p {
+	background: #2B9CD4;
 	color: #fff;
 	float: left;
 	font-size: 1.8em;
@@ -101,7 +102,7 @@ a.jms-link:hover{
 	z-index: 2000;
 }
 .jms-dots span{
-	background: #777;
+	background: #2B9CD4;
 	border-radius: 50%;
 	box-shadow: 
 		1px 1px 1px rgba(0,0,0,0.1) inset, 
