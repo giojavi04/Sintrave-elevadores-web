@@ -83,7 +83,7 @@
 		,animation: {
 			transformOrigin: 'top left'
 			,transitionProperty: addComma(mapProperty(pfx('transform'))) + addComma(mapProperty(pfx('perspective'))) + 'opacity'
-			,transitionDuration: '1s'
+			,transitionDuration: '4s'
 			,transitionDelay: '500ms'
 			,transitionTimingFunction: 'ease-in-out'
 			,transformStyle: "preserve-3d"

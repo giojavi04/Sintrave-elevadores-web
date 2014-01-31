@@ -1,20 +1,23 @@
 celeste = #0088CC
+celeste_bajo = #89C4E2
 celeste_claro = #2B9CD4
 celeste_oscuro = #036BA5
-celeste_bajo = #89C4E2
 
 fondo = #2B3336
+fondo_blanco = #FFFFFF
+fondo_blanco_oscuro = #F8F8F8
 fondo_oscuro = #151515
 
 letra = #ffffff
-letra_oscura = #A9A9A9
+letra_negra = #444444
+letra_oscura = #B4B4B4
 
 rojo = #E64135
-rojo_oscuro = #B91C23
 rojo_claro = #e74c3c
+rojo_oscuro = #B91C23
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans")
-@import url("http://fonts.googleapis.com/css?family=Titan+One")
+@import 'nib/vendor'
 @font-face {
 	font-family: 'sin_icons';
 	src:url('fonts/sin_icons.eot');
@@ -25,80 +28,11 @@ rojo_claro = #e74c3c
 	font-weight: normal;
 	font-style: normal;
 }
-
-background-clip()
-	-moz-background-clip arguments
-	-ms-background-clip arguments
-	-o-background-clip arguments
-	-webkit-background-clip arguments
-	background-clip arguments
-
-background-size()
-	-moz-background-size arguments
-	-ms-background-size arguments
-	-o-background-size arguments
-	-webkit-background-size arguments
-	background-size arguments
-
-border-radius()
-	-moz-border-radius arguments
-	-ms-border-radius arguments
-	-o-border-radius arguments
-	-webkit-border-radius arguments
-	border-radius arguments
-
-box-shadow()
-	-moz-box-shadow arguments
-	-ms-box-shadow arguments
-	-o-box-shadow arguments
-	-webkit-box-shadow arguments
-	box-shadow arguments
-
-box-sizing()
-	-moz-box-sizing arguments
-	-ms-box-sizing arguments
-	-o-box-sizing arguments
-	-webkit-box-sizing arguments
-	box-sizing arguments
-
-filter()
-	-moz-filter arguments
-	-ms-filter arguments
-	-o-filter arguments
-	-webkit-filter arguments
-	filter arguments
-
-gradient()
-	-moz-gradient arguments
-	-ms-gradient arguments
-	-o-gradient arguments
-	-webkit-gradient arguments
-	gradient arguments
-
-linear-gradient()
-	-moz-linear-gradient arguments
-	-ms-linear-gradient arguments
-	-o-linear-gradient arguments
-	-webkit-linear-gradient arguments
-	linear-gradient arguments
-
-text-shadow()
-	-moz-text-shadow arguments
-	-ms-text-shadow arguments
-	-o-text-shadow arguments
-	-webkit-text-shadow arguments
-	text-shadow arguments
-
-transition()
-	-moz-transition arguments
-	-ms-transition arguments
-	-o-transition arguments
-	-webkit-transition arguments
-	transition arguments
+vendor-prefixes = moz ms o webkit official
 
 body
-	background fondo
-	font-family 'Helvetica neue', sans-serif
+	background fondo_blanco_oscuro
+	font-family 'Open Sans', Helvetica, Arial
 	font-size 16px
 	margin 0
 	text-align center
@@ -113,9 +47,9 @@ h1, h2, h3, h4, h5, h6
 	font-weight bold
 	text-rendering optimizelegibility
 
-.clearfix, .approves, .dead-line, .sale-container, .course.sale .date, .pre_footer, .footer
+.clearfix, .pre_footer, footer
 	zoom 1
-.clearfix:after, .approves:after, .dead-line:after, .sale-container:after,.course.sale .date:after, .pre_footer:after, .footer:after
+.clearfix:after, .pre_footer:after, footer:after
 	clear both
 	content "\0020"
 	display block
@@ -137,25 +71,12 @@ header
 	#logo
 		float left
 		margin 8px 0 0 8em
-		padding 0
-		h1, img
-			display inline-block
-			vertical-align top
-		h1
-			color letra
-			font-size 1.8em
-			font-family Helvetica
-			letter-spacing 2px
-			margin 0 0 0 0.2em
-			vertical-align middle
-			/*text-shadow 1px 1px letra, -1px -1px #555*/
 		img
 			cursor pointer
 			vertical-align middle
 			width 50px
 	nav
 		font-size 1em
-		font-weight bold
 		float right
 		margin 8px 8em 0 0
 		ul
@@ -166,12 +87,11 @@ header
 				vertical-align top
 				zoom 1
 				a
-					border-bottom 2px solid #aaa
-					color letra
-					font-family Helvetica
+					border-bottom 2px solid #d4d4d4
+					color letra_negra
 					display block 
 					padding 0.9em 0.5em
-					transition (all ease-in-out 0.3s)
+					transition all ease-in-out 0.3s
 					text-decoration none
 				a:hover
 					border-bottom 2px solid rojo
@@ -180,49 +100,65 @@ header
 					color rojo
 					border-bottom 2px solid rojo
 footer, .pre_footer
-	box-sizing (border-box)
-	padding 1em
+	box-sizing border-box
+	padding 0.5em
 	width 100%
 
 /* --- Footer --- */
 footer
-	color letra_oscura
-	#f_left
+	color celeste_bajo
+	.f_left
 		float left
+		margin-left 1em
 		a
-			color letra
-			font-size 0.9em
-			vertical-align middle
+			color celeste_claro
+			font-size 14px
+			text-decoration none
 		a:hover
 			color rojo
-	#f_right
+			text-decoration underline
+	.f_right
 		float right
+		margin-right 1em
 		p
-			font-size 0.9em
-			vertical-align middle
+			font-size 14px
+			padding-top 2px
 					
 /* --- Section_Home --- */
 #s_section
-	color letra_oscura
-	margin 5.5em auto 0 auto
+	color letra_negra
+	margin 0 auto
 	overflow hidden
-	width 80%
+	width 100%
 	#s_a_descripcion
-		margin 0.6em 0
+		background fondo_blanco
+		margin inherit
+		padding 5em 0 1em 0
 		img
-			opacity .6
-			transition (.5s)
+			border 4px solid letra_oscura
+			border-radius 50%
+			opacity .8
+			transition .5s
 			width 100px
 		img:hover
+			border 4px solid letra_negra
 			opacity 1
+		h1
+			font-family Helvetica
+			font-weight bold
+			font-size 1.8em
+			letter-spacing 1px
+			margin-top 0.8em
+			vertical-align middle
 		h3
 			font-size 1.2em
 			margin 1em 5em
 	.s_a_section
-		margin 2em 0 0.5em 0
+		margin 0 auto
+		max-width 1024px
 		/* Text styl */
 		h2
-			font-size 3em
+			font-size 2.5em
 			font-weight 300
 			line-height 2
 		p
@@ -241,11 +177,9 @@ footer
 			float left
 			margin 0
 			min-height 12em
-			padding 1em 0
+			padding 0.7em 0
 			overflow hidden
-			-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-			-moz-transition: -moz-transform 0.5s, opacity 0.5s;
-			transition: transform 0.5s, opacity 0.5s;
+			transition transform 0.5s, opacity 0.5s
 			width 50%
 			&:after
 			&:before
@@ -255,23 +189,51 @@ footer
 				clear both
 		.s_a_side_right
 			text-align left
+			vertical-align middle
+			.icon
+				background letra_oscura
+				border 5px solid letra
+				border-radius 50%
+				margin 0 140px
+				float left
+				transition all ease-in-out 0.4s
+			.icon:hover
+				border 5px solid letra_negra
+			.icon_seguridad
+				&:before
+					color letra
+					content "\e601"
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
+			.icon_comercio
+				&:before
+					color letra
+					content "\e603"
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
+		.s_a_side_left
+			text-align right
+			vertical-align middle
 			.icon
 				/*background letra_oscura*/
 				border 5px solid letra_oscura
-				border-radius (50%)
+				border-radius 50%
 				margin 0 140px
-				float left
-				transition (all ease-in-out 0.2s)
+				float right
+				transition all ease-in-out 0.2s
 			.icon:hover
-				border 5px solid letra
-				border-radius (100px 25px 100px 25px)
+				border 5px solid letra_negra
 			.icon_garantia
 				&:before
 					color letra_oscura
 					content "\e600"
 					display inline-block
 					font-family "sin_icons"
-					font-size 10em
+					font-size 9em
 					padding 0.2em
 			.icon_mantenimiento
 				&:before
@@ -279,35 +241,7 @@ footer
 					content "\e602"
 					display inline-block
 					font-family "sin_icons"
-					font-size 10em
-					padding 0.2em
-		.s_a_side_left
-			text-align right
-			.icon
-				/*background letra_oscura*/
-				border 5px solid letra_oscura
-				border-radius (50%)
-				margin 0 140px
-				float right
-				transition (all ease-in-out 0.2s)
-			.icon:hover
-				border 5px solid letra
-				border-radius (25px 100px 25px 100px) 
-			.icon_seguridad
-				&:before
-					color letra_oscura
-					content "\e601"
-					display inline-block
-					font-family "sin_icons"
-					font-size 10em
-					padding 0.2em
-			.icon_comercio
-				&:before
-					color letra_oscura
-					content "\e603"
-					display inline-block
-					font-family "sin_icons"
-					font-size 10em
+					font-size 9em
 					padding 0.2em
 		/* Initial state (hidden or anything else) */
 		.s_a_init .s_a_side {
@@ -315,24 +249,18 @@ footer
 		}
 
 		.s_a_init .s_a_side-left {
-			-webkit-transform: translateX(-80px);
-			-moz-transform: translateX(-80px);
-			transform: translateX(-80px);
+			transform translateX(-80px)
 		}
 
 		.s_a_init .s_a_side-right {
-			-webkit-transform: translateX(80px);
-			-moz-transform: translateX(80px);
-			transform: translateX(80px);
+			transform translateX(80px)
 		}
 
 		/* Animated state */
 		/* add you final states (transition) or your effects (animations) for each side */
 		.s_a_section.s_a_animate .s_a_side-left,
 		.s_a_section.s_a_animate .s_a_side-right {
-			-webkit-transform: translateX(0px);
-			-moz-transform: translateX(0px);
-			transform: translateX(0px);
+			transform translateX(0px)
 			opacity: 1;
 		}
 
@@ -352,6 +280,10 @@ footer
 /* --- pre-footer_Home --- */
 .pre_footer
 	background celeste
+	border-top 10px solid celeste_bajo
+	margin-top 3em
+	aside, #p_f_direccion, #mapa, #social
+		padding 1.5em 0
 	aside
 		float right
 		margin 2.3em 2em 0 0
@@ -360,11 +292,11 @@ footer
 			.ico
 				
 				border 1px solid letra
-				border-radius (50%)
+				border-radius 50%
 				float right
 				margin 0 0.6em 0 0
 				padding 0.4em
-				transition (all ease-in-out 0.2s)
+				transition all ease-in-out 0.2s
 			.ico-facebook
 				&:before
 					color letra
@@ -373,9 +305,9 @@ footer
 					font-family "sin_icons"
 					font-size 2em
 					padding 0.1em
-					transition (all ease-in-out 0.2s)
+					transition all ease-in-out 0.2s
 			.ico-facebook:hover
-				border 2px solid #3b5998
+				border 1px solid #3b5998
 				&:before
 					color #3b5998
 			.ico-twitter
@@ -386,9 +318,9 @@ footer
 					font-family "sin_icons"
 					font-size 2em
 					padding 0.1em
-					transition (all ease-in-out 0.2s)
+					transition all ease-in-out 0.2s
 			.ico-twitter:hover
-				border 2px solid #9AE4E8
+				border 1px solid #9AE4E8
 				&:before
 					color #9AE4E8
 			.ico-google
@@ -399,9 +331,9 @@ footer
 					font-family "sin_icons"
 					font-size 2em
 					padding 0.1em
-					transition (all ease-in-out 0.2s) 
+					transition all ease-in-out 0.2s
 			.ico-google:hover
-				border 2px solid #CE3D2B
+				border 1px solid #CE3D2B
 				&:before
 					color #CE3D2B
 	#p_f_direccion
@@ -416,13 +348,12 @@ footer
 			line-height 1.4
 			text-shadow 1px 1px letra, -1px -1px #555
 		p
-			font-family Helvetica, Arial
 			font-size 0.9em
 			line-height 1.7
 			margin 0 0 0 1em
 	#mapa
 		float left
-		margin 0 0 0 10em
+		margin 0 0 0 13em
 		&:before
 			color celeste_oscuro
 			content "\e60b"
@@ -434,7 +365,7 @@ footer
 			vertical-align middle
 	#social
 		float right
-		margin 0 10em 0 0
+		margin 0 13em 0 0
 		&:before
 			color celeste_oscuro
 			content "\e60a"
