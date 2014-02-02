@@ -4,20 +4,96 @@
 		"selected_items":
 		[
 			[
-				"San",
-				"Sans"
+				"celeste_",
+				"celeste_oscuro"
 			],
 			[
-				"fon",
-				"font-weight"
+				"bac",
+				"background-repeat"
 			],
 			[
-				"tex",
-				"text-decoration"
+				"s_a_sec",
+				"s_a_section_oscuro"
+			],
+			[
+				"fondo",
+				"fondo_blanco_oscuro"
+			],
+			[
+				"ce",
+				"celeste"
+			],
+			[
+				"celes",
+				"celeste_claro"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"margin",
+				"margin-left"
 			],
 			[
 				"f_",
 				"f_right"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"so",
+				"social"
+			],
+			[
+				"ma",
+				"mapa"
+			],
+			[
+				"letr",
+				"letra_negra"
+			],
+			[
+				"le",
+				"letra_negra"
+			],
+			[
+				"letra_",
+				"letra_oscura"
+			],
+			[
+				"letra",
+				"letra_negra"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"fondo_",
+				"fondo_blanco_oscuro"
+			],
+			[
+				"s_",
+				"s_a_descripcion"
+			],
+			[
+				"fon",
+				"fondo_blanco"
+			],
+			[
+				"San",
+				"Sans"
+			],
+			[
+				"tex",
+				"text-decoration"
 			],
 			[
 				"bo",
@@ -30,14 +106,6 @@
 			[
 				"rojo_",
 				"rojo_claro"
-			],
-			[
-				"letr",
-				"letra_oscura"
-			],
-			[
-				"bor",
-				"border-bottom"
 			],
 			[
 				"rojo",
@@ -56,24 +124,12 @@
 				"ico-facebook"
 			],
 			[
-				"ce",
-				"celeste_bajo"
-			],
-			[
-				"celeste_",
-				"celeste_bajo"
-			],
-			[
 				"te",
 				"text-shadow"
 			],
 			[
 				"he",
 				"Helvetica"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"z",
@@ -86,10 +142,6 @@
 			[
 				"conte",
 				"content"
-			],
-			[
-				"celes",
-				"celeste"
 			],
 			[
 				"celeste",
@@ -110,10 +162,6 @@
 			[
 				"l",
 				"letter-spacing"
-			],
-			[
-				"letra",
-				"letra"
 			],
 			[
 				"bl",
@@ -150,10 +198,6 @@
 			[
 				"colo",
 				"color-stop"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"cele",
@@ -208,10 +252,6 @@
 				"ul"
 			],
 			[
-				"so",
-				"social_r_p"
-			],
-			[
 				"header",
 				"header_porta"
 			],
@@ -238,10 +278,6 @@
 			[
 				"icon",
 				"icon_t"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"read",
@@ -396,10 +432,6 @@
 				"thumbail"
 			],
 			[
-				"in",
-				"instagram_client_id"
-			],
-			[
 				"cam",
 				"cambiosPersonalizacion"
 			],
@@ -436,10 +468,6 @@
 				"margin"
 			],
 			[
-				"ma",
-				"margin-bottom"
-			],
-			[
 				"n",
 				"nav	Tag"
 			],
@@ -454,10 +482,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"se",
@@ -483,7 +507,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6141,
+				"buffer_size": 5968,
 				"line_ending": "Windows"
 			}
 		},
@@ -491,8 +515,16 @@
 			"file": "css/main.styl",
 			"settings":
 			{
-				"buffer_size": 6976,
+				"buffer_size": 7250,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/slider.css",
+			"settings":
+			{
+				"buffer_size": 8130,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -596,13 +628,13 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/sintrave_new/css/style.css",
 		"/C/wamp/www/sintrave_new/css/main.styl",
 		"/C/wamp/www/sintrave_new/js/vendor/jquery-2.0.3.min.js",
 		"/C/wamp/www/sintrave_new/js/vendor/jquery.jmslideshow.js",
 		"/C/wamp/www/sintrave_new/js/vendor/jmpress.js",
 		"/C/wamp/www/sintrave_new/js/vendor/jmpress.min.js",
 		"/C/wamp/www/sintrave_new/css/main.css",
-		"/C/wamp/www/sintrave_new/css/style.css",
 		"/C/Users/Javier/Downloads/OnScrollEffectLayout/index.html",
 		"/C/Users/Javier/Downloads/OnScrollEffectLayout/css/component.css",
 		"/C/Users/Javier/dev/sintrave_new/css/main.styl",
@@ -829,7 +861,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -837,15 +869,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6141,
+						"buffer_size": 5968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6091,
-								6091
+								2556,
+								2556
 							]
 						],
 						"settings":
@@ -944,7 +976,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -954,15 +986,15 @@
 					"file": "css/main.styl",
 					"settings":
 					{
-						"buffer_size": 6976,
+						"buffer_size": 7250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								5210,
+								5210
 							]
 						],
 						"settings":
@@ -1060,7 +1092,124 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 3570.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/slider.css",
+					"settings":
+					{
+						"buffer_size": 8130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

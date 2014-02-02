@@ -46,6 +46,9 @@ h1, h2, h3, h4, h5, h6
 	font-family inherit
 	font-weight bold
 	text-rendering optimizelegibility
+ol, ul
+	list-style none
+
 
 .clearfix, .pre_footer, footer
 	zoom 1
@@ -219,17 +222,17 @@ footer
 			text-align right
 			vertical-align middle
 			.icon
-				/*background letra_oscura*/
+				background letra_oscura
 				border 5px solid letra_oscura
 				border-radius 50%
 				margin 0 140px
 				float right
-				transition all ease-in-out 0.2s
+				transition all ease-in-out 0.4s
 			.icon:hover
 				border 5px solid letra_negra
 			.icon_garantia
 				&:before
-					color letra_oscura
+					color letra
 					content "\e600"
 					display inline-block
 					font-family "sin_icons"
@@ -237,7 +240,7 @@ footer
 					padding 0.2em
 			.icon_mantenimiento
 				&:before
-					color letra_oscura
+					color letra
 					content "\e602"
 					display inline-block
 					font-family "sin_icons"
@@ -265,11 +268,11 @@ footer
 		}
 
 /* --- Triangulo Slider --- */
-.jms-slideshow:after
+.sequence-theme:after
 	content ""
 	display block
 	border 4.25em solid transparent
-	border-top-color celeste
+	border-top-color #00659D
 	border-top-widht 1.5em
 	position absolute
 	left 50%
