@@ -531,7 +531,7 @@
 			"file": "css/main.styl",
 			"settings":
 			{
-				"buffer_size": 7587,
+				"buffer_size": 7625,
 				"line_ending": "Windows"
 			}
 		},
@@ -877,7 +877,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -892,8 +892,8 @@
 						"selection":
 						[
 							[
-								5492,
-								5492
+								1251,
+								1251
 							]
 						],
 						"settings":
@@ -992,7 +992,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1554.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1118,15 +1118,15 @@
 					"file": "css/main.styl",
 					"settings":
 					{
-						"buffer_size": 7587,
+						"buffer_size": 7625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4538,
-								4413
+								4700,
+								4700
 							]
 						],
 						"settings":

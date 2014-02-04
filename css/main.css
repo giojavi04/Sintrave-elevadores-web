@@ -44,7 +44,7 @@ footer .f_right p{font-size:14px;padding-top:2px}
 #s_section .s_a_section .s_a_side_right .icon{background:#b4b4b4;border:5px solid #fff;-webkit-border-radius:50%;border-radius:50%;margin:0 140px;float:left;-moz-transition:all ease-in-out 0.4s;-ms-transition:all ease-in-out 0.4s;-o-transition:all ease-in-out 0.4s;-webkit-transition:all ease-in-out 0.4s;transition:all ease-in-out 0.4s}
 #s_section .s_a_section .s_a_side_right .icon:hover{border:5px solid #444}
 #s_section .s_a_section .s_a_side_right .icon_seguridad:before{color:#fff;content:"\e601";display:inline-block;font-family:"sin_icons";font-size:9em;padding:.2em}
-#s_section .s_a_section .s_a_side_right .icon_comercio:before{color:#fff;content:"\e603";display:inline-block;font-family:"sin_icons"}
+#s_section .s_a_section .s_a_side_right .icon_comercio:before{color:#fff;content:"\e603";display:inline-block;font-family:"sin_icons";font-size:9em;padding:.2em}
 #s_section .s_a_section .s_a_init .s_a_side{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 #s_section .s_a_section .s_a_init .s_a_side-left{-moz-transform:translateX(-80px);-ms-transform:translateX(-80px);-o-transform:translateX(-80px);-webkit-transform:translateX(-80px);transform:translateX(-80px)}
 #s_section .s_a_section .s_a_init .s_a_side-right{-moz-transform:translateX(80px);-ms-transform:translateX(80px);-o-transform:translateX(80px);-webkit-transform:translateX(80px);transform:translateX(80px)}
