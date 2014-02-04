@@ -12,11 +12,12 @@ letra = #ffffff
 letra_negra = #444444
 letra_oscura = #B4B4B4
 
-rojo = #E64135
+rojo = #f36050
 rojo_claro = #e74c3c
 rojo_oscuro = #B91C23
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans")
+@import url("http://fonts.googleapis.com/css?family=Lato")
 @import 'nib/vendor'
 @font-face {
 	font-family: 'sin_icons';
@@ -37,45 +38,34 @@ body
 	margin 0
 	text-align center
 
-h1, h2, h3, h4, ul, p, a
+h1, h2, h3, h4, ol, ul, li, p, a
 	margin 0 
 	padding 0
 
 h1, h2, h3, h4, h5, h6
 	color inherit
 	font-family inherit
-	font-weight bold
 	text-rendering optimizelegibility
 ol, ul
 	list-style none
 
 
-.clearfix, .pre_footer, footer
-	zoom 1
-.clearfix:after, .pre_footer:after, footer:after
-	clear both
-	content "\0020"
-	display block
-	height 0 
-	visibility hidden
-.clear
-	display block
-	clear both
-	zoom 1
 /* --- header --- */
 header
+	background rgba(255,255,255, 0.9)
 	border-top 5px solid rojo
+	box-shadow 0 1px 2px #ddd
 	height 85px
 	margin 0
 	padding 0
 	top 0
+	position fixed
 	width 100%
 	z-index 99
 	#logo
 		float left
 		margin 8px 0 0 8em
 		img
-			cursor pointer
 			vertical-align middle
 			width 50px
 	nav
@@ -90,18 +80,22 @@ header
 				vertical-align top
 				zoom 1
 				a
-					border-bottom 2px solid #d4d4d4
-					color letra_negra
+					border-bottom 1px solid celeste_claro
+					color celeste_claro
 					display block 
-					padding 0.9em 0.5em
+					font-family 'Lato', Open Sans, Helvetica
+					font-weight 500
+					padding 0.9em 0.8em
 					transition all ease-in-out 0.3s
 					text-decoration none
+					text-transform uppercase
+					text-rendering optimizelegibility
 				a:hover
-					border-bottom 2px solid rojo
+					border-bottom 1px solid rojo_claro
 					color rojo
 				.selected
 					color rojo
-					border-bottom 2px solid rojo
+					border-bottom 1px solid rojo
 footer, .pre_footer
 	box-sizing border-box
 	padding 0.5em
@@ -109,12 +103,13 @@ footer, .pre_footer
 
 /* --- Footer --- */
 footer
-	color celeste_bajo
+	background fondo
+	color letra_oscura
 	.f_left
 		float left
 		margin-left 1em
 		a
-			color celeste_claro
+			color letra
 			font-size 14px
 			text-decoration none
 		a:hover
@@ -190,6 +185,36 @@ footer
 				display table
 			&:after
 				clear both
+		.s_a_side_left
+			text-align right
+			vertical-align middle
+			.icon
+				background letra_oscura
+				border 5px solid letra
+				border-radius 50%
+				margin 0 140px
+				float right
+				transition all ease-in-out 0.4s
+			.icon:hover
+				border 5px solid letra_negra
+			.icon_garantia
+				&:before
+					color letra
+					content "\e600"
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
+			.icon_mantenimiento
+				&:before
+					color letra
+					content "\e602"
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
+					font-size 9em
+					padding 0.2em
 		.s_a_side_right
 			text-align left
 			vertical-align middle
@@ -216,36 +241,6 @@ footer
 					content "\e603"
 					display inline-block
 					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
-		.s_a_side_left
-			text-align right
-			vertical-align middle
-			.icon
-				background letra_oscura
-				border 5px solid letra_oscura
-				border-radius 50%
-				margin 0 140px
-				float right
-				transition all ease-in-out 0.4s
-			.icon:hover
-				border 5px solid letra_negra
-			.icon_garantia
-				&:before
-					color letra
-					content "\e600"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
-			.icon_mantenimiento
-				&:before
-					color letra
-					content "\e602"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
 		/* Initial state (hidden or anything else) */
 		.s_a_init .s_a_side {
 			opacity: 0;
@@ -278,7 +273,24 @@ footer
 	left 50%
 	/*bottom -3.65625em*/
 	margin-left -4.25em
-	z-index 900
+	z-index 10
+
+.clearfix, .pre_footer, footer
+	zoom 1
+.clearfix:after, .pre_footer:after, footer:after
+	clear both
+	content "\0020"
+	display block
+	height 0 
+	visibility hidden
+.clear
+	display block
+	clear both
+	zoom 1
+
+/* --- Nosotros --- */
+@import 'nosotros.styl'
+/* --- Fin-Nosotros --- */
 
 /* --- pre-footer_Home --- */
 .pre_footer

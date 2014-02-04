@@ -9,9 +9,9 @@ $(document).ready(function(){
         preloader: true,
         preloadTheseFrames: [1],
         preloadTheseImages: [
-            "images/tn-model1.png",
-            "images/tn-model2.png",
-            "images/tn-model3.png"
+            "img/slider/tn-model1.png",
+            "img/slider/tn-model2.png",
+            "img/slider/tn-model3.png"
         ]
     };
     
