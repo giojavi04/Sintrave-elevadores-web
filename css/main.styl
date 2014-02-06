@@ -17,7 +17,6 @@ rojo_claro = #e74c3c
 rojo_oscuro = #B91C23
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans")
-@import url("http://fonts.googleapis.com/css?family=Lato")
 @import 'nib/vendor'
 @font-face {
 	font-family: 'sin_icons';
@@ -49,53 +48,6 @@ h1, h2, h3, h4, h5, h6
 ol, ul
 	list-style none
 
-
-/* --- header --- */
-header
-	background rgba(255,255,255, 0.9)
-	border-top 5px solid rojo
-	box-shadow 0 1px 2px #ddd
-	height 85px
-	margin 0
-	padding 0
-	top 0
-	position fixed
-	width 100%
-	z-index 99
-	#logo
-		float left
-		margin 8px 0 0 8em
-		img
-			vertical-align middle
-			width 50px
-	nav
-		font-size 1em
-		float right
-		margin 8px 8em 0 0
-		ul
-			list-style none
-			li
-				display inline-block
-				margin 0
-				vertical-align top
-				zoom 1
-				a
-					border-bottom 1px solid celeste_claro
-					color celeste_claro
-					display block 
-					font-family 'Lato', Open Sans, Helvetica
-					font-weight 500
-					padding 0.9em 0.8em
-					transition all ease-in-out 0.3s
-					text-decoration none
-					text-transform uppercase
-					text-rendering optimizelegibility
-				a:hover
-					border-bottom 1px solid rojo_claro
-					color rojo
-				.selected
-					color rojo
-					border-bottom 1px solid rojo
 footer, .pre_footer
 	box-sizing border-box
 	padding 0.5em
@@ -195,26 +147,20 @@ footer
 				margin 0 140px
 				float right
 				transition all ease-in-out 0.4s
+				&:before
+					color letra
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
 			.icon:hover
 				border 5px solid letra_negra
 			.icon_garantia
 				&:before
-					color letra
 					content "\e600"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
 			.icon_mantenimiento
 				&:before
-					color letra
 					content "\e602"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
-					font-size 9em
-					padding 0.2em
 		.s_a_side_right
 			text-align left
 			vertical-align middle
@@ -225,24 +171,20 @@ footer
 				margin 0 140px
 				float left
 				transition all ease-in-out 0.4s
+				&:before
+					color letra
+					display inline-block
+					font-family "sin_icons"
+					font-size 9em
+					padding 0.2em
 			.icon:hover
 				border 5px solid letra_negra
 			.icon_seguridad
 				&:before
-					color letra
 					content "\e601"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
 			.icon_comercio
 				&:before
-					color letra
 					content "\e603"
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
 		/* Initial state (hidden or anything else) */
 		.s_a_init .s_a_side {
 			opacity: 0;
@@ -269,7 +211,7 @@ footer
 	content ""
 	display block
 	border 4.25em solid transparent
-	border-top-color #00659D
+	border-top-color #006193
 	border-top-widht 1.5em
 	position absolute
 	left 50%
@@ -294,80 +236,132 @@ footer
 @import 'nosotros.styl'
 /* --- Fin-Nosotros --- */
 
+/* --- header --- */
+.header
+	background fondo_blanco
+	box-shadow 0 0 17px rgba(0,0,0, 0.9)
+	overflow hidden
+	margin auto
+	padding 0.5em 0
+	top 0
+	width 100% !important
+	z-index 999
+	#logo
+		display block
+		float left
+		margin 0 0 0 14em
+		img
+			vertical-align middle
+			width 283px
+	.hn_nav
+		display inline-block
+		font-size 0.9em
+		float right
+		margin 0 14em 0 0
+		ul
+			list-style none
+			line-height 4em
+			text-align center
+			li
+				display inline-block
+				margin 0
+				vertical-align middle
+				zoom 1
+				a
+					color letra_negra
+					display inline-block 
+					font-family Open Sans, Helvetica
+					font-weight 500
+					padding 0.8em 0.8em
+					text-decoration none
+					text-transform uppercase
+					text-rendering optimizelegibility
+					transition all ease-in-out 0.2s
+					vertical-align middle 
+				a:hover
+					color celeste_oscuro
+					opacity 0.4
+				.selected
+					color celeste_oscuro
+					cursor default
+					opacity 0.4
+/* Fin header */
+
 /* --- pre-footer_Home --- */
 .pre_footer
 	background celeste
 	border-top 10px solid celeste_bajo
+	color letra
 	margin-top 3em
 	aside, #p_f_direccion, #mapa, #social
 		padding 1.5em 0
 	aside
 		float right
-		margin 2.3em 2em 0 0
+		margin 0 2em 0 3em
 		a
 			background celeste_bajo
 			.ico
-				
-				border 1px solid letra
-				border-radius 50%
+				background celeste_claro
 				float right
-				margin 0 0.6em 0 0
-				padding 0.4em
+				font-size 1.5em
+				margin 1em 0.2em 0 0
+				padding 0.3em
 				transition all ease-in-out 0.2s
+				&:before
+					color letra
+					display block
+					font-family "sin_icons"
+					padding 0.1em
+					transition all ease-in-out 0.2s
 			.ico-facebook
 				&:before
-					color letra
 					content "\e604"
-					display block
-					font-family "sin_icons"
-					font-size 2em
-					padding 0.1em
-					transition all ease-in-out 0.2s
 			.ico-facebook:hover
-				border 1px solid #3b5998
+				background #3b5998
 				&:before
-					color #3b5998
+					color letra
 			.ico-twitter
 				&:before
-					color letra
 					content "\e605"
-					display block
-					font-family "sin_icons"
-					font-size 2em
-					padding 0.1em
-					transition all ease-in-out 0.2s
 			.ico-twitter:hover
-				border 1px solid #9AE4E8
+				background #9AE4E8
 				&:before
-					color #9AE4E8
+					color letra
 			.ico-google
 				&:before
-					color letra
 					content "\e606"
-					display block
-					font-family "sin_icons"
-					font-size 2em
-					padding 0.1em
-					transition all ease-in-out 0.2s
 			.ico-google:hover
-				border 1px solid #CE3D2B
+				background #CE3D2B
 				&:before
-					color #CE3D2B
+					color letra
+		h2
+			margin-right 2em
+	h2
+			font-size 1.2em
+			line-height 1.4
+			text-shadow 1px 1px letra, -1px -1px #555
 	#p_f_direccion
-		color letra
 		float left
 		margin 0 0 0 2em
 		text-align left
 		vertical-align middle
 		width 320px
-		h2
-			font-size 1.2em
-			line-height 1.4
-			text-shadow 1px 1px letra, -1px -1px #555
 		p
 			font-size 0.9em
 			line-height 1.7
 			margin 0 0 0 1em
+			.pf
+				color letra
+				display inline-block
+				font-family "sin_icons"
+				font-size 0.9em
+				vertical-align middle
+			.pf_tel
+				&:before
+					content "\e60d"
+			.pf_cel
+				&:before
+					content "\e60e"
 	#mapa
 		float left
 		margin 0 0 0 13em
