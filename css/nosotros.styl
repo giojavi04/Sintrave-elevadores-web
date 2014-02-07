@@ -6,7 +6,131 @@
 		line-height 0
 	&:after
 		clear both*/
+/* --- Contenido Nosotros --- */
+.content
+	color letra_negra
+	font-size 1em
+	padding 0
+	text-align center
+	width 100%
+	.c_articulos
+		padding 2em 1em 1.5em 1em
+		.ca_contenido
+			margin 0 auto
+			padding 1.8em 0
+			width 75%
+			&:after
+			&:before
+				content ""
+				display table
+				line-height 0
+			&:after
+				clear both
+			.cac_icon
+				display block
+				margin 0
+				padding 2em 1.5em
+				transition all ease-in-out 0.4s
+				white-space nowrap
+				&:before
+					background celeste_claro
+					border 5px solid celeste
+					border-radius 50%
+					color letra
+					display inline-block
+					font-family "sin_icons"
+					font-size 7em
+					padding 0.4em
+					vertical-align middle
+					text-align center
+			.cac_icon_evolucion
+				&:before
+					content "\e601"
+			.cac_icon_garantia
+				&:before
+					content "\e60a"
+			.cac_icon_seguridad
+				&:before
+					content "\e609"
+			.cac_icon_certificado
+				&:before
+					content "\e602"
+			.left, .right
+				display inline-block
+				vertical-align top
+				h2
+					border-bottom 2px solid rojo
+					color rojo
+					font-weight 700
+					font-size 1.5em
+					padding 0.4em 0.1em 0.8em 0.1em
+					text-align left
+					text-transform uppercase
+				p 
+					display block
+					float left
+					line-height 1.5em
+					padding 0.5em 0.1em 0.8em 0.1em
+					text-align left
+					vertical-align middle
+					a
+						color celeste_claro
+						text-decotration underline
+					a:hover
+						opacity 0.8
+				ul
+					column-count 2
+					column-gap 8px
+					margin 0.2em auto
+					width 100%
+					li
+						display block
+						line-height 2em
+						overflow hidden
+						padding 2px
+						text-align left
+						zoom 1
+						.visto
+							display inline-block
+							margin-right 0.5em
+							text-align left
+							&:before
+								color rojo
+								content "\e600"
+								display block
+								font-family "sin_icons"
+								font-size 1em
+								margin 0
+								padding 0
+								vertical-align middle
+								text-align center
 
+				.cac_img
+					float left
+					padding 0.5em 1.5em 1.5em 1.5em
+					margin 0 auto
+					position relative
+					top 3em
+					vertical-align middle
+					img
+						width 300px
+			.left
+				width 48%
+				h2, p
+					text-align left
+				.cac_img
+					float left
+			.right
+				width 48%
+				h2, p
+					text-align right
+				.cac_img
+					float right
+	.c_articulos_blanco
+		background fondo_blanco
+	.c_articulos_oscuro
+		background fondo_blanco_oscuro
+/* --- Header celeste --- */
 .header_page
 	background celeste
 	color letra
@@ -15,6 +139,19 @@
 	h1
 		margin 0 auto
 		font-weight 300
-		text-align left
 		text-shadow 1px 1px letra, -1px -1px #555
-		width 960px
+/* --- Submenu Fixed --- */
+.submenu
+	background transparent
+	width 100%
+	ul
+		margin 0
+		li
+			padding 1em 0
+			a
+				color letra
+				background letra_negra
+				padding 1em 1em
+				text-decoration none
+			a:hover
+				background rojo
