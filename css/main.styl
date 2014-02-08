@@ -1,11 +1,12 @@
 celeste = #0088CC
 celeste_bajo = #89C4E2
-celeste_claro = #2B9CD4
+celeste_claro = #10b6f4
+celeste_claro_fondo = #2B9CD4
 celeste_oscuro = #036BA5
 
 fondo = #2B3336
 fondo_blanco = #FFFFFF
-fondo_blanco_oscuro = #F8F8F8
+fondo_blanco_oscuro = #F2F2F2
 fondo_oscuro = #151515
 
 letra = #ffffff
@@ -78,7 +79,7 @@ footer
 #s_section
 	color letra_negra
 	margin 0 auto
-	padding-bottom 3em
+	padding-bottom 2em
 	overflow hidden
 	width 100%
 	#s_a_descripcion
@@ -92,6 +93,7 @@ footer
 		img:hover
 			opacity 1
 		h1
+			color celeste
 			font-family Helvetica
 			font-weight bold
 			font-size 1.8em
@@ -102,7 +104,7 @@ footer
 			font-size 1.2em
 			margin 1em 5em
 	.s_a_section
-		margin 0 auto
+		margin 4em auto
 		max-width 1024px
 		/* Text styl */
 		h2
@@ -230,10 +232,6 @@ footer
 	clear both
 	zoom 1
 
-/* --- Nosotros --- */
-@import 'nosotros.styl'
-/* --- Fin-Nosotros --- */
-
 /* --- header --- */
 .header
 	background fondo_blanco
@@ -289,6 +287,11 @@ footer
 			opacity 0.6
 /* Fin header */
 
+
+/* --- Nosotros --- */
+@import 'nosotros.styl'
+/* --- Fin-Nosotros --- */
+
 /* --- pre-footer_Home --- */
 .pre_footer
 	background celeste
@@ -302,7 +305,7 @@ footer
 		a
 			background celeste_bajo
 			.ico
-				background celeste_claro
+				background celeste_claro_fondo
 				float right
 				font-size 1.5em
 				margin 1em 0.2em 0 0
@@ -387,3 +390,7 @@ footer
 			margin 0
 			text-shadow none
 			vertical-align middle
+
+/* --- Servicios --- */
+@import 'servicios.styl'
+/* --- Fin-Servicios --- */

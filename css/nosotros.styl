@@ -1,23 +1,15 @@
-/*
-	&:after
-	&:before
-		content ""
-		display table
-		line-height 0
-	&:after
-		clear both*/
-/* --- Contenido Nosotros --- */
-.content
+/* -- Nosotros contenido -- */
+.n_content
 	color letra_negra
 	font-size 1em
 	padding 0
 	text-align center
 	width 100%
 	.c_articulos
-		padding 2em 1em 1.5em 1em
+		padding 1em
 		.ca_contenido
 			margin 0 auto
-			padding 1.8em 0
+			padding 1em 0
 			width 75%
 			&:after
 			&:before
@@ -29,17 +21,17 @@
 			.cac_icon
 				display block
 				margin 0
-				padding 2em 1.5em
+				padding 0.5em 1em
 				transition all ease-in-out 0.4s
 				white-space nowrap
 				&:before
 					background celeste_claro
-					border 5px solid celeste
+					border 5px solid celeste_claro_fondo
 					border-radius 50%
 					color letra
 					display inline-block
 					font-family "sin_icons"
-					font-size 7em
+					font-size 6.5em
 					padding 0.4em
 					vertical-align middle
 					text-align center
@@ -59,13 +51,15 @@
 				display inline-block
 				vertical-align top
 				h2
-					border-bottom 2px solid rojo
-					color rojo
+					background celeste_claro
+					padding 0.6em 0.1em
+					color letra
+					font-size
 					font-weight 700
-					font-size 1.5em
-					padding 0.4em 0.1em 0.8em 0.1em
-					text-align left
+					margin 1em auto 0.8em auto
+					position relative
 					text-transform uppercase
+					
 				p 
 					display block
 					float left
@@ -74,7 +68,7 @@
 					text-align left
 					vertical-align middle
 					a
-						color celeste_claro
+						color rojo_claro
 						text-decotration underline
 					a:hover
 						opacity 0.8
@@ -107,22 +101,42 @@
 
 				.cac_img
 					float left
-					padding 0.5em 1.5em 1.5em 1.5em
+					padding 0.5em
 					margin 0 auto
 					position relative
-					top 3em
+					top 1.5em
 					vertical-align middle
 					img
 						width 300px
 			.left
 				width 48%
-				h2, p
+				h2:after
+					content ""
+					border-top 62px solid celeste_claro
+					border-right 62px solid transparent
+					height 0
+					position absolute
+					right -62px
+					top 0
+					text-align right
+					width 0
+				p
 					text-align left
 				.cac_img
 					float left
 			.right
 				width 48%
-				h2, p
+				h2:before
+					content ""
+					border-bottom 62px solid celeste_claro
+					border-left 62px solid transparent
+					height 0
+					position absolute
+					left -62px
+					text-align left
+					top 0
+					width 0
+				p
 					text-align right
 				.cac_img
 					float right
@@ -155,3 +169,4 @@
 				text-decoration none
 			a:hover
 				background rojo
+/* -- Fin Nosotros COntenido */
