@@ -1,0 +1,303 @@
+/*
+	&:after
+	&:before
+		content ""
+		display table
+		line-height 0
+	&:after
+		clear both*/
+/* --- Contenido Nosotros --- */
+.s_innovacion,
+.s_services {
+  color: letra_negra;
+  font-size: 1em;
+  padding: 1.5em 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.s_services {
+  background: fondo_blanco_oscuro;
+}
+.s_services .services {
+  margin: 0 auto;
+  padding: 1em 0.5em;
+  width: 85%;
+}
+.s_services .services:after,
+.s_services .services:before {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.s_services .services:after {
+  clear: both;
+}
+.s_services .services .ss_article {
+  background: fondo_blanco;
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  margin: 0 0.5em;
+  vertical-align: top;
+  transition: all ease-in-out 0.4s;
+  width: 340px;
+}
+.s_services .services .ss_article .ssa_img {
+  margin: 0.5em auto 0.5em auto;
+}
+.s_services .services .ss_article .ssa_img img {
+  border: 3px solid celeste_claro;
+  border-radius: 50%;
+  transition: all ease-in-out 0.5s;
+  width: 150px;
+}
+.s_services .services .ss_article .ssa_img img:hover {
+  opacity: 0.7;
+}
+.s_services .services .ss_article p,
+.s_services .services .ss_article .ssa_h2 {
+  padding: 0.5em 1.3em;
+}
+.s_services .services .ss_article p {
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.s_services .services .ss_article p a {
+  color: rojo;
+  text-decoration: underline;
+}
+.s_services .services .ss_article p a:hover {
+  opacity: 0.8;
+}
+.s_services .services .ss_article ul {
+  padding: 0 1.5em;
+  margin: 0.2em auto;
+}
+.s_services .services .ss_article ul li {
+  display: block;
+  line-height: 1.5em;
+  overflow: hidden;
+  padding: 2px;
+  text-align: left;
+  zoom: 1;
+}
+.s_services .services .ss_article ul li .ssa_icon {
+  display: inline-block;
+  float: left;
+  margin-right: 0.5em;
+}
+.s_services .services .ss_article ul li .ssa_icon:before {
+  color: rojo;
+  display: inline-block;
+  font-family: "sin_icons";
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+.s_services .services .ss_article ul li .ssa_icon_reloj:before {
+  content: "\e612";
+}
+.s_services .services .ss_article ul li .ssa_icon_visto:before {
+  content: "\e600";
+}
+.s_services .services .ss_article .ssa_h2 {
+  border-bottom: 2px solid celeste_claro;
+  color: celeste_claro;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.s_services .services .ss_article:hover {
+  color: letra;
+  background: celeste_bajo;
+}
+.s_services .services .ss_article:hover .ssa_img img {
+  border: 3px solid rojo_claro;
+}
+.s_services .services .ss_article:hover .ssa_h2 {
+  color: letra;
+  border-bottom: 2px solid letra;
+}
+.s_services .s_maintance {
+  margin: 1em auto;
+  width: 60%;
+}
+.s_services .s_maintance h2,
+.s_services .s_maintance p {
+  padding: 1em 1.5em;
+}
+.s_services .s_maintance h2 {
+  border-bottom: 2px solid celeste_claro;
+  color: celeste_claro;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.4s p;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.s_services .s_maintance ul {
+  column-count: 2;
+  column-gap: 8px;
+  padding: 0 1.5em;
+  margin: 0.2em auto;
+  width: 40%;
+}
+.s_services .s_maintance ul li {
+  display: block;
+  line-height: 1.5em;
+  overflow: hidden;
+  padding: 2px;
+  text-align: left;
+  zoom: 1;
+}
+.s_services .s_maintance ul li .ssa_icon {
+  display: inline-block;
+  float: left;
+  margin-right: 0.5em;
+}
+.s_services .s_maintance ul li .ssa_icon:before {
+  color: rojo;
+  display: inline-block;
+  font-family: "sin_icons";
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+.s_services .s_maintance ul li .ssa_icon_visto:before {
+  content: "\e600";
+}
+/* -- Fin Servios -- */
+/* -- inicio Innovacion -- */
+.s_innovacion {
+  background: fondo_blanco;
+  box-shadow: 0 6px 15px 6px rgba(4,4,4,0.8);
+}
+.s_innovacion .si_content {
+  margin: 0 auto;
+  padding: 1em 0.5em;
+}
+.s_innovacion .si_content:after,
+.s_innovacion .si_content:before {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.s_innovacion .si_content:after {
+  clear: both;
+}
+.s_innovacion .si_content h2 {
+  background: celeste_claro;
+  border-bottom: 2px solid celeste_claro;
+  color: letra;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 0.6em 0;
+  margin-bottom: 0.6em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.s_innovacion .si_content p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.s_innovacion .si_content .d_title,
+.s_innovacion .si_content .title {
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  width: 60%;
+}
+.s_innovacion .si_content .title {
+  background: celeste_claro;
+  color: letra;
+  padding-top: 0.6em;
+  position: relative;
+}
+.s_innovacion .si_content .title:after {
+  content: "";
+  border-top: 58px solid celeste_claro;
+  border-right: 58px solid transparent;
+  height: 0;
+  position: absolute;
+  right: -58px;
+  top: 0;
+  width: 0;
+}
+.s_innovacion .si_content .title:before {
+  content: "";
+  border-bottom: 58px solid celeste_claro;
+  border-left: 58px solid transparent;
+  height: 0;
+  position: absolute;
+  left: -58px;
+  top: 0;
+  width: 0;
+}
+.s_innovacion .si_content .sic_innovacion {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em 0.5em;
+  width: 85%;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article {
+  border-bottom: 2px solid celeste_claro;
+  float: left;
+  height: 275px;
+  margin: 1em auto 0.5em auto;
+  width: 47%;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article h3,
+.s_innovacion .si_content .sic_innovacion .sici_article ul {
+  padding: 0.2em 0.4em;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article h3 {
+  display: block;
+  font-size: 1em;
+  text-align: left;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article img {
+  border-radius: 1em 2em 1em 2em;
+  width: 150px;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article ul {
+  float: left;
+  padding: 0 1.5em;
+  margin: 0.1em auto;
+  width: 55%;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article ul li {
+  display: block;
+  font-size: 1em;
+  line-height: 1.2em;
+  overflow: hidden;
+  padding: 2px;
+  text-align: left;
+  zoom: 1;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article ul li .sicia_icon {
+  display: inline-block;
+  float: left;
+  margin-right: 0.5em;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article ul li .sicia_icon:before {
+  color: rojo;
+  content: "\e600";
+  display: inline-block;
+  font-family: "sin_icons";
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article:nth-child(1) {
+  margin-right: 4em;
+}
+.s_innovacion .si_content .sic_innovacion .sici_article:nth-child(3) {
+  margin-right: 4em;
+}

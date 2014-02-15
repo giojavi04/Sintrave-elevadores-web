@@ -7,12 +7,12 @@
 	&:after
 		clear both*/
 /* --- Contenido Productos principal --- */
-
-.sec_producto
+.sec_producto, .sec_descrip
 	background fondo_blanco_oscuro
 	margin 0 auto
 	padding 1em
 	widht 100%
+.sec_producto
 	.sp_p
 		width 90%
 		margin 1em auto
@@ -50,7 +50,10 @@
 			vertical-align top
 			width 360px
 			img
+				border 3px solid celeste_claro
+				border-radius 50%
 				margin 0.2em auto
+				width 150px
 			h3
 				color celeste_claro
 				margin 0.3em
@@ -64,6 +67,153 @@
 				color rojo
 				padding 0.7em 0.5em
 				float right
-		.spp_p:hover
-			h3
-				text-decoration underline
+			a:hover
+				opacity 0.7
+.hide
+	display none
+	vidibility hidden
+/* --- Contenido Descripcion de Productos --- */
+.camillero, .carga
+	&:after
+	&:before
+		content ""
+		display table
+		line-height 0
+	&:after
+		clear both
+	.return
+		color rojo
+		float left
+		padding 0.8em
+		position relative
+		text-transform uppercase
+	.return:hover
+		opacity 0.7
+	.content_p
+		margin 0 auto
+		padding 0
+		width 65%
+		.sdes
+			padding 1em 1em 0.5em 1em
+			p
+				color letra_negra
+				margin 0 auto
+				padding 0.7em
+				text-align justify
+				max-width 800px
+			.title
+				background celeste_claro
+				display block
+				color letra
+				font-size 1.2em
+				font-weight 800
+				margin 0 auto 1em
+				padding 0.7em
+				position relative
+				vertical-align middle
+				text-transform uppercase
+				max-width 500px
+			.title:after
+				content ""
+				border-top 53px solid celeste_claro
+				border-right 53px solid transparent
+				height 0
+				position absolute
+				right -53px
+				top 0
+				width 0
+			.title:before
+				content ""
+				border-bottom 53px solid celeste_claro
+				border-left 53px solid transparent
+				height 0
+				position absolute
+				left -53px
+				top 0
+				width 0
+		.scar
+			color letra_negra
+			margin 1.5em auto
+			padding 0.5em
+			&:after
+			&:before
+				content ""
+				display table
+				line-height 0
+			&:after
+				clear both
+			.left, .right
+				display inline-block
+				vertical-align top
+				h3
+					background celeste_claro
+					color letra
+					display block
+					font-size 1.2em
+					margin-bottom 0.8em
+					padding 0.7em
+					position relative
+					text-transform uppercase
+				ul
+					/*column-count 2
+					column-gap 8px*/
+					margin 0.2em auto
+					width 100%
+					li
+						display block
+						line-height 2em
+						overflow hidden
+						padding 2px
+						text-align left
+						zoom 1
+						.visto
+							display inline-block
+							margin-right 0.5em
+							text-align left
+							&:before
+								color rojo
+								content "\e600"
+								display block
+								font-family "sin_icons"
+								font-size 1em
+								margin 0
+								padding 0
+								vertical-align middle
+								text-align center
+				.p_img
+					img 
+						margin 0
+						padding 0
+						width 250px
+			.left
+				width 48%
+				h3:after
+					content ""
+					border-top 53px solid celeste_claro
+					border-right 53px solid transparent
+					height 0
+					position absolute
+					right -53px
+					top 0
+					text-align right
+					width 0
+				p
+					text-align left
+				.p_img
+					float left
+			.right
+				width 48%
+				h3:before
+					content ""
+					border-bottom 53px solid celeste_claro
+					border-left 53px solid transparent
+					height 0
+					position absolute
+					left -53px
+					text-align left
+					top 0
+					width 0
+				p
+					text-align right
+				.p_img
+					float right

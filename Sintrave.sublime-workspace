@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"letra",
+				"letra_negra"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"celeste",
+				"celeste_bajo"
+			],
+			[
+				"se",
+				"sec_producto"
+			],
+			[
 				"rojo",
 				"rojo_claro"
 			],
@@ -18,14 +50,6 @@
 			[
 				"bor",
 				"border-right"
-			],
-			[
-				"tex",
-				"text-transform"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"cel",
@@ -80,14 +104,6 @@
 				"border-radius"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"si",
 				"sic_innovacion"
 			],
@@ -100,20 +116,8 @@
 				"margin-bottom"
 			],
 			[
-				"bord",
-				"border-bottom"
-			],
-			[
 				"fon",
 				"font-size"
-			],
-			[
-				"letra",
-				"letra"
-			],
-			[
-				"celeste",
-				"celeste_claro"
 			],
 			[
 				"s",
@@ -510,10 +514,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"marg",
-				"margin"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "productos.html",
 			"settings":
 			{
-				"buffer_size": 5327,
+				"buffer_size": 9395,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,23 @@
 			"file": "css/productos.styl",
 			"settings":
 			{
-				"buffer_size": 1193,
+				"buffer_size": 4009,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/nosotros.styl",
+			"settings":
+			{
+				"buffer_size": 3247,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "nosotros.html",
+			"settings":
+			{
+				"buffer_size": 6432,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,15 +563,7 @@
 			"file": "css/servicios.styl",
 			"settings":
 			{
-				"buffer_size": 4849,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "servicios.html",
-			"settings":
-			{
-				"buffer_size": 8778,
+				"buffer_size": 4847,
 				"line_ending": "Windows"
 			}
 		}
@@ -567,12 +575,12 @@
 		"selected_items":
 		[
 			[
-				"sty",
-				"Set Syntax: Stylus"
+				"pac",
+				"Package Control: Remove Package"
 			],
 			[
-				"pac",
-				"Package Control: List Packages"
+				"sty",
+				"Set Syntax: Stylus"
 			],
 			[
 				"pa",
@@ -643,7 +651,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 424.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -660,6 +668,9 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sintrave_new/servicios.html",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/mysql/bin/my.ini",
 		"/C/wamp/www/sintrave_new/css/nosotros.styl",
 		"/C/wamp/www/sintrave_new/css/servicios.styl",
 		"/C/wamp/www/sintrave_new/nosotros.html",
@@ -784,10 +795,7 @@
 		"/C/Users/Javier/proyects_dev/pulse_sintrave/public/css/responsive.styl",
 		"/C/Users/Javier/proyects_dev/pulse_sintrave/public/css/fuentes.styl",
 		"/C/Users/Javier/proyects_dev/pulse_sintrave/public/app.min.js",
-		"/C/Users/Javier/Downloads/css-win8-buttons/HTML & CSS/css/styles.css",
-		"/C/Users/Javier/AppData/Local/Temp/Rar$DIa0.164/utils.php",
-		"/C/Users/Javier/Downloads/stylesheet.css",
-		"/C/Users/Javier/proyects_dev/mejorando_chat/Mejorando.la-Chat/server.js"
+		"/C/Users/Javier/Downloads/css-win8-buttons/HTML & CSS/css/styles.css"
 	],
 	"find":
 	{
@@ -805,6 +813,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"62px",
+			"span",
 			"ul",
 			"Más",
 			"servicios",
@@ -901,7 +911,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1025,47 +1035,15 @@
 					"file": "productos.html",
 					"settings":
 					{
-						"buffer_size": 5327,
+						"buffer_size": 9395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2179,
-								2179
-							],
-							[
-								2432,
-								2432
-							],
-							[
-								2688,
-								2688
-							],
-							[
-								2943,
-								2943
-							],
-							[
-								3200,
-								3200
-							],
-							[
-								3453,
-								3453
-							],
-							[
-								3708,
-								3708
-							],
-							[
-								3964,
-								3964
-							],
-							[
-								4224,
-								4224
+								8278,
+								8278
 							]
 						],
 						"settings":
@@ -1164,7 +1142,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 923.0,
+						"translation.y": 3209.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1174,15 +1152,15 @@
 					"file": "css/productos.styl",
 					"settings":
 					{
-						"buffer_size": 1193,
+						"buffer_size": 4009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1163,
-								1163
+								1678,
+								1678
 							]
 						],
 						"settings":
@@ -1280,25 +1258,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "css/servicios.styl",
+					"file": "css/nosotros.styl",
 					"settings":
 					{
-						"buffer_size": 4849,
+						"buffer_size": 3247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2193,
-								2193
+								1393,
+								1915
 							]
 						],
 						"settings":
@@ -1396,33 +1374,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1287.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "servicios.html",
+					"file": "nosotros.html",
 					"settings":
 					{
-						"buffer_size": 8778,
+						"buffer_size": 6432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1964,
-								1964
-							],
-							[
-								2606,
-								2606
-							],
-							[
-								3550,
-								3550
+								3313,
+								3313
 							]
 						],
 						"settings":
@@ -1474,7 +1444,6 @@
 							"gjslint_options":
 							[
 							],
-							"is_xml": false,
 							"javascript_linter": "jshint",
 							"jshint_options":
 							{
@@ -1521,7 +1490,123 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 666.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/servicios.styl",
+					"settings":
+					{
+						"buffer_size": 4847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3463,
+								3463
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2097.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1588,7 +1673,7 @@
 		[
 			[
 				"",
-				"/C/Users/Javier/dev/sintrave_new/Sintrave.sublime-project"
+				"/C/xampp/htdocs/sintrave_new/Sintrave.sublime-project"
 			],
 			[
 				"jason",
@@ -1600,7 +1685,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 242.0,
 	"status_bar_visible": true
 }
