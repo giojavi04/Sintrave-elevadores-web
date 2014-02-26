@@ -1,0 +1,219 @@
+/*
+	&:after
+	&:before
+		content ""
+		display table
+		line-height 0
+	&:after
+		clear both*/
+
+/* Inicio Contacto */
+.wrapper_c
+	color letra_negra
+	background fondo_blanco
+	widht 100%
+	p
+		font-size 0.9em
+		line-height 1.5em
+	.italic
+		font-style italic
+	.w_title
+		background fondo_blanco_oscuro
+		padding 1.5em 0
+		width inherit
+	.w_dirform
+		color letra_negra
+		border-top 1px solid filo_cajas
+		line-height 2em
+		margin 0 auto
+		padding 1em .8em
+		text-align left
+		width 70%
+		.wd_form, .datos
+			display inline-block
+			vertical-align top
+		.datos
+			width 50%
+			aside
+				a
+					background celeste_bajo
+					.ico
+						background celeste_claro_fondo
+						float left
+						font-size 1.4em
+						margin 0 .4em 0 0
+						padding 0.1em 0.4em
+						transition all ease-in-out 0.2s
+						&:before
+							color letra
+							display block
+							font-family "sin_icons"
+							padding 0.1em
+							transition all ease-in-out 0.2s
+					.ico-facebook
+						&:before
+							content "\e60b"
+					.ico-facebook:hover
+						background #3b5998
+						&:before
+							color letra
+					.ico-twitter
+						&:before
+							content "\e60d"
+					.ico-twitter:hover
+						background #9AE4E8
+						&:before
+							color letra
+					.ico-google
+						&:before
+							content "\e60c"
+					.ico-google:hover
+						background #CE3D2B
+						&:before
+							color letra
+			h2
+				font-size 1em
+				font-weight 525
+				margin-top .8em
+			h3
+				font-size .9em
+			p
+				line-height 1.5em
+				margin-bottom .5em
+				.pf
+					color rojo
+					display inline-block
+					font-family "sin_icons"
+					font-size 0.9em
+					vertical-align middle
+				.pf_tel
+					&:before
+						content "\e603"
+				.pf_cel
+					&:before
+						content "\e610"
+			ul
+				font-size .9em
+				margin 0.2em auto
+				width 100%
+				li
+					display block
+					line-height normal
+					overflow hidden
+					padding 2px
+					text-align left
+					zoom 1
+					.visto
+						display inline-block
+						margin-right 0.5em
+						text-align left
+						&:before
+							color rojo
+							content "\e600"
+							display block
+							font-family "sin_icons"
+							font-size 1em
+							margin 0
+							padding 0
+							vertical-align middle
+							text-align center
+		.wd_form
+			margin-right 2em
+			width 45%
+			.wdf_contacto, .wdf_comentario
+				margin-top 1.2em
+			.wdf_btn
+				margin-top .4em
+				button
+					appearance button 
+					background-color celeste_claro
+					background-image none
+					box-shadow none !important
+					border none !important
+					border-radius 0 !important
+					color letra
+					display block
+					filter none
+					font-size .9em
+					padding .5em 1.2em
+					opacity .8
+					text-shadow none
+					outline 0
+				button:hover
+					opacity 1
+			.wdf_comentario
+				p
+					padding-bottom .5em
+				textarea
+					border 1px solid filo_cajas
+					color letra_negra
+					font-size 14px
+					padding 10px 0 0 10px
+					width 362px
+			.wdf_contacto
+				p
+					padding-bottom .5em
+				.campo_text
+					border 1px solid filo_cajas
+					color letra_negra
+					font-size 14px
+					height 35px
+					padding-left 10px
+					position absolute
+					width 320px
+				.contac_img
+					position relative
+					&:before
+						background celeste_claro
+						color letra
+						display inline-block
+						height 39px
+						padding 0 12px
+						font-family "sin_icons"
+						vertical-align middle
+						font-size 1.2em
+				.email
+					&:before
+						content "\e611"
+						top 5em
+				.empresa
+					&:before
+						content "\e601"
+				.name
+					&:before
+						content "\e613"
+	.w_email
+		margin 0 auto
+		padding 1em .5em
+		width 80%
+		.we_mail
+			border 2px solid filo_cajas
+			border-radius 5px
+			display inline-block
+			margin-bottom .8em
+			margin-right .4em
+			padding .8em
+			vertical-align top
+			width 350px
+			h3 
+				color celeste_claro
+				line-height 1.8em
+			p 
+				line-height 1.5em
+				padding-bottom .8em
+			.a_mail 
+				background letra_oscura
+				border-radius 6px
+				color letra
+				font-size .8em
+				padding .3em 1em
+				text-decoration none
+				.ir_svg
+					&:before
+						color letra
+						content "\e615"
+						display inline-block
+						font-family "sin_icons"
+						font-size .9em
+			.a_mail:hover
+				background celeste_claro

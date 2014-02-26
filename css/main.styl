@@ -4,6 +4,8 @@ celeste_claro = #10b6f4
 celeste_claro_fondo = #2B9CD4
 celeste_oscuro = #036BA5
 
+filo_cajas = #D3D3D3
+
 fondo = #2B3336
 fondo_blanco = #FFFFFF
 fondo_blanco_oscuro = #F2F2F2
@@ -284,99 +286,13 @@ footer
 	background celeste
 	border-top 10px solid celeste_bajo
 	color letra
-	aside, #p_f_direccion, #mapa, #social
-		padding 1.5em 0
-	aside
-		float right
-		margin 0 2em 0 3em
-		a
-			background celeste_bajo
-			.ico
-				background celeste_claro_fondo
-				float right
-				font-size 1.5em
-				margin 1em 0.2em 0 0
-				padding 0.3em
-				transition all ease-in-out 0.2s
-				&:before
-					color letra
-					display block
-					font-family "sin_icons"
-					padding 0.1em
-					transition all ease-in-out 0.2s
-			.ico-facebook
-				&:before
-					content "\e60b"
-			.ico-facebook:hover
-				background #3b5998
-				&:before
-					color letra
-			.ico-twitter
-				&:before
-					content "\e60d"
-			.ico-twitter:hover
-				background #9AE4E8
-				&:before
-					color letra
-			.ico-google
-				&:before
-					content "\e60c"
-			.ico-google:hover
-				background #CE3D2B
-				&:before
-					color letra
-		h2
-			margin-right 2em
-	h2
-			font-size 1.2em
-			line-height 1.4
-			text-shadow 1px 1px letra, -1px -1px #555
-	#p_f_direccion
-		float left
-		margin 0 0 0 2em
-		text-align left
-		vertical-align middle
-		width 320px
-		p
-			font-size 0.9em
-			line-height 1.7
-			margin 0 0 0 1em
-			.pf
-				color letra
-				display inline-block
-				font-family "sin_icons"
-				font-size 0.9em
-				vertical-align middle
-			.pf_tel
-				&:before
-					content "\e603"
-			.pf_cel
-				&:before
-					content "\e610"
-	#mapa
-		float left
-		margin 0 0 0 13em
-		&:before
-			color celeste_oscuro
-			content "\e60f"
-			display inline-block
-			font-family "sin_icons"
-			font-size 8em
-			margin 0
-			text-shadow none
-			vertical-align middle
-	#social
-		float right
-		margin 0 13em 0 0
-		&:before
-			color celeste_oscuro
-			content "\e607"
-			display inline-block
-			font-family "sin_icons"
-			font-size 8em
-			margin 0
-			text-shadow none
-			vertical-align middle
+	width 100%
+	.content_pre
+		width 90%
+		.social
+			float right
+			font-size .9em
+			width 15%
 
 /* --- Servicios --- */
 @import 'servicios.styl'
@@ -385,3 +301,7 @@ footer
 /* --- productos --- */
 @import 'productos.styl'
 /* --- Fin-productos --- */
+
+/* --- contacto --- */
+@import 'contacto.styl'
+/* --- Fin-contacto --- */

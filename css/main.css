@@ -84,39 +84,16 @@ footer .f_right p{font-size:14px;padding-top:2px}
 .n_content .c_articulos .ca_contenido .right .cac_img{float:right}
 .n_content .c_articulos_blanco{background:#fff}
 .n_content .c_articulos_oscuro{background:#f2f2f2}
-.header_page{background:#08c;color:#fff;padding:2em 0;width:100%;}
+.header_page{background:#10b6f4;color:#fff;padding:2em 0;width:100%;}
 .header_page h1{margin:0 auto;font-weight:300;text-shadow:1px 1px #fff,-1px -1px #555}
 .submenu{background:transparent;width:100%;}
 .submenu ul{margin:0;}
 .submenu ul li{padding:1em 0;}
 .submenu ul li a{color:#fff;background:rgba(75,75,75,0.8);padding:1em 1em;text-decoration:none}
 .submenu ul li a:hover{background:#f36050;text-decoration:underline}
-.pre_footer{background:#08c;border-top:10px solid #89c4e2;color:#fff;}
-.pre_footer aside,.pre_footer #p_f_direccion,.pre_footer #mapa,.pre_footer #social{padding:1.5em 0}
-.pre_footer aside{float:right;margin:0 2em 0 3em;}
-.pre_footer aside a{background:#89c4e2;}
-.pre_footer aside a .ico{background:#2b9cd4;float:right;font-size:1.5em;margin:1em .2em 0 0;padding:.3em;-moz-transition:all ease-in-out 0.2s;-ms-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;}
-.pre_footer aside a .ico:before{color:#fff;display:block;font-family:"sin_icons";padding:.1em;-moz-transition:all ease-in-out 0.2s;-ms-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s}
-.pre_footer aside a .ico-facebook:before{content:"\e60b"}
-.pre_footer aside a .ico-facebook:hover{background:#3b5998;}
-.pre_footer aside a .ico-facebook:hover:before{color:#fff}
-.pre_footer aside a .ico-twitter:before{content:"\e60d"}
-.pre_footer aside a .ico-twitter:hover{background:#9ae4e8;}
-.pre_footer aside a .ico-twitter:hover:before{color:#fff}
-.pre_footer aside a .ico-google:before{content:"\e60c"}
-.pre_footer aside a .ico-google:hover{background:#ce3d2b;}
-.pre_footer aside a .ico-google:hover:before{color:#fff}
-.pre_footer aside h2{margin-right:2em}
-.pre_footer h2{font-size:1.2em;line-height:1.4;text-shadow:1px 1px #fff,-1px -1px #555}
-.pre_footer #p_f_direccion{float:left;margin:0 0 0 2em;text-align:left;vertical-align:middle;width:320px;}
-.pre_footer #p_f_direccion p{font-size:.9em;line-height:1.7;margin:0 0 0 1em;}
-.pre_footer #p_f_direccion p .pf{color:#fff;display:inline-block;font-family:"sin_icons";font-size:.9em;vertical-align:middle}
-.pre_footer #p_f_direccion p .pf_tel:before{content:"\e603"}
-.pre_footer #p_f_direccion p .pf_cel:before{content:"\e610"}
-.pre_footer #mapa{float:left;margin:0 0 0 13em;}
-.pre_footer #mapa:before{color:#036ba5;content:"\e60f";display:inline-block;font-family:"sin_icons";font-size:8em;margin:0;text-shadow:none;vertical-align:middle}
-.pre_footer #social{float:right;margin:0 13em 0 0;}
-.pre_footer #social:before{color:#036ba5;content:"\e607";display:inline-block;font-family:"sin_icons";font-size:8em;margin:0;text-shadow:none;vertical-align:middle}
+.pre_footer{background:#08c;border-top:10px solid #89c4e2;color:#fff;width:100%;}
+.pre_footer .content_pre{width:90%;}
+.pre_footer .content_pre .social{float:right;font-size:.9em;width:15%}
 .s_innovacion,.s_services{color:#5c5c5c;font-size:1em;padding:1.5em 0;margin:auto;text-align:center;width:100%}
 .s_services{background:#f2f2f2;}
 .s_services .services{margin:0 auto;padding:1em .5em;width:85%;}
@@ -182,31 +159,85 @@ footer .f_right p{font-size:14px;padding-top:2px}
 .sec_producto .sp_p .spp_p a{color:#f36050;padding:.7em .5em;float:right}
 .sec_producto .sp_p .spp_p a:hover{opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70)}
 .hide{display:none;vidibility:hidden}
-.camillero:after,.carga:after,.camillero:before,.carga:before{content:"";display:table;line-height:0}
-.camillero:after,.carga:after{clear:both}
-.camillero .return,.carga .return{color:#f36050;float:left;padding:.8em;position:relative;text-transform:uppercase}
-.camillero .return:hover,.carga .return:hover{opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70)}
-.camillero .content_p,.carga .content_p{margin:0 auto;padding:0;width:65%;}
-.camillero .content_p .sdes,.carga .content_p .sdes{padding:1em 1em .5em 1em;}
-.camillero .content_p .sdes p,.carga .content_p .sdes p{color:#5c5c5c;margin:0 auto;padding:.7em;text-align:justify;max-width:800px}
-.camillero .content_p .sdes .title,.carga .content_p .sdes .title{background:#10b6f4;display:block;color:#fff;font-size:1.2em;font-weight:800;margin:0 auto 1em;padding:.7em;position:relative;vertical-align:middle;text-transform:uppercase;max-width:500px}
-.camillero .content_p .sdes .title:after,.carga .content_p .sdes .title:after{content:"";border-top:53px solid #10b6f4;border-right:53px solid transparent;height:0;position:absolute;right:-53px;top:0;width:0}
-.camillero .content_p .sdes .title:before,.carga .content_p .sdes .title:before{content:"";border-bottom:53px solid #10b6f4;border-left:53px solid transparent;height:0;position:absolute;left:-53px;top:0;width:0}
-.camillero .content_p .scar,.carga .content_p .scar{color:#5c5c5c;margin:1.5em auto;padding:.5em;}
-.camillero .content_p .scar:after,.carga .content_p .scar:after,.camillero .content_p .scar:before,.carga .content_p .scar:before{content:"";display:table;line-height:0}
-.camillero .content_p .scar:after,.carga .content_p .scar:after{clear:both}
-.camillero .content_p .scar .left,.carga .content_p .scar .left,.camillero .content_p .scar .right,.carga .content_p .scar .right{display:inline-block;vertical-align:top;}
-.camillero .content_p .scar .left h3,.carga .content_p .scar .left h3,.camillero .content_p .scar .right h3,.carga .content_p .scar .right h3{background:#10b6f4;color:#fff;display:block;font-size:1.2em;margin-bottom:.8em;padding:.7em;position:relative;text-transform:uppercase}
-.camillero .content_p .scar .left ul,.carga .content_p .scar .left ul,.camillero .content_p .scar .right ul,.carga .content_p .scar .right ul{margin:.2em auto;width:100%;}
-.camillero .content_p .scar .left ul li,.carga .content_p .scar .left ul li,.camillero .content_p .scar .right ul li,.carga .content_p .scar .right ul li{display:block;line-height:2em;overflow:hidden;padding:2px;text-align:left;zoom:1;}
-.camillero .content_p .scar .left ul li .visto,.carga .content_p .scar .left ul li .visto,.camillero .content_p .scar .right ul li .visto,.carga .content_p .scar .right ul li .visto{display:inline-block;margin-right:.5em;text-align:left;}
-.camillero .content_p .scar .left ul li .visto:before,.carga .content_p .scar .left ul li .visto:before,.camillero .content_p .scar .right ul li .visto:before,.carga .content_p .scar .right ul li .visto:before{color:#f36050;content:"\e600";display:block;font-family:"sin_icons";font-size:1em;margin:0;padding:0;vertical-align:middle;text-align:center}
-.camillero .content_p .scar .left .p_img img,.carga .content_p .scar .left .p_img img,.camillero .content_p .scar .right .p_img img,.carga .content_p .scar .right .p_img img{margin:0;padding:0;width:250px}
-.camillero .content_p .scar .left,.carga .content_p .scar .left{width:48%;}
-.camillero .content_p .scar .left h3:after,.carga .content_p .scar .left h3:after{content:"";border-top:53px solid #10b6f4;border-right:53px solid transparent;height:0;position:absolute;right:-53px;top:0;text-align:right;width:0}
-.camillero .content_p .scar .left p,.carga .content_p .scar .left p{text-align:left}
-.camillero .content_p .scar .left .p_img,.carga .content_p .scar .left .p_img{float:left}
-.camillero .content_p .scar .right,.carga .content_p .scar .right{width:48%;}
-.camillero .content_p .scar .right h3:before,.carga .content_p .scar .right h3:before{content:"";border-bottom:53px solid #10b6f4;border-left:53px solid transparent;height:0;position:absolute;left:-53px;text-align:left;top:0;width:0}
-.camillero .content_p .scar .right p,.carga .content_p .scar .right p{text-align:right}
-.camillero .content_p .scar .right .p_img,.carga .content_p .scar .right .p_img{float:right}
+.camillero:after,.carga:after,.montaplato:after,.panoramico:after,.pasajeros:after,.autos:after,.hidraulico:after,.escalera:after,.solucion:after,.camillero:before,.carga:before,.montaplato:before,.panoramico:before,.pasajeros:before,.autos:before,.hidraulico:before,.escalera:before,.solucion:before{content:"";display:table;line-height:0}
+.camillero:after,.carga:after,.montaplato:after,.panoramico:after,.pasajeros:after,.autos:after,.hidraulico:after,.escalera:after,.solucion:after{clear:both}
+.camillero .return,.carga .return,.montaplato .return,.panoramico .return,.pasajeros .return,.autos .return,.hidraulico .return,.escalera .return,.solucion .return{color:#f36050;float:left;padding:.8em;position:relative;text-transform:uppercase}
+.camillero .return:hover,.carga .return:hover,.montaplato .return:hover,.panoramico .return:hover,.pasajeros .return:hover,.autos .return:hover,.hidraulico .return:hover,.escalera .return:hover,.solucion .return:hover{opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70)}
+.camillero .content_p,.carga .content_p,.montaplato .content_p,.panoramico .content_p,.pasajeros .content_p,.autos .content_p,.hidraulico .content_p,.escalera .content_p,.solucion .content_p{margin:0 auto;padding:0;width:65%;}
+.camillero .content_p .sdes,.carga .content_p .sdes,.montaplato .content_p .sdes,.panoramico .content_p .sdes,.pasajeros .content_p .sdes,.autos .content_p .sdes,.hidraulico .content_p .sdes,.escalera .content_p .sdes,.solucion .content_p .sdes{padding:1em 1em .5em 1em;}
+.camillero .content_p .sdes p,.carga .content_p .sdes p,.montaplato .content_p .sdes p,.panoramico .content_p .sdes p,.pasajeros .content_p .sdes p,.autos .content_p .sdes p,.hidraulico .content_p .sdes p,.escalera .content_p .sdes p,.solucion .content_p .sdes p{color:#5c5c5c;margin:0 auto;padding:.7em;line-height:1.5em;text-align:justify;max-width:800px}
+.camillero .content_p .sdes .title,.carga .content_p .sdes .title,.montaplato .content_p .sdes .title,.panoramico .content_p .sdes .title,.pasajeros .content_p .sdes .title,.autos .content_p .sdes .title,.hidraulico .content_p .sdes .title,.escalera .content_p .sdes .title,.solucion .content_p .sdes .title{background:#10b6f4;display:block;color:#fff;font-size:1.2em;font-weight:800;margin:0 auto 1em;padding:.7em;position:relative;vertical-align:middle;text-transform:uppercase;max-width:500px}
+.camillero .content_p .sdes .title:after,.carga .content_p .sdes .title:after,.montaplato .content_p .sdes .title:after,.panoramico .content_p .sdes .title:after,.pasajeros .content_p .sdes .title:after,.autos .content_p .sdes .title:after,.hidraulico .content_p .sdes .title:after,.escalera .content_p .sdes .title:after,.solucion .content_p .sdes .title:after{content:"";border-top:53px solid #10b6f4;border-right:53px solid transparent;height:0;position:absolute;right:-53px;top:0;width:0}
+.camillero .content_p .sdes .title:before,.carga .content_p .sdes .title:before,.montaplato .content_p .sdes .title:before,.panoramico .content_p .sdes .title:before,.pasajeros .content_p .sdes .title:before,.autos .content_p .sdes .title:before,.hidraulico .content_p .sdes .title:before,.escalera .content_p .sdes .title:before,.solucion .content_p .sdes .title:before{content:"";border-bottom:53px solid #10b6f4;border-left:53px solid transparent;height:0;position:absolute;left:-53px;top:0;width:0}
+.camillero .content_p .scar,.carga .content_p .scar,.montaplato .content_p .scar,.panoramico .content_p .scar,.pasajeros .content_p .scar,.autos .content_p .scar,.hidraulico .content_p .scar,.escalera .content_p .scar,.solucion .content_p .scar{color:#5c5c5c;margin:1.5em auto;padding:.5em;}
+.camillero .content_p .scar:after,.carga .content_p .scar:after,.montaplato .content_p .scar:after,.panoramico .content_p .scar:after,.pasajeros .content_p .scar:after,.autos .content_p .scar:after,.hidraulico .content_p .scar:after,.escalera .content_p .scar:after,.solucion .content_p .scar:after,.camillero .content_p .scar:before,.carga .content_p .scar:before,.montaplato .content_p .scar:before,.panoramico .content_p .scar:before,.pasajeros .content_p .scar:before,.autos .content_p .scar:before,.hidraulico .content_p .scar:before,.escalera .content_p .scar:before,.solucion .content_p .scar:before{content:"";display:table;line-height:0}
+.camillero .content_p .scar:after,.carga .content_p .scar:after,.montaplato .content_p .scar:after,.panoramico .content_p .scar:after,.pasajeros .content_p .scar:after,.autos .content_p .scar:after,.hidraulico .content_p .scar:after,.escalera .content_p .scar:after,.solucion .content_p .scar:after{clear:both}
+.camillero .content_p .scar .left,.carga .content_p .scar .left,.montaplato .content_p .scar .left,.panoramico .content_p .scar .left,.pasajeros .content_p .scar .left,.autos .content_p .scar .left,.hidraulico .content_p .scar .left,.escalera .content_p .scar .left,.solucion .content_p .scar .left,.camillero .content_p .scar .right,.carga .content_p .scar .right,.montaplato .content_p .scar .right,.panoramico .content_p .scar .right,.pasajeros .content_p .scar .right,.autos .content_p .scar .right,.hidraulico .content_p .scar .right,.escalera .content_p .scar .right,.solucion .content_p .scar .right{display:inline-block;vertical-align:top;}
+.camillero .content_p .scar .left h3,.carga .content_p .scar .left h3,.montaplato .content_p .scar .left h3,.panoramico .content_p .scar .left h3,.pasajeros .content_p .scar .left h3,.autos .content_p .scar .left h3,.hidraulico .content_p .scar .left h3,.escalera .content_p .scar .left h3,.solucion .content_p .scar .left h3,.camillero .content_p .scar .right h3,.carga .content_p .scar .right h3,.montaplato .content_p .scar .right h3,.panoramico .content_p .scar .right h3,.pasajeros .content_p .scar .right h3,.autos .content_p .scar .right h3,.hidraulico .content_p .scar .right h3,.escalera .content_p .scar .right h3,.solucion .content_p .scar .right h3{background:#10b6f4;color:#fff;display:block;font-size:1.2em;margin-bottom:.8em;padding:.7em;position:relative;text-transform:uppercase}
+.camillero .content_p .scar .left ul,.carga .content_p .scar .left ul,.montaplato .content_p .scar .left ul,.panoramico .content_p .scar .left ul,.pasajeros .content_p .scar .left ul,.autos .content_p .scar .left ul,.hidraulico .content_p .scar .left ul,.escalera .content_p .scar .left ul,.solucion .content_p .scar .left ul,.camillero .content_p .scar .right ul,.carga .content_p .scar .right ul,.montaplato .content_p .scar .right ul,.panoramico .content_p .scar .right ul,.pasajeros .content_p .scar .right ul,.autos .content_p .scar .right ul,.hidraulico .content_p .scar .right ul,.escalera .content_p .scar .right ul,.solucion .content_p .scar .right ul{margin:.2em auto;width:100%;}
+.camillero .content_p .scar .left ul li,.carga .content_p .scar .left ul li,.montaplato .content_p .scar .left ul li,.panoramico .content_p .scar .left ul li,.pasajeros .content_p .scar .left ul li,.autos .content_p .scar .left ul li,.hidraulico .content_p .scar .left ul li,.escalera .content_p .scar .left ul li,.solucion .content_p .scar .left ul li,.camillero .content_p .scar .right ul li,.carga .content_p .scar .right ul li,.montaplato .content_p .scar .right ul li,.panoramico .content_p .scar .right ul li,.pasajeros .content_p .scar .right ul li,.autos .content_p .scar .right ul li,.hidraulico .content_p .scar .right ul li,.escalera .content_p .scar .right ul li,.solucion .content_p .scar .right ul li{display:block;line-height:1.6em;overflow:hidden;padding:2px;text-align:left;zoom:1;}
+.camillero .content_p .scar .left ul li .visto,.carga .content_p .scar .left ul li .visto,.montaplato .content_p .scar .left ul li .visto,.panoramico .content_p .scar .left ul li .visto,.pasajeros .content_p .scar .left ul li .visto,.autos .content_p .scar .left ul li .visto,.hidraulico .content_p .scar .left ul li .visto,.escalera .content_p .scar .left ul li .visto,.solucion .content_p .scar .left ul li .visto,.camillero .content_p .scar .right ul li .visto,.carga .content_p .scar .right ul li .visto,.montaplato .content_p .scar .right ul li .visto,.panoramico .content_p .scar .right ul li .visto,.pasajeros .content_p .scar .right ul li .visto,.autos .content_p .scar .right ul li .visto,.hidraulico .content_p .scar .right ul li .visto,.escalera .content_p .scar .right ul li .visto,.solucion .content_p .scar .right ul li .visto{display:inline-block;margin-right:.5em;text-align:left;}
+.camillero .content_p .scar .left ul li .visto:before,.carga .content_p .scar .left ul li .visto:before,.montaplato .content_p .scar .left ul li .visto:before,.panoramico .content_p .scar .left ul li .visto:before,.pasajeros .content_p .scar .left ul li .visto:before,.autos .content_p .scar .left ul li .visto:before,.hidraulico .content_p .scar .left ul li .visto:before,.escalera .content_p .scar .left ul li .visto:before,.solucion .content_p .scar .left ul li .visto:before,.camillero .content_p .scar .right ul li .visto:before,.carga .content_p .scar .right ul li .visto:before,.montaplato .content_p .scar .right ul li .visto:before,.panoramico .content_p .scar .right ul li .visto:before,.pasajeros .content_p .scar .right ul li .visto:before,.autos .content_p .scar .right ul li .visto:before,.hidraulico .content_p .scar .right ul li .visto:before,.escalera .content_p .scar .right ul li .visto:before,.solucion .content_p .scar .right ul li .visto:before{color:#f36050;content:"\e600";display:block;font-family:"sin_icons";font-size:1em;margin:0;padding:0;vertical-align:middle;text-align:center}
+.camillero .content_p .scar .left ul p,.carga .content_p .scar .left ul p,.montaplato .content_p .scar .left ul p,.panoramico .content_p .scar .left ul p,.pasajeros .content_p .scar .left ul p,.autos .content_p .scar .left ul p,.hidraulico .content_p .scar .left ul p,.escalera .content_p .scar .left ul p,.solucion .content_p .scar .left ul p,.camillero .content_p .scar .right ul p,.carga .content_p .scar .right ul p,.montaplato .content_p .scar .right ul p,.panoramico .content_p .scar .right ul p,.pasajeros .content_p .scar .right ul p,.autos .content_p .scar .right ul p,.hidraulico .content_p .scar .right ul p,.escalera .content_p .scar .right ul p,.solucion .content_p .scar .right ul p{line-height:1.5em}
+.camillero .content_p .scar .left .d_img,.carga .content_p .scar .left .d_img,.montaplato .content_p .scar .left .d_img,.panoramico .content_p .scar .left .d_img,.pasajeros .content_p .scar .left .d_img,.autos .content_p .scar .left .d_img,.hidraulico .content_p .scar .left .d_img,.escalera .content_p .scar .left .d_img,.solucion .content_p .scar .left .d_img,.camillero .content_p .scar .right .d_img,.carga .content_p .scar .right .d_img,.montaplato .content_p .scar .right .d_img,.panoramico .content_p .scar .right .d_img,.pasajeros .content_p .scar .right .d_img,.autos .content_p .scar .right .d_img,.hidraulico .content_p .scar .right .d_img,.escalera .content_p .scar .right .d_img,.solucion .content_p .scar .right .d_img{margin-top:1em;text-align:center;}
+.camillero .content_p .scar .left .d_img .dimg,.carga .content_p .scar .left .d_img .dimg,.montaplato .content_p .scar .left .d_img .dimg,.panoramico .content_p .scar .left .d_img .dimg,.pasajeros .content_p .scar .left .d_img .dimg,.autos .content_p .scar .left .d_img .dimg,.hidraulico .content_p .scar .left .d_img .dimg,.escalera .content_p .scar .left .d_img .dimg,.solucion .content_p .scar .left .d_img .dimg,.camillero .content_p .scar .right .d_img .dimg,.carga .content_p .scar .right .d_img .dimg,.montaplato .content_p .scar .right .d_img .dimg,.panoramico .content_p .scar .right .d_img .dimg,.pasajeros .content_p .scar .right .d_img .dimg,.autos .content_p .scar .right .d_img .dimg,.hidraulico .content_p .scar .right .d_img .dimg,.escalera .content_p .scar .right .d_img .dimg,.solucion .content_p .scar .right .d_img .dimg{border:2px solid #10b6f4;-webkit-border-radius:5px;border-radius:5px;display:block;margin:auto;-moz-transition:border ease-in-out 0.218s;-ms-transition:border ease-in-out 0.218s;-o-transition:border ease-in-out 0.218s;-webkit-transition:border ease-in-out 0.218s;transition:border ease-in-out 0.218s;width:160px}
+.camillero .content_p .scar .left .d_img .dimg:hover,.carga .content_p .scar .left .d_img .dimg:hover,.montaplato .content_p .scar .left .d_img .dimg:hover,.panoramico .content_p .scar .left .d_img .dimg:hover,.pasajeros .content_p .scar .left .d_img .dimg:hover,.autos .content_p .scar .left .d_img .dimg:hover,.hidraulico .content_p .scar .left .d_img .dimg:hover,.escalera .content_p .scar .left .d_img .dimg:hover,.solucion .content_p .scar .left .d_img .dimg:hover,.camillero .content_p .scar .right .d_img .dimg:hover,.carga .content_p .scar .right .d_img .dimg:hover,.montaplato .content_p .scar .right .d_img .dimg:hover,.panoramico .content_p .scar .right .d_img .dimg:hover,.pasajeros .content_p .scar .right .d_img .dimg:hover,.autos .content_p .scar .right .d_img .dimg:hover,.hidraulico .content_p .scar .right .d_img .dimg:hover,.escalera .content_p .scar .right .d_img .dimg:hover,.solucion .content_p .scar .right .d_img .dimg:hover{border:2px solid #f36050}
+.camillero .content_p .scar .left .p_img .img,.carga .content_p .scar .left .p_img .img,.montaplato .content_p .scar .left .p_img .img,.panoramico .content_p .scar .left .p_img .img,.pasajeros .content_p .scar .left .p_img .img,.autos .content_p .scar .left .p_img .img,.hidraulico .content_p .scar .left .p_img .img,.escalera .content_p .scar .left .p_img .img,.solucion .content_p .scar .left .p_img .img,.camillero .content_p .scar .right .p_img .img,.carga .content_p .scar .right .p_img .img,.montaplato .content_p .scar .right .p_img .img,.panoramico .content_p .scar .right .p_img .img,.pasajeros .content_p .scar .right .p_img .img,.autos .content_p .scar .right .p_img .img,.hidraulico .content_p .scar .right .p_img .img,.escalera .content_p .scar .right .p_img .img,.solucion .content_p .scar .right .p_img .img{width:260px}
+.camillero .content_p .scar .left,.carga .content_p .scar .left,.montaplato .content_p .scar .left,.panoramico .content_p .scar .left,.pasajeros .content_p .scar .left,.autos .content_p .scar .left,.hidraulico .content_p .scar .left,.escalera .content_p .scar .left,.solucion .content_p .scar .left{width:48%;}
+.camillero .content_p .scar .left h3:after,.carga .content_p .scar .left h3:after,.montaplato .content_p .scar .left h3:after,.panoramico .content_p .scar .left h3:after,.pasajeros .content_p .scar .left h3:after,.autos .content_p .scar .left h3:after,.hidraulico .content_p .scar .left h3:after,.escalera .content_p .scar .left h3:after,.solucion .content_p .scar .left h3:after{content:"";border-top:53px solid #10b6f4;border-right:53px solid transparent;height:0;position:absolute;right:-53px;top:0;text-align:right;width:0}
+.camillero .content_p .scar .left p,.carga .content_p .scar .left p,.montaplato .content_p .scar .left p,.panoramico .content_p .scar .left p,.pasajeros .content_p .scar .left p,.autos .content_p .scar .left p,.hidraulico .content_p .scar .left p,.escalera .content_p .scar .left p,.solucion .content_p .scar .left p{text-align:left}
+.camillero .content_p .scar .left .p_img,.carga .content_p .scar .left .p_img,.montaplato .content_p .scar .left .p_img,.panoramico .content_p .scar .left .p_img,.pasajeros .content_p .scar .left .p_img,.autos .content_p .scar .left .p_img,.hidraulico .content_p .scar .left .p_img,.escalera .content_p .scar .left .p_img,.solucion .content_p .scar .left .p_img{float:left}
+.camillero .content_p .scar .right,.carga .content_p .scar .right,.montaplato .content_p .scar .right,.panoramico .content_p .scar .right,.pasajeros .content_p .scar .right,.autos .content_p .scar .right,.hidraulico .content_p .scar .right,.escalera .content_p .scar .right,.solucion .content_p .scar .right{width:48%;}
+.camillero .content_p .scar .right h3:before,.carga .content_p .scar .right h3:before,.montaplato .content_p .scar .right h3:before,.panoramico .content_p .scar .right h3:before,.pasajeros .content_p .scar .right h3:before,.autos .content_p .scar .right h3:before,.hidraulico .content_p .scar .right h3:before,.escalera .content_p .scar .right h3:before,.solucion .content_p .scar .right h3:before{content:"";border-bottom:53px solid #10b6f4;border-left:53px solid transparent;height:0;position:absolute;left:-53px;text-align:left;top:0;width:0}
+.camillero .content_p .scar .right p,.carga .content_p .scar .right p,.montaplato .content_p .scar .right p,.panoramico .content_p .scar .right p,.pasajeros .content_p .scar .right p,.autos .content_p .scar .right p,.hidraulico .content_p .scar .right p,.escalera .content_p .scar .right p,.solucion .content_p .scar .right p{text-align:right}
+.camillero .content_p .scar .right .p_img,.carga .content_p .scar .right .p_img,.montaplato .content_p .scar .right .p_img,.panoramico .content_p .scar .right .p_img,.pasajeros .content_p .scar .right .p_img,.autos .content_p .scar .right .p_img,.hidraulico .content_p .scar .right .p_img,.escalera .content_p .scar .right .p_img,.solucion .content_p .scar .right .p_img{float:right}
+.wrapper_c{color:#5c5c5c;background:#fff;widht:100%;}
+.wrapper_c p{font-size:.9em;line-height:1.5em}
+.wrapper_c .italic{font-style:italic}
+.wrapper_c .w_title{background:#f2f2f2;padding:1.5em 0;width:inherit}
+.wrapper_c .w_dirform{color:#5c5c5c;border-top:1px solid #d3d3d3;line-height:2em;margin:0 auto;padding:1em .8em;text-align:left;width:70%;}
+.wrapper_c .w_dirform .wd_form,.wrapper_c .w_dirform .datos{display:inline-block;vertical-align:top}
+.wrapper_c .w_dirform .datos{width:50%;}
+.wrapper_c .w_dirform .datos aside a{background:#89c4e2;}
+.wrapper_c .w_dirform .datos aside a .ico{background:#2b9cd4;float:left;font-size:1.4em;margin:0 .4em 0 0;padding:.1em .4em;-moz-transition:all ease-in-out 0.2s;-ms-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;}
+.wrapper_c .w_dirform .datos aside a .ico:before{color:#fff;display:block;font-family:"sin_icons";padding:.1em;-moz-transition:all ease-in-out 0.2s;-ms-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s}
+.wrapper_c .w_dirform .datos aside a .ico-facebook:before{content:"\e60b"}
+.wrapper_c .w_dirform .datos aside a .ico-facebook:hover{background:#3b5998;}
+.wrapper_c .w_dirform .datos aside a .ico-facebook:hover:before{color:#fff}
+.wrapper_c .w_dirform .datos aside a .ico-twitter:before{content:"\e60d"}
+.wrapper_c .w_dirform .datos aside a .ico-twitter:hover{background:#9ae4e8;}
+.wrapper_c .w_dirform .datos aside a .ico-twitter:hover:before{color:#fff}
+.wrapper_c .w_dirform .datos aside a .ico-google:before{content:"\e60c"}
+.wrapper_c .w_dirform .datos aside a .ico-google:hover{background:#ce3d2b;}
+.wrapper_c .w_dirform .datos aside a .ico-google:hover:before{color:#fff}
+.wrapper_c .w_dirform .datos h2{font-size:1em;font-weight:525;margin-top:.8em}
+.wrapper_c .w_dirform .datos h3{font-size:.9em}
+.wrapper_c .w_dirform .datos p{line-height:1.5em;margin-bottom:.5em;}
+.wrapper_c .w_dirform .datos p .pf{color:#f36050;display:inline-block;font-family:"sin_icons";font-size:.9em;vertical-align:middle}
+.wrapper_c .w_dirform .datos p .pf_tel:before{content:"\e603"}
+.wrapper_c .w_dirform .datos p .pf_cel:before{content:"\e610"}
+.wrapper_c .w_dirform .datos ul{font-size:.9em;margin:.2em auto;width:100%;}
+.wrapper_c .w_dirform .datos ul li{display:block;line-height:normal;overflow:hidden;padding:2px;text-align:left;zoom:1;}
+.wrapper_c .w_dirform .datos ul li .visto{display:inline-block;margin-right:.5em;text-align:left;}
+.wrapper_c .w_dirform .datos ul li .visto:before{color:#f36050;content:"\e600";display:block;font-family:"sin_icons";font-size:1em;margin:0;padding:0;vertical-align:middle;text-align:center}
+.wrapper_c .w_dirform .wd_form{margin-right:2em;width:45%;}
+.wrapper_c .w_dirform .wd_form .wdf_contacto,.wrapper_c .w_dirform .wd_form .wdf_comentario{margin-top:1.2em}
+.wrapper_c .w_dirform .wd_form .wdf_btn{margin-top:.4em;}
+.wrapper_c .w_dirform .wd_form .wdf_btn button{-moz-appearance:button;-webkit-appearance:button;appearance:button;background-color:#10b6f4;background-image:none;-webkit-box-shadow:none !important;box-shadow:none !important;border:none !important;-webkit-border-radius:0 !important;border-radius:0 !important;color:#fff;display:block;filter:none;font-size:.9em;padding:.5em 1.2em;opacity:.8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80);text-shadow:none;outline:0}
+.wrapper_c .w_dirform .wd_form .wdf_btn button:hover{opacity:1;-ms-filter:none;filter:none}
+.wrapper_c .w_dirform .wd_form .wdf_comentario p{padding-bottom:.5em}
+.wrapper_c .w_dirform .wd_form .wdf_comentario textarea{border:1px solid #d3d3d3;color:#5c5c5c;font-size:14px;padding:10px 0 0 10px;width:362px}
+.wrapper_c .w_dirform .wd_form .wdf_contacto p{padding-bottom:.5em}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .campo_text{border:1px solid #d3d3d3;color:#5c5c5c;font-size:14px;height:35px;padding-left:10px;position:absolute;width:320px}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .contac_img{position:relative;}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .contac_img:before{background:#10b6f4;color:#fff;display:inline-block;height:39px;padding:0 12px;font-family:"sin_icons";vertical-align:middle;font-size:1.2em}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .email:before{content:"\e611";top:5em}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .empresa:before{content:"\e601"}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .name:before{content:"\e613"}
+.wrapper_c .w_email{margin:0 auto;padding:1em .5em;width:80%;}
+.wrapper_c .w_email .we_mail{border:2px solid #d3d3d3;-webkit-border-radius:5px;border-radius:5px;display:inline-block;margin-bottom:.8em;margin-right:.4em;padding:.8em;vertical-align:top;width:350px;}
+.wrapper_c .w_email .we_mail h3{color:#10b6f4;line-height:1.8em}
+.wrapper_c .w_email .we_mail p{line-height:1.5em;padding-bottom:.8em}
+.wrapper_c .w_email .we_mail .a_mail{background:#b4b4b4;-webkit-border-radius:6px;border-radius:6px;color:#fff;font-size:.8em;padding:.3em 1em;text-decoration:none;}
+.wrapper_c .w_email .we_mail .a_mail .ir_svg:before{color:#fff;content:"\e615";display:inline-block;font-family:"sin_icons";font-size:.9em}
+.wrapper_c .w_email .we_mail .a_mail:hover{background:#10b6f4}
