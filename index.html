@@ -16,11 +16,14 @@
     <!-- End Seo -->
 	<link rel="stylesheet" href="css/normalize.min.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" media="screen" href="css/slider.css" />
 	<script src="js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="js/vendor/modernizr.custom.js"></script>
-	<script src="js/vendor/jquery.sequence-min.js"></script>
-	<script src="js/vendor/sequencejs-options.modern-slide-in.js"></script>
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="css/fallback.css" />
+	</noscript>
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/fallback.css" />
+	<![endif]-->
 </head>
 <body>
 	<header class="header">
@@ -47,47 +50,78 @@
 			</ul>
 		</nav>
 	</header>
-
-	<section class="sequence-theme">
-		<div id="sequence">
-			<img class="sequence-prev" src="img/slider/bt-prev.png" alt="Previous Frame" />
-			<img class="sequence-next" src="img/slider/bt-next.png" alt="Next Frame" />
-
-			<ul class="sequence-canvas">
-				<li class="animate-in">
-					<h2 class="title">Sintrave Elevadores</h2>
-					<h3 class="subtitle">Soluciones e Ingeniería en Transporte Vertical</h3>
-					<img class="model" src="img/slider/model1.png" alt="Sintrave - Slider1" />
-				</li>
-				<li>
-					<h2 class="title">Tecnología de Punta!</h2>
-					<h3 class="subtitle">Sistema de control más avanzado, trae funciones más potentes</h3>
-					<img class="model" src="img/slider/model2.png" alt="Sintrave - Slider2" />
-				</li>
-				<li>
-					<h2 class="title">Innovación Constante</h2>
-					<h3 class="subtitle">Sintrave renueva constantemente nuestros servicios para tu mayor comodidad</h3>
-					<img class="model" src="img/slider/model3.png" alt="Sintrave - Slider3" />
-				</li>
-				<li>
-					<h2 class="title">Mantenimiento Multimarca</h2>
-					<h3 class="subtitle">Nos encargamos de darte un soporte de calidad para cualquier marca!</h3>
-					<img class="model" src="img/slider/model4.png" alt="Sintrave - Slider4" />
-				</li>
-			</ul><!--
-			<ul class="sequence-pagination">
-				<li><img src="img/slider/tn-model1.png" alt="Model 1" /></li>
-				<li><img src="img/slider/tn-model2.png" alt="Model 2" /></li>
-				<li><img src="img/slider/tn-model3.png" alt="Model 3" /></li>
-				<li><img src="img/slider/tn-model3.png" alt="Model 3" /></li>
-			</ul>-->
+	<section class="slider_head">
+		<div id="ri-grid" class="ri-grid ri-grid-size-2">
+			<div class="slider_title">
+				<h1>SINTRAVE ELEVADORES</h1>
+				<h3>Soluciones e Ingeniería en Transporte Vertical</h3>
+				<a href="#">Conoce Más</a>
+			</div>
+			<div class="overlay"></div>
+			<img class="ri-loading-image" src="img/loading.gif"/>
+			<ul>
+				<li><a href="#"><img src="img/medium/1.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/2.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/3.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/4.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/5.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/6.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/7.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/8.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/9.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/10.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/11.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/12.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/13.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/14.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/15.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/16.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/17.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/18.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/19.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/20.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/21.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/22.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/23.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/24.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/25.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/26.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/27.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/28.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/29.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/30.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/31.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/32.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/33.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/34.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/35.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/36.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/37.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/38.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/39.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/40.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/41.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/42.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/43.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/44.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/45.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/46.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/47.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/48.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/49.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/50.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/51.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/52.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/53.jpg"/></a></li>
+				<li><a href="#"><img src="img/medium/54.jpg"/></a></li>
+			</ul>
 		</div>
 	</section>
 
 	<section id="s_section">
 		<figure id="s_a_descripcion">
 			<img src="img/logo_home.png" alt="sintrave" id="logo_svg">
-			<h1>SINTRAVE ELEVADORES</h1>
+			<h2>SINTRAVE ELEVADORES</h2>
 			<h3>Es una empresa dedicada a la búsqueda permanente de la excelencia empresarial y la mejora continua, comprometida con la investigación y el desarrollo tecnológico.</h3>
 		</figure>
 		<article class="s_a_section">
@@ -130,9 +164,12 @@
 
 	<div class="pre_footer">
 		<div class="content_pre">
-			<div class="social">
-				<h3>Siguenos:</h3>
-			</div>
+			<aside class="clearfix">
+				<h2>Siguenos en:</h2>
+				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
+				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
+				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+			</aside>
 		</div>
 	</div>
 
@@ -146,6 +183,22 @@
 			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="#">@giojavi04</a></p>
 		</div>
 	</footer>
-	<script src="js/vendor/main.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
+	<script type="text/javascript">	
+		$(function() {
+			$( '#ri-grid' ).gridrotator( {
+				w320 : {
+					rows : 3,
+					columns : 4
+				},
+				w240 : {
+					rows : 3,
+					columns : 3
+				}
+			} );
+		
+		});
+	</script>
 </body>
 </html>

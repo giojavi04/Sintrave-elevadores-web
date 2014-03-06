@@ -73,7 +73,7 @@
 	display none
 	vidibility hidden
 /* --- Contenido Descripcion de Productos --- */
-.camillero, .carga, .montaplato, .panoramico, .pasajeros, .autos, .hidraulico, .escalera, .solucion
+.pro_individual
 	&:after
 	&:before
 		content ""
@@ -81,14 +81,6 @@
 		line-height 0
 	&:after
 		clear both
-	.return
-		color rojo
-		float left
-		padding 0.8em
-		position relative
-		text-transform uppercase
-	.return:hover
-		opacity 0.7
 	.content_p
 		margin 0 auto
 		padding 0
@@ -231,3 +223,42 @@
 					text-align right
 				.p_img
 					float right
+	.content_return
+		display block
+		margin 1em auto 0 auto
+		overflow hidden
+		width 65%
+		.return, .social_return
+			display inline-block
+			vertical-align top
+		.return
+			background rojo
+			border-radius 10px 4px 10px 4px
+			border-bottom 3px solid rojo_oscuro
+			color letra
+			float left
+			padding .5em .6em
+			text-transform uppercase
+			text-decoration none
+			.flecha_return
+				display inline-block
+				&:before
+					display inline
+					content "\e614"
+					font-family "sin_icons"
+					font-size 1em
+					padding 0
+					text-decoration none
+		.return:hover
+			opacity .9
+			text-decoration underline
+		.social_return
+			float right
+			margin 10px auto 0 auto
+			vertical-align middle
+			div
+				display inline-block
+				margin 0 8px
+				vertical-align top
+			.btn_twitter
+				margin-right -2em

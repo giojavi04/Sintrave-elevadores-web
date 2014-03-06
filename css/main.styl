@@ -87,14 +87,14 @@ footer
 	#s_a_descripcion
 		background fondo_blanco
 		margin inherit
-		padding 5em 0 1em 0
+		padding 3em 0 1em 0
 		img
 			opacity .7
 			transition  all ease-in-out .3s
 			width 100px
 		img:hover
 			opacity 1
-		h1
+		h2
 			color celeste
 			font-family Helvetica
 			font-weight bold
@@ -224,13 +224,14 @@ footer
 /* --- header --- */
 .header
 	background fondo_blanco
-	box-shadow 0 0 17px rgba(0,0,0, 0.9)
+	box-shadow 0 0 1px rgba(0,0,0, 0.7)
 	overflow hidden
 	margin auto
 	padding 0.5em 0
+	position relative
 	top 0
 	width 100% !important
-	z-index 999
+	z-index 1000
 	.hn_nav
 		display inline-block
 		font-size 0.9em
@@ -288,11 +289,186 @@ footer
 	color letra
 	width 100%
 	.content_pre
+		padding 1em 0
 		width 90%
-		.social
+		aside
 			float right
 			font-size .9em
+			margin 0 auto
+			padding 8px 0
+			text-align center
 			width 15%
+			a
+				display block
+				margin 7px auto
+				position relative
+				overflow hidden
+				vertical-align middle
+				text-decoration none
+				.ico
+					background celeste_claro_fondo
+					display inline-block
+					font-size 1.4em
+					margin 0 auto
+					padding 0.3em 1.5em
+					transition all ease-in-out 0.2s
+					&:before
+						color letra
+						font-family "sin_icons"
+						padding 0.1em
+						transition all ease-in-out 0.2s
+				.ico-facebook
+					&:before
+						content "\e60b"
+				.ico-facebook:hover
+					background #3b5998
+					&:before
+						color letra
+				.ico-twitter
+					&:before
+						content "\e60d"
+				.ico-twitter:hover
+					background #9AE4E8
+					&:before
+						color letra
+				.ico-google
+					&:before
+						content "\e60c"
+				.ico-google:hover
+					background #CE3D2B
+					&:before
+						color letra		
+			h2
+				font-size 1.3em
+				margin-bottom 10px
+				text-align left
+/* --- Slider --- */
+.slider_head
+	margin 0 auto	
+	text-align center
+	.ri-grid
+		bottom 0
+		height auto
+		left 0
+		margin 0 auto
+		position relative
+		right 0
+		top 0
+		z-index 0
+		ul
+			display block
+			list-style none
+			margin 0
+			padding 0
+			width 100%
+			&:after,
+			&:before
+				content ''
+				display table
+			&:after
+				clear both
+			li
+				background #000
+				display block
+				float left
+				margin 0
+				padding 0
+				perspective 400px
+				position relative
+				overflow hidden
+				a
+					backface-visibility hidden
+					background-color #333
+					background-position center center
+					background-repeat no-repeat
+					background-size 100% 100%
+					box-sizing content-box
+					display block
+					height 100%
+					left 0
+					outline none
+					position absolute
+					top 0
+					transform-style preserve-3d
+					width 100%
+		ul
+			clear both
+		.overlay
+			background rgba(8,24,38,.8)
+			height 100%
+			position absolute
+			top 0
+			width 100%
+			z-index 1
+		.slider_title
+			color letra
+			display table
+			height 100%
+			position absolute
+			width 100%
+			vertical-align middle
+			z-index 2
+			a
+				border-bottom 2px solid letra
+				border-radius 5px
+				font-size 1em
+				font-weight 600
+				padding .7em 1em
+				text-decoration none
+				transition all ease-in-out .5s 
+			a:hover
+				padding .7em 2em
+				border-bottom 2px solid rojo_claro
+			h1
+				font-size 3.5em
+				font-weight 700
+				padding-top 1.7em
+				opacity 1
+			h3
+				font-size 2em
+				font-style italic
+				font-weight 500
+				margin-bottom 5em
+	/* Grid wrapper sizes */
+	.ri-grid-size-1
+		width 55%
+	.ri-grid-size-2
+		width 100%
+	.ri-grid-size-3
+		width 100%
+		margin-top 0px
+	/* Shadow style */
+	.ri-shadow:after,
+	.ri-shadow:before
+		box-shadow 0 15px 10px rgba(0,0,0,.7)
+		bottom 15px
+		content ""
+		height 20%
+		left 10px
+		max-height 100px
+		max-width 300px
+		transform rotate(-3deg)
+		position absolute
+		width 50%
+		z-index -2
+	.ri-shadow:after
+		left auto
+		right 10px
+		transform rotate(3deg)
+	.ri-grid-loading:after,
+	.ri-grid-loading:before
+		display none
+	.ri-loading-image
+		display none
+	.ri-grid-loading .ri-loading-image
+		display block
+		height 30px
+		left 50%
+		margin 100px 0 0 -15px
+		position relative
+		width 30px
+/* --- Fin-Slider --- */
+	
 
 /* --- Servicios --- */
 @import 'servicios.styl'
