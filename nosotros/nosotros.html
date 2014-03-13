@@ -6,60 +6,62 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<title>Compañía | Sintrave Elevadores</title>
 	<!-- Seo -->
-	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="shortcut icon" href="/static/img/favicon.ico" />
 	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
 	<meta property="og:title" content="Sintrave Elevadores" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sintrave.com/"/>
-    <meta property="og:image" content="http://sintrave.com/img/logo_sintrave.png" />
+    <meta property="og:image" content="http://sintrave.com/static/img/logo_sintrave.png" />
     <meta property="og:site_name" content="Sintrave Elevadores" />
     <!-- End Seo -->
-	<link rel="stylesheet" href="css/normalize.min.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<script src="js/vendor/jquery-2.1.0.min.js"></script>
-	<script src="js/vendor/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="/static/css/normalize.min.css" />
+	<link rel="stylesheet" href="/static/css/main.css" />
+	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	<script src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
 	<header class="header">
-		<a href="http://sintrave.com" class="logo" title="Sintrave - Soluciones e Ingeniería en Transporte Vertical">
-			<img src="img/sintrave_logo.png" alt="Sintrave Elevadores">
-		</a>
-		<nav class="hn_nav">
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="nosotros.html" class="selected">Compañía</a>
-				</li>
-				<li>
-					<a href="servicios.html">Servicios</a>
-				</li>
-				<li>
-					<a href="productos.html">Productos</a>
-				</li>
-				<li>
-					<a href="contacto.html">Contacto</a>
-				</li>
-			</ul>
-		</nav>
+		<div class="header_content">
+			<a href="http://sintrave.com" class="logo" title="Sintrave - Soluciones e Ingeniería en Transporte Vertical">
+				<img src="/static/img/sintrave_logo.png" alt="Sintrave Elevadores">
+			</a>
+			<nav class="hn_nav">
+				<ul class="ul_nav">
+					<li>
+						<a href="/index.html">Home</a>
+					</li>
+					<li>
+						<a href="/nosotros/nosotros.html" class="selected">Compañía</a>
+					</li>
+					<li>
+						<a href="/servicios/servicios.html">Servicios</a>
+					</li>
+					<li>
+						<a href="/productos/productos.html">Productos</a>
+					</li>
+					<li>
+						<a href="/contacto/contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<div class="header_page">
-		<h1>Información de la Empresa</h1>
+		<h2 class="h_title">Información Empresarial</h2>
 	</div>
-	<div class="submenu">
-		<ul>
+	<div id="submenu">
+		<ul class="menu_sub">
 			<li>
-				<a href="#">Nosotros</a>
-				<a href="#">Garantía</a>
-				<a href="#">Seguridad Industrial</a>
+				<a href="#nosotros">Nosotros</a>
+				<a href="#garantia">Garantía</a>
+				<a href="#seguridad">Seguridad Industrial</a>
 			</li>
 		</ul>
 	</div>
 
 	<section class="n_content">
-		<article class="c_articulos c_articulos_oscuro">
+		<article id="nosotros" class="c_articulos c_articulos_oscuro">
 			<div class="ca_contenido">
 				<div class="left">
 					<h2>Nosotros</h2>
@@ -69,16 +71,16 @@
 				</div>
 				<div class="right">
 					<figure class="cac_img">
-						<img src="img/n_nosotros.png" alt="Sintrave - Nosotros">
+						<img src="/static/img/nosotros/n_nosotros.png" alt="Sintrave - Nosotros">
 					</figure>
 				</div>
 			</div>
 		</article>
-		<article class="c_articulos c_articulos_blanco">
+		<article id="garantia" class="c_articulos c_articulos_blanco">
 			<div class="ca_contenido">
 				<div class="left">
 					<figure class="cac_img">
-						<img src="img/n_garantia.png" alt="Sintrave - Garantia">
+						<img src="/static/img/nosotros/n_garantia.png" alt="Sintrave - Garantia">
 					</figure>
 				</div>
 				<div class="right">
@@ -88,7 +90,7 @@
 				</div>
 			</div>
 		</article>
-		<article class="c_articulos c_articulos_oscuro">
+		<article id="seguridad" class="c_articulos c_articulos_oscuro">
 			<div class="ca_contenido">
 				<div class="left">
 					<h2>Seguridad Industrial</h2>
@@ -105,7 +107,7 @@
 				</div>
 				<div class="right">
 					<figure class="cac_img">
-						<img src="img/n_seguridad.png" alt="Sintrave - Seguridad Industrial">
+						<img src="/static/img/nosotros/n_seguridad.png" alt="Sintrave - Seguridad Industrial">
 					</figure>
 				</div>
 			</div>
@@ -114,26 +116,65 @@
 
 	<div class="pre_footer">
 		<div class="content_pre">
-			<aside class="clearfix">
-				<h2>Siguenos en:</h2>
+			<aside class="footer_menu clearfix">
+				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
+				<ul>
+					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
+					<li><a href="/nosotros/nosotros.html"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="/servicios/servicios.html"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="/productos/productos.html"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="/contacto/contacto.html"><span class="ico_li"></span>Contacto permanente</a></li>
+				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
 				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
+			<div class="noticias">
+				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
+				<article class="noti_arti">
+					<time datetime="2014-03-13">
+						<span class="dia">13</span>
+						<span class="mes">Mar</span>
+					</time>
+					<div class="entry_cont">
+						<a href="#">Precios de dominios nic.ar</a>
+						<p>“Lo que estamos intentando hacer es sumarnos a las prácticas del mundo en pasar a ser rentado y, por otro... ...</p>
+					</div>
+				</article>
+				<article class="noti_arti">
+					<time datetime="2014-03-13">
+						<span class="dia">5</span>
+						<span class="mes">Feb</span>
+					</time>
+					<div class="entry_cont">
+						<a href="#">Diseño web: Mobile First</a>
+						<p>El presente del diseño web es el diseño responsive. Llegó el momento en que todo debe ser responsivo y debemos... ...</p>
+					</div>
+				</article>
+			</div>
+			<div class="timeline">
+				<a class="twitter-timeline" href="https://twitter.com/Sintrave" data-widget-id="444133597075607552">Tweets por @Sintrave</a>
+			</div>
 		</div>
 	</div>
 
 	<footer>
 		<div class="f_left">
 			<a href="#">Site Map</a> -
-			<a href="#">Blog</a> -
 			<a href="#">English</a>
 		</div>
 		<div class="f_right">
 			<p>Copyright © 2014 Sintrave Reserved. Design by @giojavi04</p>
 		</div>
 	</footer>
-
-	<script src="js/main.js"></script>	
+	
+	<div id='IrArriba'>
+		<a href='#Arriba'>
+			<span></span>
+		</a>
+	</div>
+	
+	<script src="https://platform.twitter.com/widgets.js"></script>
+	<script src="/static/js/main.js"></script>	
 </body>
 </html>

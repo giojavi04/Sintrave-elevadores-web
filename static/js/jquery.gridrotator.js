@@ -140,13 +140,13 @@
 		// random
 		animType : 'random',
 		// animation speed
-		animSpeed : 800,
+		animSpeed : 900,
 		// animation easings
 		animEasingOut : 'linear',
 		animEasingIn: 'linear',
 		// the item(s) will be replaced every 3 seconds
 		// note: for performance issues, the time "can't" be < 300 ms
-		interval : 3000,
+		interval : 1500,
 		// if false the animations will not start
 		// use false if onhover is true for example
 		slideshow : true,

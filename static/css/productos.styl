@@ -1,17 +1,11 @@
-/*
-	&:after
-	&:before
-		content ""
-		display table
-		line-height 0
-	&:after
-		clear both*/
-/* --- Contenido Productos principal --- */
-.sec_producto, .sec_descrip
+.c_p
 	background fondo_blanco_oscuro
 	margin 0 auto
 	padding 1em
+	position relative
 	widht 100%
+.sec_producto, .pro_individual
+	width 100%
 .sec_producto
 	.sp_p
 		width 90%
@@ -23,32 +17,34 @@
 			line-height 0
 		&:after
 			clear both
-		h2
-			background celeste_claro
-			color letra
-			margin-bottom 1em
-			padding 1em 0 1em 1.5em
-			text-align left
-			text-transform uppercase
-			position relative
-			width 360px
-		h2:after
-			content ""
-			border-top 80px solid celeste_claro
-			border-right 80px solid transparent
-			height 0
-			position absolute
-			right -80px
-			top 0
-			width 0
+		.title_p
+			margin-top -.8em
+			h2
+				background celeste_claro
+				color letra
+				margin-bottom 1em
+				padding .5em 0 .5em 1.5em
+				text-align left
+				text-transform uppercase
+				position relative
+				width 360px
+			h2:after
+				content ""
+				border-top 57px solid celeste_claro
+				border-right 57px solid transparent
+				height 0
+				position absolute
+				right -57px
+				top 0
+				width 0
 		.spp_p
 			border-bottom 1px solid celeste_bajo
 			display inline-block
-			margin 0.4em 0.5em
+			margin 0.4em .6em
 			padding 0.5em
 			transition border-right ease-in-out .4s
 			vertical-align top
-			width 360px
+			width 340px
 			img
 				border 3px solid celeste_claro
 				border-radius 50%

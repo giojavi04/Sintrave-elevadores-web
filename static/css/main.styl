@@ -1,6 +1,6 @@
 celeste = #0088CC
 celeste_bajo = #89C4E2
-celeste_claro = #10b6f4
+celeste_claro = #00A5E1
 celeste_claro_fondo = #2B9CD4
 celeste_oscuro = #036BA5
 
@@ -76,15 +76,56 @@ footer
 		p
 			font-size 14px
 			padding-top 2px
-					
+#IrArriba
+	position fixed
+	bottom 35px /* Distancia desde abajo */
+	right 30px /* Distancia desde la derecha */
+	a
+		text-decoration none
+		span
+			border 2px solid celeste_claro
+			border-radius 50px
+			display block
+			opacity .8
+			&:before
+				color celeste_claro
+				content "\e617"
+				display block
+				font-family "sin_icons"
+				font-size 3em
+				margin 0
+				padding .1em
+				vertical-align middle
+				text-align center
+	a:hover
+		span
+			border 2px solid rojo
+			opacity 1
+
+.clearfix, .pre_footer, footer
+	zoom 1
+.clearfix:after, .pre_footer:after, footer:after
+	clear both
+	content ""
+	display block
+	height 0 
+	visibility hidden
+.clear
+	display block
+	clear both
+	zoom 1
+.fixed
+	position fixed
+	top 0
+
 /* --- Section_Home --- */
-#s_section
+.s_section
 	color letra_negra
 	margin 0 auto
 	padding-bottom 2em
 	overflow hidden
 	width 100%
-	#s_a_descripcion
+	.s_a_descripcion
 		background fondo_blanco
 		margin inherit
 		padding 3em 0 1em 0
@@ -187,39 +228,6 @@ footer
 			.icon_comercio
 				&:before
 					content "\e604"
-		/* Initial state (hidden or anything else) */
-		.s_a_init .s_a_side {
-			opacity: 0;
-		}
-
-		.s_a_init .s_a_side-left {
-			transform translateX(-80px)
-		}
-
-		.s_a_init .s_a_side-right {
-			transform translateX(80px)
-		}
-
-		/* Animated state */
-		/* add you final states (transition) or your effects (animations) for each side */
-		.s_a_section.s_a_animate .s_a_side-left,
-		.s_a_section.s_a_animate .s_a_side-right {
-			transform translateX(0px)
-			opacity: 1;
-		}
-
-.clearfix, .pre_footer, footer
-	zoom 1
-.clearfix:after, .pre_footer:after, footer:after
-	clear both
-	content ""
-	display block
-	height 0 
-	visibility hidden
-.clear
-	display block
-	clear both
-	zoom 1
 
 /* --- header --- */
 .header
@@ -232,49 +240,51 @@ footer
 	top 0
 	width 100% !important
 	z-index 1000
-	.hn_nav
-		display inline-block
-		font-size 0.9em
-		float right
-		margin 0 14em 0 0
-		ul
-			list-style none
-			line-height 4em
-			text-align center
-			li
-				display inline-block
-				margin 0
+	.header_content
+		margin 0 auto
+		max-width 100%
+		width 1000px
+		.hn_nav
+			display inline-block
+			font-size 0.9em
+			float right
+			.ul_nav
+				list-style none
+				line-height 4em
+				text-align center
+				li
+					display inline-block
+					margin 0
+					vertical-align middle
+					zoom 1
+					a
+						color letra_negra
+						display inline-block 
+						font-family Open Sans, Helvetica
+						font-weight 500
+						padding 0.8em 0.8em
+						text-decoration none
+						text-transform uppercase
+						text-rendering optimizelegibility
+						transition all ease-in-out 0.2s
+						vertical-align middle 
+					a:hover
+						color celeste_oscuro
+						opacity 0.4
+					.selected
+						color celeste_oscuro
+						cursor default
+						opacity 0.4
+		.logo
+			display block
+			float left
+			img
 				vertical-align middle
-				zoom 1
-				a
-					color letra_negra
-					display inline-block 
-					font-family Open Sans, Helvetica
-					font-weight 500
-					padding 0.8em 0.8em
-					text-decoration none
-					text-transform uppercase
-					text-rendering optimizelegibility
-					transition all ease-in-out 0.2s
-					vertical-align middle 
-				a:hover
-					color celeste_oscuro
-					opacity 0.4
-				.selected
-					color celeste_oscuro
-					cursor default
-					opacity 0.4
-	.logo
-		display block
-		float left
-		margin 0 0 0 14em
-		img
-			vertical-align middle
-			opacity 1
-			width 283px
-			transition opacity ease-in-out 0.1s
-		img:hover
-			opacity 0.6
+				opacity 1
+				width 283px
+				transition opacity ease-in-out 0.1s
+			img:hover
+				opacity 0.6
 /* Fin header */
 
 
@@ -289,17 +299,41 @@ footer
 	color letra
 	width 100%
 	.content_pre
+		margin 0 auto
+		max-width 100%
+		min-width 768px
 		padding 1em 0
-		width 90%
-		aside
-			float right
-			font-size .9em
-			margin 0 auto
-			padding 8px 0
-			text-align center
-			width 15%
+		width 1200px
+		.footer_menu, .noticias, .timeline
+			display inline-block
+			margin 5px
+			vertical-align top
+			text-align left
+			width 32%
+			h2
+				font-weight 500
+				padding-left 10px
+				margin-bottom 25px
+				.ico-h2
+					display inline-block
+					font-size .8em
+					font-weight normal
+					position relative
+					right 10px
+					margin 0 auto
+					&:before
+						color letra
+						font-family "sin_icons"
+				.ico-noticia
+					&:before
+						content "\e612"
+				.ico-foo_menu
+					&:before
+						content "\e601"
+		.footer_menu
+			padding 0
 			a
-				display block
+				display inlineblock
 				margin 7px auto
 				position relative
 				overflow hidden
@@ -310,7 +344,7 @@ footer
 					display inline-block
 					font-size 1.4em
 					margin 0 auto
-					padding 0.3em 1.5em
+					padding .3em .6em
 					transition all ease-in-out 0.2s
 					&:before
 						color letra
@@ -337,15 +371,62 @@ footer
 				.ico-google:hover
 					background #CE3D2B
 					&:before
-						color letra		
-			h2
-				font-size 1.3em
-				margin-bottom 10px
-				text-align left
+						color letra
+			ul
+				margin-bottom 1em
+				li
+					line-height 1em
+					font-size .9em
+					font-weight 500
+					a
+						.ico_li
+							display inline-block
+							font-size 1em
+							padding .3em
+							&:before
+								color letra
+								content "\e615"
+								font-family "sin_icons"
+								padding .1em
+					a:hover
+						.ico_li
+							&:before
+								color rojo
+		.noticias
+			.noti_arti
+				margin-bottom 18px
+				min-height 60px
+				time, .entry_cont
+					display inline-block
+					vertical-align top
+				time
+					background celeste_claro_fondo
+					text-align center
+					padding .4em
+					.dia, .mes
+						display block
+						font-size 1.4em
+						line-height 18px
+					.dia
+						padding-top 2px
+					.mes
+						padding-bottom 8px
+				.entry_cont
+					margin-left 80px
+					margin-top -3.8em
+					a
+						font-size .9em
+						font-weight 700
+						line-height 1
+					p
+						font-size .8em
+						font-weight 400
+						
 /* --- Slider --- */
 .slider_head
 	margin 0 auto	
 	text-align center
+	width 100%
 	.ri-grid
 		bottom 0
 		height auto
@@ -423,12 +504,14 @@ footer
 				font-size 3.5em
 				font-weight 700
 				padding-top 1.7em
+				text-shadow 0 1px 2px rgba(5,5,5,.9)
 				opacity 1
 			h3
 				font-size 2em
 				font-style italic
 				font-weight 500
 				margin-bottom 5em
+				text-shadow 0 1px 2px rgba(5,5,5,.5)
 	/* Grid wrapper sizes */
 	.ri-grid-size-1
 		width 55%
