@@ -28,19 +28,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="/index.html">Home</a>
+						<a href="/index.php">Home</a>
 					</li>
 					<li>
-						<a href="/nosotros/nosotros.html">Compañía</a>
+						<a href="/nosotros/nosotros.php">Compañía</a>
 					</li>
 					<li>
-						<a href="/servicios/servicios.html">Servicios</a>
+						<a href="/servicios/servicios.php">Servicios</a>
 					</li>
 					<li>
-						<a href="/productos/productos.html">Productos</a>
+						<a href="/productos/productos.php">Productos</a>
 					</li>
 					<li>
-						<a href="/contacto/contacto.html" class="selected">Contacto</a>
+						<a href="/contacto/contacto.php" class="selected">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -157,10 +157,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="/nosotros/nosotros.html"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="/servicios/servicios.html"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="/productos/productos.html"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="/contacto/contacto.html"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="/nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="/servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="/productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="/contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>

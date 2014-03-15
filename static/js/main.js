@@ -22,13 +22,13 @@ function arriba(){
 };
 //INDEX LINK A SCROLL SUAVE
 function a_index(){
-	$('.slider_title a').on('click', function(e) {
+	$('.conoce a').on('click', function(e) {
 		e.preventDefault();
 		var $link = $(this);
 		var anchor  = $link.attr('href');
 	    $('html, body').stop().animate({
 	        scrollTop: $(anchor).offset().top
-	    },1200);
+	    },800);
 	});
 };
 //MENU CLASS ACTIVE

@@ -38,19 +38,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="index.html" class="selected">Home</a>
+						<a href="index.php" class="selected">Home</a>
 					</li>
 					<li>
-						<a href="nosotros/nosotros.html">Compañía</a>
+						<a href="nosotros/nosotros.php">Compañía</a>
 					</li>
 					<li>
-						<a href="servicios/servicios.html">Servicios</a>
+						<a href="servicios/servicios.php">Servicios</a>
 					</li>
 					<li>
-						<a href="productos/productos.html">Productos</a>
+						<a href="productos/productos.php">Productos</a>
 					</li>
 					<li>
-						<a href="contacto/contacto.html">Contacto</a>
+						<a href="contacto/contacto.php">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -61,7 +61,9 @@
 			<div class="slider_title">
 				<h1>SINTRAVE ELEVADORES</h1>
 				<h3>Soluciones e Ingeniería en Transporte Vertical</h3>
-				<a href="#mas">Conoce Más</a>
+			</div>
+			<div class="conoce">
+				<a href="#mas">Mucho más!</a>
 			</div>
 			<div class="overlay"></div>
 			<img class="ri-loading-image" src="static/img/loading.gif"/>
@@ -129,6 +131,25 @@
 			<img src="static/img/logo_home.png" alt="sintrave" id="logo_svg">
 			<h2>SINTRAVE ELEVADORES</h2>
 			<h3>Es una empresa dedicada a la búsqueda permanente de la excelencia empresarial y la mejora continua, comprometida con la investigación y el desarrollo tecnológico.</h3>
+			<?php
+				include ("static/backend/twitter/TwitterAPIExchange.php");
+
+				$settings = array(
+				    'oauth_access_token' => "236672077-S2bbQW1glfNz72fJqdmYZ1gnXzXi8mVomY1EG27m",
+				    'oauth_access_token_secret' => "dt6QthFULqeyqNgg9D9pX1HesvUR5pmyXw6J3ARi6Lt78",
+				    'consumer_key' => "hfh4LiZL9qZZ8jecKUwA",
+				    'consumer_secret' => "PoaT4GG6ls2rAsC4j4LBsfDZCBMXYwJwpPed1ho"
+				);
+
+				$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+				$getfield = '?screen_name=giojavi04';
+				$requestMethod = 'GET';
+
+				$twitter = new TwitterAPIExchange($settings);
+				echo $twitter->setGetfield($getfield)
+				             ->buildOauth($url, $requestMethod)
+				             ->performRequest();
+			?>
 		</figure>
 		<article class="s_a_section">
 			<article class="s_a_side s_a_side_left">
@@ -174,10 +195,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="nosotros/nosotros.html"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="servicios/servicios.html"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="productos/productos.html"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="contacto/contacto.html"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
