@@ -78,7 +78,7 @@ footer
 			padding-top 2px
 #IrArriba
 	position fixed
-	bottom 38px /* Distancia desde abajo */
+	bottom 30px /* Distancia desde abajo */
 	right 30px /* Distancia desde la derecha */
 	a
 		text-decoration none
@@ -86,7 +86,7 @@ footer
 			background celeste_claro
 			border-radius 50px
 			display block
-			opacity .8
+			opacity .7
 			&:before
 				color letra
 				content "\e617"
@@ -116,6 +116,9 @@ footer
 .fixed
 	position fixed
 	top 0
+.hide
+	display none
+	visibility hidden
 
 /* --- Section_Home --- */
 .s_section
@@ -148,6 +151,7 @@ footer
 	.s_a_section
 		margin 4em auto
 		max-width 1024px
+		width 100%
 		/* Text styl */
 		h2
 			font-size 2.5em
@@ -179,24 +183,25 @@ footer
 				display table
 			&:after
 				clear both
-		.s_a_side_left
-			text-align right
-			vertical-align middle
 			.icon
 				background letra_oscura
 				border 5px solid letra
 				border-radius 50%
 				margin 0 140px
-				float right
+				font-size 9em
 				transition all ease-in-out 0.4s
 				&:before
 					color letra
 					display inline-block
 					font-family "sin_icons"
-					font-size 9em
 					padding 0.2em
 			.icon:hover
 				border 5px solid letra_negra
+		.s_a_side_left
+			text-align right
+			vertical-align middle
+			.icon
+				float right
 			.icon_garantia
 				&:before
 					content "\e60a"
@@ -207,20 +212,7 @@ footer
 			text-align left
 			vertical-align middle
 			.icon
-				background letra_oscura
-				border 5px solid letra
-				border-radius 50%
-				margin 0 140px
 				float left
-				transition all ease-in-out 0.4s
-				&:before
-					color letra
-					display inline-block
-					font-family "sin_icons"
-					font-size 9em
-					padding 0.2em
-			.icon:hover
-				border 5px solid letra_negra
 			.icon_seguridad
 				&:before
 					content "\e609"
@@ -483,13 +475,15 @@ footer
 			width 100%
 			z-index 10
 			a
-				border-bottom 1px solid letra
+				border 1px solid letra
+				border-radius 5px
 				font-size 1em
 				font-weight 600
+				padding .5em
 				text-decoration none
 				transition all ease-in-out .1s 
 			a:hover
-				border-bottom 2px solid rojo_claro
+				border 2px solid rojo
 		.overlay
 			background rgba(8,24,38,.8)
 			height 100%

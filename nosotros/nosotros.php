@@ -55,7 +55,7 @@
 			<li>
 				<a href="#nosotros">Nosotros</a>
 				<a href="#garantia">Garantía</a>
-				<a href="#seguridad">Seguridad Industrial</a>
+				<a href="#seguridad">Seguridad</a>
 			</li>
 		</ul>
 	</div>
@@ -93,7 +93,7 @@
 		<article id="seguridad" class="c_articulos c_articulos_oscuro">
 			<div class="ca_contenido">
 				<div class="left">
-					<h2>Seguridad Industrial</h2>
+					<h2>Seguridad</h2>
 					<p>Todo el personal sin excepción, que realiza las maniobras de montajes, puesta en marcha, mantenimiento, auditorias o supervisiones técnicas, usan desde el momento que ingresan al elevador hasta que se retiran de las instalaciones todo el equipo de protección personal, de acuerdo a la maniobra que se esté realizando.</p>
 					<ul>
 						<li><span class="visto"></span>Arnés de seguridad</li>

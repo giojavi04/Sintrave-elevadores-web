@@ -4,16 +4,67 @@
 		.header_content
 			width 770px
 			font-size 95%
+	//Nosotros
+	.n_content
+		.c_articulos
+			.ca_contenido
+				width 95%
 	//Prefooter
 	.pre_footer
 		.content_pre
+			min-width 100%
 			.footer_menu, .noticias, .timeline
 				width 47%
+
+	//Servicios
+	.s_services
+		.services
+			width 95%
+			.ss_article
+				margin-bottom .5em
+				width 45%
+		.s_maintance
+			width 85%
+
+	.s_innovacion
+		.si_content
+			.sic_innovacion
+				margin 0 auto
+				width 95%
+				.sici_article
+					width 45%
+					ul
+						float none
+						width 90%
+					img
+						float none
+						display none
+						visibility hidden
+				.sici_article:nth-child(1)
+					margin-right 1.5em
+	//Productos
+	.sec_producto
+		.sp_p
+			width 95%
+			.spp_p
+				margin 0.3em .5em
+				padding .4em
+				width 300px
+	//Producto induvidual
 	//Title Slider
 	.slider_head
 		.ri-grid
 			.slider_title
 				margin-top 5em
+	//Contacto
+	.wrapper_c
+		font-size 95%
+		.w_dirform
+			width auto
+		.w_email
+			width 738px
+			.we_mail
+				width 280px
 
 @media screen and (max-width: 768px)
 	//header
@@ -27,55 +78,606 @@
 			.hn_nav
 				.ul_nav
 					line-height 1.5
+	//Nosotros
+	.n_content
+		.c_articulos
+			font-size 87%
+			.ca_contenido
+				width 100%
+				.left, .right
+					h2
+						font-weight 600
+						padding .5em 1.5em
+						width 120px
+				.left
+					h2
+						float left
+					h2:after
+						border-top 49px solid celeste_claro
+						border-right 49px solid transparent
+						right -49px
+				.right
+					h2
+						float right
+					h2:before
+						border-bottom 49px solid celeste_claro
+						border-left 49px solid transparent
+						left -49px
 	//Prefooter
 	.pre_footer
 		.content_pre
-			min-width 100%
+			max-width 100%
 			.footer_menu, .noticias, .timeline
 				display block
+				border-bottom 1px solid celeste_claro_fondo
+				margin-bottom 2.2em
 				width 100%
+				h2
+					margin-bottom 8px
+			.timeline
+				margin-bottom 0px
+	// SECTION HOME
+	.s_section
+		font-size 87%
+		padding-bottom 1.5em
+		.s_a_descripcion
+			margin none
+			h3
+				margin .9em 2em
+		.s_a_section
+			margin 2.5em auto
+			.s_a_side
+				padding .7em 0 
+				h2, p
+					padding .2em
+			.s_a_side_left
+				.icon
+					margin-right 70px
+			.s_a_side_right
+				.icon
+					margin-left 70px
+	//Servicios
+	.s_services
+		.services
+			.ss_article
+				display block
+				margin 0 auto .6em auto
+				width 100%
+		.s_maintance
+			width 90%
+	.s_innovacion
+		.si_content
+			.d_title
+				min-width 85%
+			.sic_innovacion
+				width 95%
+				.sici_article
+					display block
+					border-bottom none
+					width 100%
+	//Productos
+	//Producto catalogo
+	.pro_individual
+		font-size 90%
+		line-height 1.4em
+		.content_p
+			max-width 768px
+			.sdes
+				.title
+					font-size 1.1em
+					max-width 320px
+				.title:after
+					border-top 42px solid celeste_claro
+					border-right 42px solid transparent
+					right -42px
+				.title:before
+					border-bottom 42px solid celeste_claro
+					border-left 42px solid transparent
+					left -42px
+			.scar
+				.left
+					h3
+						font-size 1.1em
+					h3:after
+						border-top 40px solid celeste_claro
+						border-right 40px solid transparent
+						right -40px
+				.right
+					h3:before
+						border-bottom 43px solid celeste_claro
+						border-left 43px solid transparent
+						left -43px
+		.content_return
+			width 85%
+	.sec_producto
+		.sp_p
+			margin .8em auto
+			.title_p
+				h2
+					font-size 1.2em
+					padding .3em 0 .3em 1em
+					width 300px
+				h2:after
+					border-top 38px solid celeste_claro
+					border-right 38px solid transparent
+					right -38px
+			.spp_p
+				padding 0
+				margin 0 auto .5em auto
+				width 520px
 	//Title Slider
 	.slider_head
 		.ri-grid
 			.slider_title
 				font-size 70%
 				margin-top 3.5em
+	//Contacto
+	.wrapper_c
+		font-size 95%
+		.w_dirform
+			padding .8em
+			.wd_form, .datos
+				display block
+				margin .8em auto
+				width 100%
+			.wd_form
+				.wdf_contacto, .wdf_comentario
+					textarea, .campo_text
+						width 85%
+		.w_email
+			width 550px
+			.we_mail
+				display block
+				margin .8em auto
+				width 320px
 
 @media screen and (max-width: 600px)
 	footer
-		.f_left
-			a
-				font-size 75%
+		.f_left, .f_right
+			float none
+			margin 0 auto
+			a, p
+				text-align center
+				font-size 78%
 		.f_right
-			p 
-				font-size 75%
+			margin-right 0
+	//BTN arriba
+	#IrArriba
+		a
+			span
+				&:before
+					font-size 2.5em
 	//header
 	.header
 		.header_content
-			font-size 85%
+			.hn_nav
+				font-size 89%
+				.ul_nav
+					li
+						a
+							padding .5em
 			.logo
 				img
 					width 180px
+	//Nosotros
+	.n_content
+		.c_articulos
+			padding .5em .8em
+			font-size 86%
+			.ca_contenido
+				width 100%
+				.left, .right
+					display block
+					width 100%
+					h2
+						font-weight 500
+						padding .5em 2em
+					.cac_img
+						float none
+						top .5em
+						img
+							width 250px
+	// SECTION HOME
+	.s_section
+		font-size 85%
+		.s_a_descripcion
+			padding 1em 0 1.2em 0
+			h3
+				margin .2em .4em
+		.s_a_section
+			border-bottom 2px solid filo_cajas
+			margin .2em auto
+			.s_a_side
+				padding .4em 0
+				width 100%
+				text-align center
+				h2, p
+					line-height normal
+					margin 0
+					padding .2em 1em
+			.s_a_side_left, .s_a_side_right
+				float none
+				.icon
+					font-size 7em
+					float none
+					margin 0
+					text-align center
+	//Servicios
+	.sec_producto
+		padding-top .8em
+	.s_services, .s_innovacion
+		font-size 85%
+		line-height 1.3em
+	.s_services
+		.s_maintance
+			width 95%
+	.s_innovacion
+		.si_content
+			.title
+				padding-top 0.5em
+			.title:after
+				border-top 42px solid celeste_claro
+				border-right 42px solid transparent
+				right -42px
+			.title:before
+				border-bottom 42px solid celeste_claro
+				border-left 42px solid transparent
+				left -42px
+	//Productos
+	.c_p
+		padding .2em
+	.pro_individual
+		font-size 90%
+		line-height 1.3em
+		.content_p
+			.sdes
+				.title:before
+					border-bottom 41px solid celeste_claro
+					border-left 41px solid transparent
+					left -41px
+				.title:after
+					border-top 40px solid celeste_claro
+					border-right 40px solid transparent
+					right -40px
+				p
+					padding .5em
+			.scar
+				border-bottom 1px solid celeste_bajo
+				padding .6em
+				.left, .right
+					display block
+					float none
+					width 100%
+					h3
+						float none
+						width 320px
+					h3:before, h3:after
+						content none
+					p 
+						line-height 1.4em
+					.d_img
+						display none
+						visibility hidden
+					.p_img
+						float none
+						.img
+							border 3px solid filo_cajas
+							width 230px
+		.content_return
+			.return, .social_return
+				float none
+				display block
+	.sec_producto
+		.sp_p
+			.title_p
+				h2
+					font-size 1.1em
+					padding .3em 0 .3em 1em
+				h2:after
+					border-top 36px solid celeste_claro
+					border-right 36px solid transparent
+					right -36px
+			.spp_p
+				display block
+				vertical-align middle
+				width 100%
 	//Title Slider
 	.slider_head
 		.ri-grid
 			.slider_title
 				font-size 60%
 				margin-top 3em
+	//Contacto
+	.wrapper_c
+		font-size 90%
+		.w_dirform
+			.wd_form
+				.wdf_contacto, .wdf_comentario
+					textarea, .campo_text
+						width 80%
+		.w_email
+			width 450px
 
 @media screen and (max-width: 480px)
 	footer
 		.f_left, .f_right
-			float none
+			a, p
+				font-size 80%
+	//BTN arriba
+	#IrArriba
+		a
+			span
+				&:before
+					font-size 2.3em
+	//Sub menu fixed
+	#submenu
+		.menu_sub
+			li
+				padding .6em
+				a
+					padding .6em
+	//header
+	.header
+		.header_content
+			.hn_nav
+				font-size 87%
+				.ul_nav
+					li
+						a
+							padding .7em
+			.logo
+				img
+					width 180px
+	//Sub header
+	.header_page
+		padding 1.5em 0
+		.h_title
+			font-weight 500
+	//Nosotros
+	.n_content
+		.c_articulos
+			padding .2em .7em
+			.ca_contenido
+				.left, .right
+					h2
+						padding .5em 1.5em
+					.cac_img
+						img
+							width 200px
+	// SECTION HOME
+	.s_section
+		font-size 80%
+		.s_a_descripcion
+			padding .8em 0 1em 0
+			h3
+				margin .2em .2em
+			img
+				width 67px
+		.s_a_section
+			margin .1em auto
+			.s_a_side
+				padding .3em 0
+	//Servicios
+	.s_services
+		.services
+			.ss_article
+				.ssa_img
+					img 
+						width 100px
+		.s_maintance
+			width 97%
+			ul 
+				column-count 1
+				comunn-gap 0
+			p 
+				text-align justify
+	.s_innovacion
+		.si_content
+			p 
+				text-align justify
+			.sic_innovacion
+				.sici_article
+					float none
+			.title
+				font-size 1em
+				padding-top 0.5em
+			.title:after
+				border-top none
+				border-right none
+				right none
+			.title:before
+				border-bottom none
+				border-left none
+				left none
+	//Productos
+	//Producto catalogo
+	.pro_individual
+		font-size 80%
+		line-height 1.2em
+		.content_p
+			.sdes
+				.title
+					font-size 1.09em
+					max-width 217px
+				.title:after
+					border-top 35px solid celeste_claro
+					border-right 35px solid transparent
+					right -35px
+				.title:before
+					border-bottom 34px solid celeste_claro
+					border-left 34px solid transparent
+					left -34px
+				p
+					padding .5em
+			.scar
+				.left, .right
+					h3
+						float none
+						width 220px
+					p 
+						text-align justify
+						line-height 1.5em
+					.p_img
+						.img
+							width 200px
+	//total produtos
+	.sec_producto
+		.sp_p
+			.title_p
+				h2
+					font-size .9em
+					width 220px
+				h2:after
+					border-top 28px solid celeste_claro
+					border-right 28px solid transparent
+					right -28px
+			.spp_p
+				img
+					width 120px
+				p
+					text-align justify
 	//Title Slider
 	.slider_head
 		.ri-grid
+			.conoce
+				a
+					font-size 80%
 			.slider_title
-				font-size 55%
-				margin-top 8em
+				font-size 50%
+				margin-top 5em
+	//Contacto
+	.wrapper_c
+		font-size 91%
+		.w_dirform
+			.wd_form
+				.wdf_contacto, .wdf_comentario
+					.campo_text
+						width 75%
+					textarea 
+						width 85%
+		.w_email
+			width 280px
+			.we_mail
+				width 258px
 @media screen and (max-width: 320px)
+	//Sub menu fixed
+	#submenu
+		.menu_sub
+			li
+				padding .4em
+				a
+					font-size .9em
+					padding .6em
+	//header
+	.header
+		.header_content
+			.logo
+				img
+					width 155px
+	//Sub header
+	.header_page
+		padding 1.2em 0
+		.h_title
+			font-size 1em
+			font-weight 500
+	//Nosotros
+	.n_content
+		.c_articulos
+			padding .1em .6em
+			.ca_contenido
+				.left, .right
+					h2
+						font-size 1.2em
+						padding .4em .5em
+						width 100px
+					p
+						font-size 1em
+						text-align justify
+					ul 
+						li
+							line-height 1.3em
+					.cac_img
+						img
+							width 200px
+				.left
+					h2
+						float left
+					h2:after
+						border-top 35px solid celeste_claro
+						border-right 35px solid transparent
+						right -35px
+				.right
+					h2
+						float right
+					h2:before
+						border-bottom 37px solid celeste_claro
+						border-left 37px solid transparent
+						left -37px
+	// SECTION HOME
+	.s_section
+		font-size 78%
+		.s_a_descripcion
+			padding .6em 0 .8em 0
+			h3
+				margin .2em .2em
+				text-align justify
+			img
+				width 67px
+		.s_a_section
+			.s_a_side
+				padding .2em 0
+	//Productos
+	//Producto catalogo
+	.sec_producto
+		.sp_p
+			.title_p
+				h2
+					font-size .8em
+					width 210px
+				h2:after
+					border-top 26px solid celeste_claro
+					border-right 26px solid transparent
+					right -26px
+			.spp_p
+				p
+					font-size 85%
+	//Producto induvidual
+	.pro_individual
+		.content_p
+			.sdes
+				.title:after
+					content none
+				.title:before
+					content none
+				p
+					padding .2em
+			.scar
+				.left, .right
+					h3
+						max-width 220px
+					.p_img
+						.img
+							width 180px
 	//Title Slider
 	.slider_head
 		.ri-grid
+			.conoce
+				a
+					font-size 75%
 			.slider_title
 				font-size 45%
+				margin-top 6em
+	//Contacto
+	.wrapper_c
+		font-size 91%
+		.w_dirform
+			.wd_form
+				.wdf_contacto, .wdf_comentario
+					.campo_text
+						width 70%
+					textarea 
+						width 87%
+		.w_email
+			width 200px
+			.we_mail
+				width 100%

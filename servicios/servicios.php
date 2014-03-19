@@ -110,7 +110,7 @@
 			<h2 class="title">Innovando Constantemente</h2>
 			<p class="d_title">SINTRAVE, planifica constantemente nuevos servicios como parte innovadora para brindar a nuestros clientes una mejor alternativa empresarial, ampliando periodicamente nuestro objetivo de ser empresa lider en brindar servicios de calidad.</p>
 			<ul class="sic_innovacion">
-				<li class="sici_article">
+				<li class="sici_article clearfix">
 					<h2>Proyectos eléctricos</h2>
 					<h3>Diseño, planificación y montajes eléctricos</h3>
 					<ul>
@@ -122,7 +122,7 @@
 					</ul>
 					<img src="/static/img/servicios/i_em.jpg" alt="Sintrave - eléctrico y mecánico">
 				</li>
-				<li class="sici_article">
+				<li class="sici_article clearfix">
 					<h2>Proyectos mecánicos</h2>
 					<h3>Diseño planificación y montajes mecánicos</h3>
 					<ul>
