@@ -6,7 +6,9 @@ ol,ul{list-style:none}
 footer,.pre_footer{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:.5em;width:100%}
 footer{background:#2b3336;color:#b4b4b4;}
 footer .f_left{float:left;margin-left:1em;}
-footer .f_left a{color:#fff;font-size:14px;text-decoration:none}
+footer .f_left a{color:#fff;font-size:14px;text-decoration:none;}
+footer .f_left a span{display:inline-block;}
+footer .f_left a span:before{content:"\e60e";font-size:1em;font-family:"sin_icons";margin:0;padding:.1em;vertical-align:middle}
 footer .f_left a:hover{color:#f36050;text-decoration:underline}
 footer .f_right{float:right;margin-right:1em;}
 footer .f_right p{font-size:14px;padding-top:2px}

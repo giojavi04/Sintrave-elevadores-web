@@ -174,8 +174,8 @@
 						<span class="mes">Mar</span>
 					</time>
 					<div class="entry_cont">
-						<a href="#">Precios de dominios nic.ar</a>
-						<p>“Lo que estamos intentando hacer es sumarnos a las prácticas del mundo en pasar a ser rentado y, por otro... ...</p>
+						<a href="#">Pronto contaremos con blog</a>
+						<p>Despues de la actualización total de nuestra pagina estamos dando últimos detalles para lanzar nuestro propio blog empresarial donde...</p>
 					</div>
 				</article>
 				<article class="noti_arti">
@@ -184,8 +184,8 @@
 						<span class="mes">Feb</span>
 					</time>
 					<div class="entry_cont">
-						<a href="#">Diseño web: Mobile First</a>
-						<p>El presente del diseño web es el diseño responsive. Llegó el momento en que todo debe ser responsivo y debemos... ...</p>
+						<a href="#">Nuevo Diseño!</a>
+						<p>Para brindarte una mejor experiencia durante tu visita en nuestra pagina hemos renovado totalmente nuestra web...</p>
 					</div>
 				</article>
 			</div>
@@ -197,8 +197,8 @@
 
 	<footer>
 		<div class="f_left">
-			<a href="#">Site Map</a> -
-			<a href="#">English</a>
+			<a href="#" alt="Feed" title="Feed"><span></span></a> -
+			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
 			<p>Copyright © 2014 Sintrave Reserved. Design by @giojavi04</p>

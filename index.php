@@ -131,25 +131,6 @@
 			<img src="static/img/logo_home.png" alt="sintrave" id="logo_svg">
 			<h2>SINTRAVE ELEVADORES</h2>
 			<h3>Es una empresa dedicada a la búsqueda permanente de la excelencia empresarial y la mejora continua, comprometida con la investigación y el desarrollo tecnológico.</h3>
-			<?php
-				include ("static/backend/twitter/TwitterAPIExchange.php");
-
-				$settings = array(
-				    'oauth_access_token' => "236672077-S2bbQW1glfNz72fJqdmYZ1gnXzXi8mVomY1EG27m",
-				    'oauth_access_token_secret' => "dt6QthFULqeyqNgg9D9pX1HesvUR5pmyXw6J3ARi6Lt78",
-				    'consumer_key' => "hfh4LiZL9qZZ8jecKUwA",
-				    'consumer_secret' => "PoaT4GG6ls2rAsC4j4LBsfDZCBMXYwJwpPed1ho"
-				);
-
-				$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-				$getfield = '?screen_name=giojavi04';
-				$requestMethod = 'GET';
-
-				$twitter = new TwitterAPIExchange($settings);
-				echo $twitter->setGetfield($getfield)
-				             ->buildOauth($url, $requestMethod)
-				             ->performRequest();
-			?>
 		</figure>
 		<article class="s_a_section">
 			<article class="s_a_side s_a_side_left">
@@ -212,8 +193,8 @@
 						<span class="mes">Mar</span>
 					</time>
 					<div class="entry_cont">
-						<a href="#">Precios de dominios nic.ar</a>
-						<p>“Lo que estamos intentando hacer es sumarnos a las prácticas del mundo en pasar a ser rentado y, por otro... ...</p>
+						<a href="#">Pronto contaremos con blog</a>
+						<p>Despues de la actualización total de nuestra pagina estamos dando últimos detalles para lanzar nuestro propio blog empresarial donde...</p>
 					</div>
 				</article>
 				<article class="noti_arti">
@@ -222,8 +203,8 @@
 						<span class="mes">Feb</span>
 					</time>
 					<div class="entry_cont">
-						<a href="#">Diseño web: Mobile First</a>
-						<p>El presente del diseño web es el diseño responsive. Llegó el momento en que todo debe ser responsivo y debemos... ...</p>
+						<a href="#">Nuevo Diseño!</a>
+						<p>Para brindarte una mejor experiencia durante tu visita en nuestra pagina hemos renovado totalmente nuestra web...</p>
 					</div>
 				</article>
 			</div>
@@ -235,8 +216,8 @@
 
 	<footer>
 		<div class="f_left">
-			<a href="#">Site Map</a> -
-			<a href="#">English</a>
+			<a href="#" alt="Feed" title="Feed"><span></span></a> -
+			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
 			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="#">@giojavi04</a></p>
