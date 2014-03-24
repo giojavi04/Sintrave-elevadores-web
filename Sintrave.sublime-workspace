@@ -5,7 +5,7 @@
 		[
 			[
 				"font",
-				"font-family"
+				"font-style"
 			],
 			[
 				"tex",
@@ -520,18 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "static/css/main.styl",
+			"file": ".htaccess",
 			"settings":
 			{
-				"buffer_size": 10579,
+				"buffer_size": 4539,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "productos/productos.php",
 			"settings":
 			{
-				"buffer_size": 11107,
+				"buffer_size": 33552,
 				"line_ending": "Windows"
 			}
 		}
@@ -644,18 +644,24 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sintrave_new/index.php",
+		"/C/xampp/htdocs/sintrave_new/servicios/servicios.php",
+		"/C/xampp/htdocs/sintrave_new/robots.txt",
+		"/C/xampp/htdocs/sintrave_new/productos/productos.php",
 		"/C/xampp/htdocs/sintrave_new/contacto/contacto.php",
 		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.php",
-		"/C/xampp/htdocs/sintrave_new/productos/productos.php",
-		"/C/xampp/htdocs/sintrave_new/servicios/servicios.php",
+		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
+		"/C/xampp/htdocs/sintrave_new/contacto/contact.php",
+		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
+		"/C/xampp/htdocs/sintrave_new/static/css/contacto.styl",
+		"/C/xampp/htdocs/sintrave_ec/contact/style.css",
+		"/C/xampp/htdocs/sintrave_new/release/contacto",
+		"/C/xampp/htdocs/sintrave_new/release",
 		"/C/xampp/htdocs/sintrave_new/static/css/responsive.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/productos.styl",
 		"/C/xampp/htdocs/sintrave_new/.htaccess",
-		"/C/xampp/htdocs/sintrave_new/static/css/contacto.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/servicios.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/nosotros.styl",
-		"/C/xampp/htdocs/sintrave_new/index.php",
-		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
 		"/C/xampp/apache/logs/access.log",
 		"/C/xampp/apache/conf/httpd.conf",
 		"/C/xampp/apache/logs/error.log",
@@ -663,7 +669,6 @@
 		"/C/xampp/htdocs/sintrave_new/static/backend/twitter/TwitterAPIExchange.php",
 		"/C/xampp/apache/conf/extra/httpd-ssl.conf",
 		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
-		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
 		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.html",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
@@ -766,12 +771,7 @@
 		"/C/Users/Javier/dev/jason/js/app.js",
 		"/C/Users/Javier/dev/jason/index.html",
 		"/C/Users/Javier/dev/adventure/adventure.sublime-project",
-		"/C/Users/Javier/dev/jason/portafolio.html",
-		"/C/Users/Javier/dev/jason/js/main.js",
-		"/C/Users/Javier/dev/jason/js/vendor/jquery.flexslider.js",
-		"/C/Users/Javier/dev/jason/css/flexslider.css",
-		"/C/Users/Javier/Documents/Respaldos Javier/Recursos para webs/ejemplos2/Flat-UI-master/style.css",
-		"/C/wamp/www/mejorando_curso/js/main.js"
+		"/C/Users/Javier/dev/jason/portafolio.html"
 	],
 	"find":
 	{
@@ -789,6 +789,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nosotros",
+			"productos",
+			"servicios",
+			"nosotros",
 			"40px",
 			"34px",
 			"%\n",
@@ -936,23 +940,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "static/css/main.styl",
+					"file": ".htaccess",
 					"settings":
 					{
-						"buffer_size": 10579,
+						"buffer_size": 4539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1446,
-								1446
+								4102,
+								4102
 							]
 						],
 						"settings":
@@ -1046,29 +1050,28 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "productos/productos.php",
 					"settings":
 					{
-						"buffer_size": 11107,
+						"buffer_size": 33552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6535,
-								6535
+								633,
+								633
 							]
 						],
 						"settings":
@@ -1166,7 +1169,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1773.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

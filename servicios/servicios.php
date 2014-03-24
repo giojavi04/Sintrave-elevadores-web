@@ -28,19 +28,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="/index.php">Home</a>
+						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/nosotros/nosotros.php">Compañía</a>
+						<a href="/nosotros/">Compañía</a>
 					</li>
 					<li>
-						<a href="/servicios/servicios.php" class="selected">Servicios</a>
+						<a href="/servicios/" class="selected">Servicios</a>
 					</li>
 					<li>
-						<a href="/productos/productos.php">Productos</a>
+						<a href="/productos/">Productos</a>
 					</li>
 					<li>
-						<a href="/contacto/contacto.php">Contacto</a>
+						<a href="/contacto/">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -92,7 +92,7 @@
 			</div>
 		</div>
 		<article class="s_maintance">
-				<h2>Marcas que sintrave da soporte</h2>
+				<h2>Marcas a las que Sintrave da soporte</h2>
 				<p>SINTRAVE, cuenta con una completa información técnica en la que nos basamos para detectar posibles problemas y desgastes de los componentes electromecánicos del elevador, permitiendo de esta forma el cambio por nuevos repuestos originales inclusive antes de una interrupción o anomalía en los equipos, obteniendo total seguridad para el usuario final.</p>
 				<p>Marcas que damos soporte:</p>
 				<ul>
@@ -143,10 +143,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="/nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="/servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="/productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="/contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="/nosotros/"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="/servicios/"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="/productos/"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="/contacto/"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>

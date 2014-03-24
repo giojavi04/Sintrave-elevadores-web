@@ -28,19 +28,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="/index.php">Home</a>
+						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/nosotros/nosotros.php">Compañía</a>
+						<a href="/nosotros/">Compañía</a>
 					</li>
 					<li>
-						<a href="/servicios/servicios.php">Servicios</a>
+						<a href="/servicios/">Servicios</a>
 					</li>
 					<li>
-						<a href="/productos/productos.php" class="selected">Productos</a>
+						<a href="/productos/" class="selected">Productos</a>
 					</li>
 					<li>
-						<a href="/contacto/contacto.php">Contacto</a>
+						<a href="/contacto/">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -259,7 +259,7 @@
 				<article class="sdes">
 					<h2 class="title">Ascensor Panorámico</h2>
 					<p>El ascensor panorámico es un nuevo ascensor que integra el turismo y elevador de pasajeros en uno solo. Diseñamos el ascensor panorámico para satisfacer los requisitos adicionales para grandes viajeros.</p>
-					<p>El hermoso escenario externo se puede ver ampliamente el paisaje y la comodidad proviene de este equipo moderno! El ascensor panorámico adopta el nuevo tipo de frecuencia variable totalmente computarizada, modular y regulador de velocidad la tecnología de control (VVVF).</p>
+					<p>El hermoso escenario externo se puede ver ampliamente desde el interior de la cabina, sintiendo comodidad y satisfacción al viajar en este equipo moderno! El ascensor panorámico adopta el nuevo tipo de frecuencia variable totalmente computarizada y modular.</p>
 				</article>
 				<article class="scar">
 					<div class="left">
@@ -270,10 +270,10 @@
 					<div class="right">
 						<h3>Características</h3>
 						<ul>
-							<li><span class="visto"></span>Suaviza el vieje:</li>
-							<p>La fabricación de alta precisión, garantiza los ascensores de operación altamente estable y suave con una cómoda experiencia de los pasajeros.</p>
+							<li><span class="visto"></span>Suaviza el viaje:</li>
+							<p>La fabricación de alta precisión, garantiza los ascensores de operación altamente estable y suave, con una cómoda experiencia de los pasajeros.</p>
 							<li><span class="visto"></span>Dispositivo de infrarrojos:</li>
-							<p>Es sensible reacciona a cualquier persona u objeto que entra en el rango de la sonda con las características de alta seguridad. Como resuly, los pasajeros se sientan más a gusto en entrar o salir de los ascensores.</p>
+							<p>Es sensible y reacciona a cualquier persona u objeto que entra en el rango de la sonda con las características de alta seguridad, como resultado los pasajeros se sienten más a gusto y seguros en entrar o salir de los ascensores.</p>
 						</ul>
 						<figure class="d_img">
 							<img src="/static/img/productos/pp_panoramico1.jpg" alt="Sintrave - productos" class="dimg">
@@ -394,8 +394,8 @@
 			<div class="content_p">
 				<article class="sdes">
 					<h2 class="title">Elevador de Autos</h2>
-					<p>Este tipo de elevadores en casa son famosos por el estilo aristocrático y de decoración avanzada, la estética visual elegante, el material elaborado y tecnología de fabricación consumada, son muy importantes al momento de imponerse. La calidad superior debe coincidir con el patrón alto de su edificio.</p>
-					<p>"SL-YASKAWA" ha diseñado este elevador para que usted gane la valoración general de sus colegas grandes en el círculo de elevación debido a la instalación simple, el de viaje de confianza, la fabricación elaborada y las propiedades seguras y cómodas.</p>
+					<p>Este tipo de elevadores en casa son famosos por el estilo aristocrático y decoración avanzada, la estética visual elegante, el material elaborado y tecnología de fabricación consumada, son muy importantes al momento de imponerse. La calidad superior debe coincidir con el patrón alto de su edificio.</p>
+					<p>Se ha diseñado este elevador para que usted gane la valoración general de sus colegas grandes en el círculo de elevación debido a la instalación simple, el de viaje de confianza, la fabricación elaborada y las propiedades seguras y cómodas.</p>
 				</article>
 				<article class="scar">
 					<div class="left">
@@ -406,7 +406,7 @@
 					<div class="right">
 						<h3>Características</h3>
 						<ul>
-							<li><span class="visto"></span>Los paneles del automóvil se encuentran cerca al mando de operación del elevador. El conductor puede operar el elevador sin salir de su auto.</li>
+							<li><span class="visto"></span>Los paneles del elevador se encuentran cerca al volante del conductor del automóvil. El que conduce el vehículo puede operar el elevador sin salir de su auto.</li>
 							<li><span class="visto"></span>Dispositivo de seguridad guía se encuentra en la plataforma de cabina del ascensor, asegurándose de que el ascensor y el auto estén seguros.</li>
 							<li><span class="visto"></span>La cabina de ascensor puede tener dos entradas, que garantizan la seguridad del auto mientras entraba y salía.</li>
 						</ul>
@@ -476,15 +476,15 @@
 			<div class="content_p">
 				<article class="sdes">
 					<h2 class="title">Escaleras y Pasillos Rodantes</h2>
-					<p>Elegantes y diseños modernos, traen la experiencia más fina de equitación. Aspecto diferencial, modelo rica y colorida en materiales, estilos diferentes. </p>
-					<p>Materiales perfilados para FRAME PASAMANOS y cubiertos: acero inoxidable, alúmina pulverizada en color marrón u original, placa de recubrimiento en polvo aluminio. Fuera de revestimiento de panel: panel de acero inoxidable, aluminio y plástico Panel, iluminaciones diferentes disponibles para su elección.</p>
+					<p>Elegantes y diseños modernos, traen la experiencia más fina de transportación. Aspecto diferencial, modelo exclusivo y colorida en materiales, estilos diferentes. </p>
+					<p>Materiales perfilados para FRAME PASAMANOS y cubiertos: acero inoxidable, aluminio pulverizado en color marrón u original. Iluminación decorativa en peldaños.</p>
 				</article>
 				<article class="scar">
 					<div class="left">
 						<h3>Escaleras Modernas</h3>
 						<ul>
-							<li><span class="visto"></span>El uso previo de la tecnología de frecuencia variable VVVF, ergonomía frutos de la investigación, la tecnología de fabricación avanzada trae consigo las propiedades perfectamente seguras y confortables de la escalera mecánica. Mientras tanto, se ahorra la energía de los usuarios y los resultados en la reparación más conveniente.</li>
-							<li><span class="visto"></span>Escalera mecánica está más allá de sus expectativas! Es aplicable para el centro comercial, supermercado, metro, etc. Aeropuerto con gran volumen de tráfico de pasajeros.</li>
+							<li><span class="visto"></span>El uso previo de la tecnología de frecuencia variable VVVF, trae consigo las propiedades perfectamente seguras y confortables de la escalera mecánica. Mientras tanto, se ahorra la energía y los resultados económicos son satisfactorios.</li>
+							<li><span class="visto"></span>La escalera mecánica está más allá de sus expectativas! Es aplicable para el centro comercial, supermercado, metro, etc. Aeropuerto con gran volumen de tráfico de pasajeros.</li>
 						</ul>
 					</div>
 					<div class="right">
@@ -502,8 +502,8 @@
 					<div class="right">
 						<h3>Pasillos Rodantes</h3>
 						<ul>
-							<li><span class="visto"></span>En las ciudades modernas, los actos públicos de tránsito y transporte, como el gran tamaño de supermercado, la construcción pública, el aeropuerto, el recinto ferial, la estación de transporte transformación y así sucesivamente, la rampa móvil no sólo se puede abordar el problema del tráfico de flujo enorme de gente, pero también lo hace sentir como caminar en el camino llano mientras que en realidad hacia arriba y hacia abajo.</li>
-							<li><span class="visto"></span>También es aplicable para las caminatas de larga distancia, babys carrito, compra de vehículos, vehículos para discapacitados etc., trae una gran comodidad para los usuarios que van de paseo o compras.</li>
+							<li><span class="visto"></span>En las ciudades modernas, los actos públicos de tránsito y transporte, como el gran tamaño de supermercados, la construcción pública, el aeropuerto, el recinto ferial, la estación de transporte y así sucesivamente, la rampa móvil no sólo se puede abordar el problema del tráfico de flujo enorme de gente, sino también la comodidad de sentir que el usuario camina en el llano.</li>
+							<li><span class="visto"></span>También es aplicable para las caminatas de larga distancia, babys carrito, compra de vehículos, vehículos para discapacitados etc., trae una gran comodidad para los usuarios que van de paseo o de compras.</li>
 						</ul>
 					</div>
 				</article>
@@ -528,8 +528,8 @@
 			<div class="content_p">
 				<article class="sdes">
 					<h2 class="title">Soluciones Residenciales</h2>
-					<p>Tanto en las residencias de diseño moderno como en las que están dentro del casco colonial, han sido edificadas para no llevar ascensor por tener 3 o 4 pisos construidos, SINTRAVE en fusión con SL-ELEVATOR han diseñado el sistema de solución residencial, es decir sin afectar a la estética de la residencia se implementará un elevador en alguna parte de la residencia logrando satisfacer las necesidades de varios clientes.</p>
-					<p>Estamos orgullosos de fabricar elevadores dentro de nuestro país, dentro del tema soluciones residenciales, con puertas manuales y cabinas panorámicas todo hecho 100% por manos Ecuatorianas y con todas las normas de seguridad que rigen en nuestro país.</p>
+					<p>Tanto en las residencias de diseño moderno como en las que están dentro del casco colonial, han sido edificadas para no llevar ascensor por tener 3 o 4 pisos construidos, SINTRAVE ha diseñado el sistema de solución residencial, es decir sin afectar a la estética de la residencia, se implementará un elevador en alguna parte de la residencia logrando satisfacer las necesidades de todos los usuarios.</p>
+					<p>Estamos orgullosos de fabricar elevadores dentro de nuestro país, dentro del tema Soluciones Residenciales, con puertas manuales y cabinas panorámicas todo hecho 100% por manos ecuatorianas y con todas las normas de seguridad que rigen en nuestro país.</p>
 				</article>
 				<article class="scar">
 					<div class="left">
@@ -540,11 +540,11 @@
 					<div class="right">
 						<h3>Características</h3>
 						<ul>
-							<li><span class="visto"></span>No necesita cuarto de máquinas tradicionales, sin ningún tipo de costo de la construcción aumentó.</li>
-							<li><span class="visto"></span>Especialmente diseñado para el ascensor de casa con una relación de tracción 01:01</li>
+							<li><span class="visto"></span>No necesita cuarto de máquinas tradicionales, no aumenta el costo de construcción civil</li>
+							<li><span class="visto"></span>Especialmente diseñado para el hogar</li>
 							<li><span class="visto"></span>La técnica de accionamiento VVVF, hace que el elevador tenga un muy buen confort</li>
 							<li><span class="visto"></span>El soporte de tracción de la máquina se fija sobre la riel guía. El edificio no tendrá ninguna carga</li>
-							<li><span class="visto"></span>Aplicamos 220V trifásica a la máquina de tracción</li>
+							<li><span class="visto"></span>Aplicamos 220V trifásica o 110 monofácica a la máquina de elevación</li>
 							<li><span class="visto"></span>Puerta automática</li>
 							<li><span class="visto"></span>Cumplir con "Home ascensor Estándar Nacional GB/T21739-2008"</li>
 						</ul>
@@ -563,10 +563,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="/nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="/servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="/productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="/contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="/nosotros/"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="/servicios/"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="/productos/"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="/contacto/"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>

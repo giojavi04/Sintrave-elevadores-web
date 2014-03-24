@@ -38,19 +38,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="index.php" class="selected">Home</a>
+						<a href="/" class="selected">Home</a>
 					</li>
 					<li>
-						<a href="nosotros/nosotros.php">Compañía</a>
+						<a href="nosotros/">Compañía</a>
 					</li>
 					<li>
-						<a href="servicios/servicios.php">Servicios</a>
+						<a href="servicios/">Servicios</a>
 					</li>
 					<li>
-						<a href="productos/productos.php">Productos</a>
+						<a href="productos/">Productos</a>
 					</li>
 					<li>
-						<a href="contacto/contacto.php">Contacto</a>
+						<a href="contacto/">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -135,7 +135,7 @@
 		<article class="s_a_section">
 			<article class="s_a_side s_a_side_left">
 				<h2>Comercialización</h2>
-				<p>SINTRAVE, realiza la importación, montaje y puesta en marcha de ascensores y escaleras eléctricas marca SL-Yaskawa Elevator Co. y Fuji Elevator Co, con tecnología japonesa, certificada por las normas internacionales de elevación.</p>
+				<p>SINTRAVE, realiza la importación, montaje y puesta en marcha de ascensores y escaleras eléctricas marcas SL-Yaskawa Elevator Co. y Fuji Elevator Co, con tecnología japonesa, certificada por las normas internacionales de elevación.</p>
 			</article>
 			<div class="s_a_side s_a_side_right">
 				<span class="icon icon_comercio"></span>
@@ -176,10 +176,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="nosotros/"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="servicios/"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="productos/"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="contacto/"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>

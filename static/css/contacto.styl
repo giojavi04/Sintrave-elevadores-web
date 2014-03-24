@@ -91,6 +91,29 @@
 							text-align center
 		.wd_form
 			margin-right 1.5em
+			/* Note succes - error - Notice */
+			#note
+				padding 0
+				margin 0
+				width 100%
+			.notes, .success, .error, .notice
+				background none
+				color letra
+				padding 0 10px
+				font-size .9em
+				span
+					font-weight bold
+					font-style italic
+				p
+					padding 0
+					margin 0
+			.success
+				background celeste_bajo
+				height 30px
+			.error
+				background rojo
+				height 30px
+			/* Campos e iconos */
 			.wdf_contacto, .wdf_comentario
 				margin-top 1.2em
 			.wdf_btn
@@ -143,6 +166,9 @@
 						font-family "sin_icons"
 						vertical-align middle
 						font-size 1.2em
+				.campo_text_capcha
+					display block
+					padding 4px 10px
 				.email
 					&:before
 						content "\e611"

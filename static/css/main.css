@@ -272,6 +272,12 @@ footer .f_right p{font-size:14px;padding-top:2px}
 .wrapper_c .w_dirform .datos ul li .visto{display:inline-block;margin-right:.5em;text-align:left;}
 .wrapper_c .w_dirform .datos ul li .visto:before{color:#f36050;content:"\e600";display:block;font-family:"sin_icons";font-size:1em;margin:0;padding:0;vertical-align:middle;text-align:center}
 .wrapper_c .w_dirform .wd_form{margin-right:1.5em;}
+.wrapper_c .w_dirform .wd_form #note{padding:0;margin:0;width:100%}
+.wrapper_c .w_dirform .wd_form .notes,.wrapper_c .w_dirform .wd_form .success,.wrapper_c .w_dirform .wd_form .error,.wrapper_c .w_dirform .wd_form .notice{background:none;color:#fff;padding:0 10px;font-size:.9em;}
+.wrapper_c .w_dirform .wd_form .notes span,.wrapper_c .w_dirform .wd_form .success span,.wrapper_c .w_dirform .wd_form .error span,.wrapper_c .w_dirform .wd_form .notice span{font-weight:bold;font-style:italic}
+.wrapper_c .w_dirform .wd_form .notes p,.wrapper_c .w_dirform .wd_form .success p,.wrapper_c .w_dirform .wd_form .error p,.wrapper_c .w_dirform .wd_form .notice p{padding:0;margin:0}
+.wrapper_c .w_dirform .wd_form .success{background:#89c4e2;height:30px}
+.wrapper_c .w_dirform .wd_form .error{background:#f36050;height:30px}
 .wrapper_c .w_dirform .wd_form .wdf_contacto,.wrapper_c .w_dirform .wd_form .wdf_comentario{margin-top:1.2em}
 .wrapper_c .w_dirform .wd_form .wdf_btn{margin-top:.4em;}
 .wrapper_c .w_dirform .wd_form .wdf_btn button{-moz-appearance:button;-webkit-appearance:button;appearance:button;background-color:#00a5e1;background-image:none;-webkit-box-shadow:none !important;box-shadow:none !important;border:none !important;-webkit-border-radius:0 !important;border-radius:0 !important;color:#fff;display:block;filter:none;font-size:.9em;padding:.5em 1.2em;opacity:.8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80);text-shadow:none;outline:0}
@@ -282,6 +288,7 @@ footer .f_right p{font-size:14px;padding-top:2px}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .campo_text{border:1px solid #d3d3d3;color:#5c5c5c;font-size:14px;height:35px;padding-left:10px;position:absolute;width:320px}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .contac_img{position:relative;}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .contac_img:before{background:#00a5e1;color:#fff;display:inline-block;height:39px;padding:0 12px;font-family:"sin_icons";vertical-align:middle;font-size:1.2em}
+.wrapper_c .w_dirform .wd_form .wdf_contacto .campo_text_capcha{display:block;padding:4px 10px}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .email:before{content:"\e611";top:5em}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .empresa:before{content:"\e601"}
 .wrapper_c .w_dirform .wd_form .wdf_contacto .name:before{content:"\e613"}

@@ -28,19 +28,19 @@
 			<nav class="hn_nav">
 				<ul class="ul_nav">
 					<li>
-						<a href="/index.php">Home</a>
+						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/nosotros/nosotros.php">Compañía</a>
+						<a href="/nosotros/">Compañía</a>
 					</li>
 					<li>
-						<a href="/servicios/servicios.php">Servicios</a>
+						<a href="/servicios/">Servicios</a>
 					</li>
 					<li>
-						<a href="/productos/productos.php">Productos</a>
+						<a href="/productos/">Productos</a>
 					</li>
 					<li>
-						<a href="/contacto/contacto.php" class="selected">Contacto</a>
+						<a href="/contacto/" class="selected">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -87,34 +87,42 @@
 		</div>
 		<div class="w_dirform">
 			<article class="wd_form">
-				<form action="#" name="contactform" method="post">
+				<div id="note"></div>
+				<form id="ajax-contact-form" action="javascript:alert('success!');" method="post">
 					<div class="wdf_contacto">
 						<p>* Nombres Completos:</p>
 						<div class="wdf_campo_contacto">
 							<span class="contac_img name"></span>
-							<input type="text" class="campo_text" placeholder="Nombre y Apellido">
+							<input type="text" name="name" id="name" class="campo_text" placeholder="Nombre y Apellido" required>
 						</div>
 					</div>
 					<div class="wdf_contacto">
 						<p>* Email:</p>
 						<div class="wdf_campo_contacto">
 							<span class="contac_img email"></span>
-							<input type="email" class="campo_text" placeholder="E-mail">
+							<input type="email" name="email" id="email" class="campo_text" placeholder="E-mail" required>
 						</div>
 					</div>
 					<div class="wdf_contacto">
 						<p>Empresa:</p>
 						<div class="wdf_campo_contacto">
 							<span class="contac_img empresa"></span>
-							<input type="text" class="campo_text" placeholder="Empresa o Lugar">
+							<input type="text" class="campo_text" id="company" name="company" placeholder="Empresa o Lugar">
 						</div>
 					</div>
 					<div class="wdf_comentario">
 						<p>* Comentario:</p>
-						<textarea name="coment" id="" placeholder="Deje su comentario..." cols="30" rows="6"></textarea>
+						<textarea name="message" id="" placeholder="Deje su comentario..." cols="30" rows="6" required></textarea>
+					</div>
+					<div class="wdf_contacto">
+						<p>* Captcha:</p>
+						<div class="wdf_campo_contacto">
+							<input type="text" name="answer" id="answer" class="campo_text_capcha" placeholder="7 + 3 =" required>
+						</div>
 					</div>
 					<div class="wdf_btn">
-						<button type="submit" class="wdf_btn">Enviar</button>
+						<label id="load" style="display:none"></label>
+						<button id="submit-button" type="submit" class="wdf_btn" name="submit">Enviar</button>
 					</div>
 				</form>
 			</article>
@@ -157,10 +165,10 @@
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
 					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
-					<li><a href="/nosotros/nosotros.php"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
-					<li><a href="/servicios/servicios.php"><span class="ico_li"></span>Servicios que brindamos</a></li>
-					<li><a href="/productos/productos.php"><span class="ico_li"></span>Productos que ofresemos</a></li>
-					<li><a href="/contacto/contacto.php"><span class="ico_li"></span>Contacto permanente</a></li>
+					<li><a href="/nosotros/"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
+					<li><a href="/servicios/"><span class="ico_li"></span>Servicios que brindamos</a></li>
+					<li><a href="/productos/"><span class="ico_li"></span>Productos que ofresemos</a></li>
+					<li><a href="/contacto/"><span class="ico_li"></span>Contacto permanente</a></li>
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>

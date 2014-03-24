@@ -1,10 +1,48 @@
 $(document).ready(function(){
 	a_index();
+	ajax_contact();
 	arriba();
 	menuactive();
 	scroll_producto();
 	submenu();
 });
+//FUNCTION AJAX CONTACT FORM
+function ajax_contact(){
+	$("#ajax-contact-form").submit(function() {
+        $('#load').append('<center><img src="/static/img/loading.gif" alt="Cargando..." id="loading" /></center>');
+
+        var fem = $(this).serialize(),
+			note = $('#note');
+	
+        $.ajax({
+            type: "POST",
+            url: "/contacto/contact.php",
+            data: fem,
+            success: function(msg) {
+				if ( note.height() ) {			
+					note.slideUp(500, function() { $(this).hide(); });
+				} 
+				else note.hide();
+
+				$('#loading').fadeOut(300, function() {
+					$(this).remove();
+
+					// Message Sent? Show the 'Thank You' message and hide the form
+					result = (msg === 'OK') ? '<div class="success">Tu mensaje fue enviado exitosamente!</div>' : msg;
+
+					var i = setInterval(function() {
+						if ( !note.is(':visible') ) {
+							note.html(result).slideDown(500);
+							clearInterval(i);
+						}
+					}, 40);    
+				}); // end loading image fadeOut
+            }
+        });
+
+        return false;
+    });
+};
 //FUNCION SCROLL TO TOP
 function arriba(){
 	$("#IrArriba").hide();
