@@ -1,3 +1,14 @@
+/*!
+ * main.js v1.0.0
+ * http://sintrave.com
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2014, Sintrave Elevadores
+ * http://www.sintrave.com
+ */
+
 $(document).ready(function(){
 	a_index();
 	ajax_contact();
@@ -16,7 +27,7 @@ function ajax_contact(){
 	
         $.ajax({
             type: "POST",
-            url: "/contacto/contact.php",
+            url: "/release/contacto/contact.php",
             data: fem,
             success: function(msg) {
 				if ( note.height() ) {			

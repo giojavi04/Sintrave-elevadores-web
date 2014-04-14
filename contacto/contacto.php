@@ -7,7 +7,7 @@
 	<title>Contacto | Sintrave Elevadores</title>
 	<!-- Seo -->
 	<link rel="shortcut icon" href="/static/img/favicon.ico" />
-	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
+	<meta name="description" content="Empresa ecuatoriana que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
 	<meta property="og:title" content="Sintrave Elevadores" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sintrave.com/"/>
@@ -15,9 +15,9 @@
     <meta property="og:site_name" content="Sintrave Elevadores" />
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
-	<link rel="stylesheet" href="/static/css/main.css" />
-	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
-	<script src="/static/js/vendor/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="/static/css/main.min.css" />
+	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -144,7 +144,7 @@
 	                    	<fb:like href="https://www.facebook.com/Sintrave" send="false" layout="box_count" show_faces="false" ></fb:like>
 	                    </div>
 		                <div class="btn_googlemas">
-		                    <g:plusone size="tall" href="http://sintrave.com"></g:plusone>   
+		                    <g:plusone size="tall" rel="publisher" href="http://sintrave.com"></g:plusone>   
 		                </div>
 					</div>
 				</aside>
@@ -172,7 +172,7 @@
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadores/posts" target="_blank"><span class="ico ico-google"></span></a>  
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -209,7 +209,7 @@
 			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
-			<p>Copyright © 2014 Sintrave Reserved. Design by @giojavi04</p>
+			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
 		</div>
 	</footer>
 	
@@ -222,6 +222,6 @@
 	<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
     <script src="https://apis.google.com/js/plusone.js"></script>
     <script src="https://platform.twitter.com/widgets.js"></script>
-	<script src="/static/js/main.js"></script>	
+	<script src="/static/js/main.min.js"></script>	
 </body>
 </html>

@@ -20,6 +20,17 @@ rojo = #f36050
 rojo_claro = #e74c3c
 rojo_oscuro = #B91C23
 
+/*!
+ * main.css v1.0.0
+ * http://sintrave.com
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2014, Sintrave Elevadores
+ * http://www.sintrave.com
+ */
+
 @import url("http://fonts.googleapis.com/css?family=Open+Sans")
 @import 'nib/vendor'
 @font-face {
@@ -36,7 +47,7 @@ vendor-prefixes = moz ms o webkit official
 
 body
 	background fondo_blanco_oscuro
-	font-family 'Open Sans', Helvetica, Arial
+	font-family 'Open Sans', Helvetica
 	font-size 16px
 	margin 0
 	text-align center
@@ -228,6 +239,11 @@ footer
 			.icon_comercio
 				&:before
 					content "\e604"
+
+/* Inicio estilos Blog */
+@import 'blog.styl'
+/* Fin estilos Blog */
+
 
 /* --- header --- */
 .header

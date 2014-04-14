@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<title>Bienvenidos a Sintrave Elevadores</title>
 	<!-- Seo -->
 	<link rel="shortcut icon" href="static/img/favicon.ico" />
-	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
+	<meta name="description" content="Empresa ecuatoriana que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
 	<meta property="og:title" content="Sintrave Elevadores" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sintrave.com/"/>
@@ -16,12 +16,12 @@
     <!-- End Seo -->
     <!-- CSS -->
 	<link rel="stylesheet" href="static/css/normalize.min.css" />
-	<link rel="stylesheet" href="static/css/main.css" />
+	<link rel="stylesheet" href="static/css/main.min.css" />
 	<noscript>
-		<link rel="stylesheet" type="text/css" href="static/css/fallback.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/fallback.min.css" />
 	</noscript>
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" type="text/css" href="static/css/fallback.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/fallback.min.css" />
 	<![endif]-->
 	<!-- End CSS -->
 	<!-- JS -->
@@ -183,7 +183,7 @@
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadores/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -220,7 +220,8 @@
 			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
-			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="#">@giojavi04</a></p>
+			<!--<a href="https://plus.google.com/113418919977320803682" rel="publisher">Google+</a>-->
+			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
 		</div>
 	</footer>
 	<div id='IrArriba'>
@@ -229,8 +230,8 @@
 		</a>
 	</div>
 	<script src="https://platform.twitter.com/widgets.js"></script>
-	<script src="static/js/main.js"></script>
-	<script type="text/javascript" src="static/js/jquery.gridrotator.js"></script>
+	<script src="static/js/main.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery.gridrotator.min.js"></script>
 	<script type="text/javascript">
 		$(function() {
 			$( '#ri-grid' ).gridrotator( {
@@ -244,6 +245,15 @@
 				}
 			} );
 		});
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-49858600-1', 'sintrave.com');
+		ga('send', 'pageview');
 	</script>
 </body>
 </html>

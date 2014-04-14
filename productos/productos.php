@@ -7,7 +7,7 @@
 	<title>Productos | Sintrave Elevadores</title>
 	<!-- Seo -->
 	<link rel="shortcut icon" href="/static/img/favicon.ico" />
-	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
+	<meta name="description" content="Empresa ecuatoriana que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
 	<meta property="og:title" content="Sintrave Elevadores" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sintrave.com/"/>
@@ -15,9 +15,9 @@
     <meta property="og:site_name" content="Sintrave Elevadores" />
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
-	<link rel="stylesheet" href="/static/css/main.css" />
-	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
-	<script src="/static/js/vendor/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="/static/css/main.min.css" />
+	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -63,6 +63,12 @@
 					<h3>Ascensor Camillero</h3>
 					<p>El elevador camillero tiene la especialidad de los entornos hospitalarios. La tecnología de control VVVF...</p>
 					<a href="#camillero">Más sobre este producto --></a>
+				</div>
+				<div class="spp_p">
+					<img src="/static/img/productos/p_discapacitados.jpg" alt="Sintrave - Productos">	
+					<h3>Ascensor de Discapacitados</h3>
+					<p>Disponemos de una variedad de soluciones de accesibilidad enfocada a solventar los requerimientos...</p>
+					<a href="#discapacitados">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
 					<img src="/static/img/productos/p_carga.jpg" alt="Sintrave - Productos">	
@@ -146,6 +152,48 @@
 					<div class="right">
 						<figure class="p_img">
 							<img src="/static/img/productos/pp_camillero.jpg" alt="Sintrave - productos" class="img">
+						</figure>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="discapacitados" class="pro_individual hide">
+			<div class="content_return">
+				<a href="#productos" class="return"><span class="flecha_return"></span>Regresar</a>
+				<div class="social_return">
+					<div class="btn_twitter">
+	                    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-related="sintrave" data-dnt="true">Tweet</a>
+	                </div>
+	                <div id="fb-root" class="btn_facebook">
+	                	<fb:like href="https://www.facebook.com/Sintrave" send="false" layout="button_count" show_faces="false" ></fb:like>
+					</div>
+					<div class="btn_googlemas">
+	                    <g:plusone size="medium" href="http://sintrave.com"></g:plusone>  
+					</div>
+				</div>
+			</div>
+			<div class="content_p">
+				<article class="sdes">
+					<h2 class="title">Ascensor de Discapacitados</h2>
+					<p>Disponemos de una variedad de soluciones de accesibilidad enfocada a solventar los requerimientos arquitectónicos con nuestros equipos de elevación para discapacitados que necesitan de una silla de ruedas para su desplazamiento, el elevador se adapta a los más diversos emplazamientos integrándose plenamente en su entorno, cumpliendo las normas que exige las entidades gubernamentales.</p>
+				</article>
+				<article class="scar">
+					<div class="left">
+						<h3>Características</h3>
+						<ul>
+							<li><span class="visto"></span>Brazos de protección y rampas que se posicionan antes del desplazamiento</li>
+							<li><span class="visto"></span>Suelo antideslizante contra caídas</li>
+							<li><span class="visto"></span>Fácil y rápida instalación y casi no requiere de obra civil</li>
+							<li><span class="visto"></span>Seguridades en los lados para evitar atascamientos</li>
+							<li><span class="visto"></span>Nuestros equipos son importados y de fabricación nacional</li>
+							<li><span class="visto"></span>Nuestros equipos se acoplan a cualquier espacio</li>
+							<li><span class="visto"></span>Los salva escaleras pueden instilarse en cualquier tipo de escaleras ya sea circular rectas o formas oblicuas.</li>
+						</ul>
+					</div>
+					<div class="right">
+						<figure class="p_img">
+							<img src="/static/img/productos/pp_discapacitados.jpg" alt="Sintrave - productos" class="img">
 						</figure>
 					</div>
 				</article>
@@ -607,7 +655,7 @@
 			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
-			<p>Copyright © 2014 Sintrave Reserved. Design by @giojavi04</p>
+			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
 		</div>
 	</footer>
 
@@ -623,6 +671,6 @@
     <!--[if lt IE 9]>
     <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><!--[if (gte IE 6)&(lte IE 8)]>
     <![endif]-->
-	<script src="/static/js/main.js"></script>	
+	<script src="/static/js/main.min.js"></script>	
 </body>
 </html>

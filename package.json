@@ -1,0 +1,34 @@
+{
+  "name": "sintrave-web",
+  "version": "1.0.0",
+  "description": "Sitio web oficial de sintrave.com",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/giojavi04/sintrave_new.git"
+  },
+  "keywords": [
+    "Sintrave",
+    "web"
+  ],
+  "author": "@giojavi04",
+  "license": "free",
+  "bugs": {
+    "url": "https://github.com/giojavi04/sintrave_new/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-stylus": "~0.5.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-cssmin": "~0.8.0",
+    "grunt-bg-shell": "~2.1.0"
+  },
+  "homepage": "https://github.com/giojavi04/sintrave_new",
+  "main": "index.php"
+}

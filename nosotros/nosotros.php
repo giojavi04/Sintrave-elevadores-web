@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<title>Compañía | Sintrave Elevadores</title>
 	<!-- Seo -->
 	<link rel="shortcut icon" href="/static/img/favicon.ico" />
-	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
+	<meta name="description" content="Empresa ecuatoriana que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
 	<meta property="og:title" content="Sintrave Elevadores" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sintrave.com/"/>
@@ -15,9 +15,9 @@
     <meta property="og:site_name" content="Sintrave Elevadores" />
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
-	<link rel="stylesheet" href="/static/css/main.css" />
-	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
-	<script src="/static/js/vendor/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="/static/css/main.min.css" />
+	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -164,7 +164,7 @@
 			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
-			<p>Copyright © 2014 Sintrave Reserved. Design by @giojavi04</p>
+			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
 		</div>
 	</footer>
 	
@@ -175,6 +175,6 @@
 	</div>
 	
 	<script src="https://platform.twitter.com/widgets.js"></script>
-	<script src="/static/js/main.js"></script>	
+	<script src="/static/js/main.min.js"></script>	
 </body>
 </html>
