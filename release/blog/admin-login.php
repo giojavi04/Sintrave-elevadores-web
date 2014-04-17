@@ -2,14 +2,13 @@
 //Iniciamos sesion
 session_start ();
 //Archivos requeridos
-require_once 'config/config.php';
-require_once 'config/conexion.php';
-require_once 'usuario/verUser.php';
-//traemos puntero de conexion
-$bdCon = conectarbd();
+require_once ($_SERVER['DOCUMENT_ROOT'].'/release/blog/usuario/verUser.php');
+
+$usuarioClass = new usuariosClass();
+
 //Verificamos si el usuario no esta conectado
 if ( !empty( $_SESSION['usuario'] ) && !empty($_SESSION['password']) ) {
-	if ( verUser( $_SESSION['usuario'], $_SESSION['password'], $bdCon ) ) {
+	if ( $usuarioClass->$a_users( $_SESSION['usuario'], $_SESSION['password']) ) {
 		header( 'Location: admin.php' );
 		die;
 	}

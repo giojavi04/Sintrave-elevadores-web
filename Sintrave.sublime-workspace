@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"u",
+				"usuarioClass"
+			],
+			[
+				"usu",
+				"usuariosClass"
+			],
+			[
+				"mysq",
+				"mysql_error"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"pas",
+				"password_from_db"
+			],
+			[
+				"passw",
+				"password_from_db"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"con",
+				"conexion.php"
+			],
+			[
+				"set_c",
+				"mysql_set_charset"
+			],
+			[
+				"_",
+				"_db"
+			],
+			[
+				"lo",
+				"loadNpmTasks"
+			],
+			[
+				"sty",
+				"stylesDir"
+			],
+			[
+				"s",
+				"static/"
+			],
+			[
 				"requi",
 				"require_once"
 			],
@@ -20,10 +80,6 @@
 				"mysql_fetch_array"
 			],
 			[
-				"mysq",
-				"mysql_query"
-			],
-			[
 				"mysqlfe",
 				"mysql_fetch_array"
 			],
@@ -32,16 +88,8 @@
 				"query"
 			],
 			[
-				"mysql",
-				"mysql_query"
-			],
-			[
 				"re",
 				"repassword"
-			],
-			[
-				"_",
-				"_POST"
 			],
 			[
 				"php",
@@ -102,10 +150,6 @@
 			[
 				"em",
 				"empty"
-			],
-			[
-				"pas",
-				"password"
 			],
 			[
 				"req",
@@ -396,14 +440,6 @@
 				"margin-bottom"
 			],
 			[
-				"s",
-				"s_services"
-			],
-			[
-				"u",
-				"uppercase"
-			],
-			[
 				"celete",
 				"celeste_claro"
 			],
@@ -478,110 +514,66 @@
 			[
 				"z",
 				"z-index"
-			],
-			[
-				"conte",
-				"content"
-			],
-			[
-				"celest",
-				"celeste"
-			],
-			[
-				"l",
-				"letter-spacing"
-			],
-			[
-				"bo-",
-				"border-radius"
-			],
-			[
-				"les",
-				"letra_oscura"
-			],
-			[
-				"left",
-				"left"
-			],
-			[
-				"b",
-				"border-radius"
-			],
-			[
-				"j",
-				"jms-link"
-			],
-			[
-				"colo",
-				"color-stop"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "firmas.html",
+			"file": "blog/admin/index.php",
 			"settings":
 			{
-				"buffer_size": 5130,
-				"line_ending": "Windows"
+				"buffer_size": 3435,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "release/blog/administrator/register.php",
+			"file": "blog/admin/users.php",
 			"settings":
 			{
-				"buffer_size": 7592,
-				"line_ending": "Windows"
+				"buffer_size": 3550,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "release/blog/administrator/ver.php",
+			"file": "blog/admin/edit-post.php",
 			"settings":
 			{
-				"buffer_size": 5070,
-				"line_ending": "Windows"
+				"buffer_size": 5682,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "release/blog/admin-login.php",
+			"file": "blog/admin/edit-user.php",
 			"settings":
 			{
-				"buffer_size": 2666,
-				"line_ending": "Windows"
+				"buffer_size": 5906,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "release/blog/config/conexion.php",
+			"file": "blog/admin/add-post.php",
 			"settings":
 			{
-				"buffer_size": 235,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "release/blog/config/config.php",
-			"settings":
-			{
-				"buffer_size": 174,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "release/blog/admin.php",
-			"settings":
-			{
-				"buffer_size": 4647,
-				"line_ending": "Windows"
+				"buffer_size": 5166,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"if",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"if	",
+				"Snippet: Function Signature"
+			],
 			[
 				"pac",
 				"Package Control: Install Package"
@@ -591,20 +583,32 @@
 				"Set Syntax: PHP"
 			],
 			[
+				"gru",
+				"Snippet: grunt.loadTasks"
+			],
+			[
+				"snppet: php",
+				"Snippet: php mysqli connection"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
 				"ht",
 				"Set Syntax: HTML5"
 			],
 			[
 				"sty",
 				"Set Syntax: Stylus"
-			],
-			[
-				"pa",
-				"Package Control: List Packages"
-			],
-			[
-				"p",
-				"Package Control: Install Package"
 			],
 			[
 				"styl",
@@ -667,7 +671,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 640.0
 	},
 	"console":
 	{
@@ -684,9 +688,58 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sintrave_new/release/blog/admin.php",
+		"/C/xampp/htdocs/sintrave_new/static/css/blog.styl",
+		"/C/xampp/htdocs/sintrave_new/blog/admin/menu.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/register.php",
+		"/C/xampp/htdocs/blog2/admin/edit-post.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/ver.php",
+		"/C/xampp/htdocs/sintrave_new/blog/classes/class.user.php",
+		"/C/xampp/htdocs/sintrave_new/blog/admin/logout.php",
+		"/C/xampp/htdocs/sintrave_new/blog/classes/class.password.php",
+		"/C/xampp/htdocs/sintrave_new/blog/includes/config.php",
+		"/C/xampp/htdocs/sintrave_new/blog/admin/login.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/admin-login.php",
+		"/C/xampp/htdocs/sintrave_new/blog/style/main.css",
+		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
+		"/C/xampp/htdocs/sintrave_new/blog/index.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/config/conexion.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/usuario/verUser.php",
+		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
+		"/C/xampp/htdocs/sintrave_new/blog/news.php",
+		"/C/xampp/htdocs/hotel/kingsfieldexpress/session.php",
+		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/sintrave_new/gruntfile.js",
+		"/C/xampp/htdocs/wordpress/wp-admin/themes.php",
+		"/C/xampp/htdocs/sintrave_new/contacto/contacto.php",
+		"/C/xampp/htdocs/sintrave_new/release/contacto/contact.php",
+		"/C/xampp/htdocs/blog/languages/spanish/strings.php",
+		"/C/xampp/htdocs/blog2/index.php",
+		"/C/xampp/htdocs/blog2/viewpost.php",
+		"/C/xampp/htdocs/blog2/includes/config.php",
+		"/C/xampp/htdocs/blog/scripts/sb_functions.php",
+		"/C/xampp/htdocs/blog/scripts/classes/configuration.php",
+		"/C/xampp/htdocs/blog/scripts/config.php",
+		"/C/xampp/htdocs/blog/index.php",
+		"/C/Users/Javier/AppData/Local/Temp/Rar$DIa0.026/config.php",
+		"/C/xampp/htdocs/sintrave_new/release/blog/config/config.php",
+		"/C/xampp/htdocs/wordpress/wp-admin/admin-post.php",
+		"/C/xampp/htdocs/wordpress/wp-signup.php",
+		"/C/xampp/htdocs/wordpress/wp-settings.php",
+		"/C/xampp/htdocs/wordpress/wp-load.php",
+		"/C/xampp/htdocs/wordpress/wp-cron.php",
+		"/C/xampp/htdocs/sintrave_new/firmas.html",
+		"/C/xampp/htdocs/sintrave_new/static/css/nosotros.styl",
+		"/C/xampp/htdocs/sintrave_new/package.json",
+		"/C/xampp/htdocs/sintrave_new/.gitignore",
+		"/C/xampp/htdocs/laravel/.gitattributes",
+		"/C/xampp/htdocs/sintrave_new/static/css/main.min.css",
+		"/C/xampp/htdocs/sintrave_new/static/js/main.min.js",
+		"/C/xampp/htdocs/sintrave_new/static/css/contacto.styl",
+		"/C/xampp/htdocs/sintrave_new/static/css/main.css",
+		"/C/xampp/htdocs/sintrave_new/README.md",
 		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/delete.php",
 		"/C/xampp/htdocs/sintrave_new/index.php",
-		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
 		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.php",
 		"/C/xampp/htdocs/sintrave_new/email.html",
 		"/C/xampp/htdocs/sintrave_new/static/img/f/webmaster.jpg",
@@ -694,16 +747,10 @@
 		"/C/Users/Javier/Downloads/login/js/login.js",
 		"/C/Users/Javier/Downloads/login/js/acceso.js",
 		"/C/xampp/htdocs/sintrave_new/.htaccess",
-		"/C/xampp/htdocs/sintrave_new/static/js/main.min.js",
 		"/C/xampp/htdocs/sintrave_new/servicios/servicios.php",
-		"/C/xampp/htdocs/sintrave_new/contacto/contacto.php",
 		"/C/xampp/htdocs/sintrave_new/productos/productos.php",
 		"/C/Users/Javier/Downloads/jquery.gridrotator.min.js",
-		"/C/xampp/htdocs/sintrave_new/static/css/main.css",
 		"/C/xampp/htdocs/sintrave_new/static/css/fallback.css",
-		"/C/xampp/htdocs/sintrave_new/package.json",
-		"/C/xampp/htdocs/sintrave_new/static/css/contacto.styl",
-		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
 		"/C/Users/Javier/Downloads/javascript.js",
 		"/C/xampp/htdocs/sintrave_new/Gruntfile.js",
 		"/C/xampp/htdocs/sintrave_new/node_modules/grunt/package.json",
@@ -712,13 +759,6 @@
 		"/C/xampp/htdocs/sintrave_new/static/js/vendor/modernizr.custom.js",
 		"/C/xampp/htdocs/sintrave_new/static/js/jquery.gridrotator.js",
 		"/C/xampp/htdocs/sintrave_new/static/css/normalize.min.css",
-		"/C/xampp/htdocs/sintrave_new/release/blog/admin.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/register.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/admin-login.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/usuario/verUser.php",
-		"/C/xampp/htdocs/sintrave_new/static/css/blog.styl",
-		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/ver.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/config/conexion.php",
 		"/C/xampp/htdocs/siganm/administracion/clasificadores/asignaturas_modificar.php",
 		"/C/xampp/htdocs/siganm/administracion/clasificadores/asignaturas.php",
 		"/C/xampp/htdocs/sintrave_new/static/css/bootstrap.min.css",
@@ -727,12 +767,8 @@
 		"/C/xampp/htdocs/sintrave_new/static/css/fonts/glyphicons-halflings-regular.eot",
 		"/C/xampp/htdocs/sintrave_new/release/blog/config/verUser.php",
 		"/C/xampp/htdocs/sintrave_new/release/blog/usuario",
-		"/C/xampp/htdocs/sintrave_new/release/blog/config/config.php",
 		"/C/Users/Javier/Downloads/Templates admin bootstrap/admin-bootstrap/js/cvalidate.js",
-		"/C/xampp/htdocs/sintrave_new/static/css/nosotros.styl",
 		"/C/Users/Javier/Downloads/54-sign-up-form/css/style.css",
-		"/C/xampp/htdocs/sintrave_new/blog/news.php",
-		"/C/xampp/htdocs/sintrave_new/release/contacto/contact.php",
 		"/C/xampp/htdocs/sintrave_new/contacto/contact.php",
 		"/C/Users/Javier/Downloads/SISTEMA-WEB-COLEGIOS/colegio/js/ingreso.js",
 		"/C/Users/Javier/Downloads/SISTEMA-WEB-COLEGIOS/colegio/js/alumnos.js",
@@ -751,7 +787,6 @@
 		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
 		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.html",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/C/xampp/htdocs/Twitter-Timeline-master/index.php",
 		"/C/xampp/htdocs/sintrave_new/index2.html",
 		"/C/xampp/htdocs/sintrave_new/index.html",
@@ -780,38 +815,7 @@
 		"/C/Users/Javier/Downloads/QuotesRotator/css/component.css",
 		"/C/Users/Javier/Downloads/QuotesRotator/index.html",
 		"/C/xampp/htdocs/sintrave_new/js/vendor/jquery-2.1.0.min.map",
-		"/C/Users/Javier/Downloads/QuotesRotator/js/jquery.cbpQTRotator.js",
-		"/C/Users/Javier/Documents/Documentos_javier/Proyectos/Sintrave/Web Sintrave/Ejemplos_a_implementar/para sintrave/efectos_sintrave/icons/demo-files/demo.css",
-		"/C/xampp/htdocs/sintrave_new/css/servicios.css",
-		"/C/xampp/phpMyAdmin/config.inc.php",
-		"/C/xampp/mysql/bin/my.ini",
-		"/C/wamp/www/sintrave_new/css/nosotros.styl",
-		"/C/wamp/www/sintrave_new/css/servicios.styl",
-		"/C/wamp/www/sintrave_new/nosotros.html",
-		"/C/wamp/www/sintrave_new/servicios.html",
-		"/C/wamp/www/sintrave_new/css/main.css",
-		"/C/wamp/www/sintrave_new/css/",
-		"/C/wamp/www/sintrave_new/css/servicios.css",
-		"/C/wamp/www/sintrave_new/index.html",
-		"/C/wamp/www/sintrave_new/productos.html",
-		"/C/Users/Javier/Downloads/TooltipMenu/index.html",
-		"/C/wamp/www/sintrave_new/css/main.styl",
-		"/C/wamp/www/sintrave_new/css/slider.css",
-		"/C/wamp/www/sintrave_new/contacto.html",
-		"/C/wamp/www/sintrave_new/js/vendor/sequencejs-options.modern-slide-in.js",
-		"/C/wamp/www/sintrave_new/css/style.css",
-		"/C/wamp/www/sintrave_new/js/vendor/jquery-2.0.3.min.js",
-		"/C/wamp/www/sintrave_new/js/vendor/jquery.jmslideshow.js",
-		"/C/wamp/www/sintrave_new/js/vendor/jmpress.js",
-		"/C/wamp/www/sintrave_new/js/vendor/jmpress.min.js",
-		"/C/Users/Javier/Downloads/OnScrollEffectLayout/index.html",
-		"/C/Users/Javier/Downloads/OnScrollEffectLayout/css/component.css",
-		"/C/Users/Javier/dev/sintrave_new/css/main.styl",
-		"/C/Users/Javier/Downloads/otros/para sintrave/para_sintrave/index2.html",
-		"/C/wamp/www/sintrave_new/css/slider.styl",
-		"/C/wamp/www/sintrave_new/css/style2.styl",
-		"/C/wamp/www/sintrave_new/css/style.styl",
-		"/C/Users/Javier/Downloads/otros/para sintrave/para_sintrave/css/style.css"
+		"/C/Users/Javier/Downloads/QuotesRotator/js/jquery.cbpQTRotator.js"
 	],
 	"find":
 	{
@@ -829,6 +833,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"12",
+			"password",
+			"username",
+			"4",
+			"col",
+			"5",
+			"postCont",
+			"_db",
+			".wrapper_c",
+			"						 *",
 			"808080",
 			"1b4260",
 			"808080",
@@ -945,18 +960,7 @@
 			"celeste",
 			"200px",
 			"Read",
-			"5px",
-			"3px",
-			"linear",
-			"size",
-			"background",
-			"images",
-			"celeste_oscurote",
-			" inline-block\n		",
-			"celeste_oscurito",
-			"=\"\"></",
-			"2ecc71",
-			"controlNav"
+			"5px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -982,28 +986,27 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "firmas.html",
+					"file": "blog/admin/index.php",
 					"settings":
 					{
-						"buffer_size": 5130,
+						"buffer_size": 3435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2547,
-								2547
+								2392,
+								2392
 							]
 						],
 						"settings":
 						{
-							"_anf_new": "",
 							"annotations":
 							[
 								"TODO",
@@ -1093,28 +1096,29 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 252.0,
+						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "release/blog/administrator/register.php",
+					"file": "blog/admin/users.php",
 					"settings":
 					{
-						"buffer_size": 7592,
+						"buffer_size": 3550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								165,
-								165
+								747,
+								747
 							]
 						],
 						"settings":
@@ -1212,25 +1216,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "release/blog/administrator/ver.php",
+					"file": "blog/admin/edit-post.php",
 					"settings":
 					{
-						"buffer_size": 5070,
+						"buffer_size": 5682,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3919,
+								5603
 							]
 						],
 						"settings":
@@ -1328,25 +1332,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2100.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "release/blog/admin-login.php",
+					"file": "blog/admin/edit-user.php",
 					"settings":
 					{
-						"buffer_size": 2666,
+						"buffer_size": 5906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1004,
-								1004
+								3772,
+								3780
 							]
 						],
 						"settings":
@@ -1444,25 +1448,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2100.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "release/blog/config/conexion.php",
+					"file": "blog/admin/add-post.php",
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 5166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								121
+								397,
+								397
 							]
 						],
 						"settings":
@@ -1559,238 +1563,7 @@
 							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "release/blog/config/config.php",
-					"settings":
-					{
-						"buffer_size": 174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "release/blog/admin.php",
-					"settings":
-					{
-						"buffer_size": 4647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

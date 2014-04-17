@@ -27,7 +27,7 @@ function ajax_contact(){
 	
         $.ajax({
             type: "POST",
-            url: "/release/contacto/contact.php",
+            url: "/contacto/contact.php",
             data: fem,
             success: function(msg) {
 				if ( note.height() ) {			

@@ -1,8 +1,6 @@
 <?php
 	session_start ();
 	//Archivos requeridos
-	require_once 'config/config.php';
-	require_once 'config/conexion.php';
 	require_once 'usuario/verUser.php';
 
 	$bdCon = conectarbd();
