@@ -80,6 +80,7 @@ function a_index(){
 	    },800);
 	});
 };
+
 //MENU CLASS ACTIVE
 function menuactive(){	
 	$(".header .hn_nav ul li a").click(function() {

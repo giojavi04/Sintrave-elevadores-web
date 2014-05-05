@@ -5,101 +5,158 @@ require_once('../includes/config.php');
 if(!$user->is_logged_in()){ header('Location: login.php'); }
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Admin - Add User</title>
-  <link rel="stylesheet" href="../style/normalize.css">
-  <link rel="stylesheet" href="../style/main.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Edición de Usuarios</title>
+	<!-- Seo -->
+	<link rel="shortcut icon" href="/static/img/favicon.ico" />
+	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>
+	<meta property="og:title" content="Sintrave Elevadores" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sintrave.com/"/>
+    <meta property="og:image" content="http://sintrave.com/static/img/logo_sintrave.png" />
+    <meta property="og:site_name" content="Sintrave Elevadores" />
+    <!-- End Seo -->
+    <!-- CSS -->
+	<link rel="stylesheet" href="/static/css/normalize.min.css" />
+	<link rel="stylesheet" href="/static/css/main.css" />
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<!-- End CSS -->
+	<!-- JS -->
+	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	<script src="/static/js/vendor/modernizr.custom.js"></script>
+	<!-- END JS -->
 </head>
 <body>
 
-<div id="wrapper">
-
 	<?php include('menu.php');?>
-	<p><a href="users.php">User Admin Index</a></p>
+	<div class="container-fluit">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-3 col-md-offset-3">
+					<p><a href="users.php"><span class="glyphicon glyphicon-chevron-left"></span> Usuarios Index</a></p>
+				</div>
+				<div class="col-md-6 col-md-offset-3 well">
 
-	<h2>Add User</h2>
+					<?php
 
-	<?php
+					//if form has been submitted process it
+					if(isset($_POST['submit'])){
 
-	//if form has been submitted process it
-	if(isset($_POST['submit'])){
+						//collect form data
+						extract($_POST);
 
-		//collect form data
-		extract($_POST);
+						//very basic validation
+						if($username ==''){
+							$error[] = 'Please enter the username.';
+						}
 
-		//very basic validation
-		if($username ==''){
-			$error[] = 'Please enter the username.';
-		}
+						if($password ==''){
+							$error[] = 'Please enter the password.';
+						}
 
-		if($password ==''){
-			$error[] = 'Please enter the password.';
-		}
+						if($passwordConfirm ==''){
+							$error[] = 'Please confirm the password.';
+						}
 
-		if($passwordConfirm ==''){
-			$error[] = 'Please confirm the password.';
-		}
+						if($password != $passwordConfirm){
+							$error[] = 'Passwords do not match.';
+						}
 
-		if($password != $passwordConfirm){
-			$error[] = 'Passwords do not match.';
-		}
+						if($email ==''){
+							$error[] = 'Please enter the email address.';
+						}
 
-		if($email ==''){
-			$error[] = 'Please enter the email address.';
-		}
+						if(!isset($error)){
 
-		if(!isset($error)){
+							$hashedpassword = $user->password_hash($password, PASSWORD_BCRYPT);
 
-			$hashedpassword = $user->password_hash($password, PASSWORD_BCRYPT);
+							try {
 
-			try {
+								//insert into database
+								$stmt = $db->prepare('INSERT INTO blog_members (username,password,email) VALUES (:username, :password, :email)') ;
+								$stmt->execute(array(
+									':username' => $username,
+									':password' => $hashedpassword,
+									':email' => $email
+								));
 
-				//insert into database
-				$stmt = $db->prepare('INSERT INTO blog_members (username,password,email) VALUES (:username, :password, :email)') ;
-				$stmt->execute(array(
-					':username' => $username,
-					':password' => $hashedpassword,
-					':email' => $email
-				));
+								//redirect to index page
+								header('Location: users.php?action=added');
+								exit;
 
-				//redirect to index page
-				header('Location: users.php?action=added');
-				exit;
+							} catch(PDOException $e) {
+							    echo $e->getMessage();
+							}
 
-			} catch(PDOException $e) {
-			    echo $e->getMessage();
-			}
+						}
 
-		}
+					}
 
-	}
+					//check for any errors
+					if(isset($error)){
+						foreach($error as $error){
+							echo '<p class="error">'.$error.'</p>';
+						}
+					}
+					?>
 
-	//check for any errors
-	if(isset($error)){
-		foreach($error as $error){
-			echo '<p class="error">'.$error.'</p>';
-		}
-	}
-	?>
+					<form action="" class="form-horizontal" method="post">
+						<fieldset>
 
-	<form action='' method='post'>
+						<!-- Form Name -->
+						<legend>Nuevo Usuario</legend>
+							
+						<!-- username input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="username">Username</label>  
+						  <div class="col-md-6">
+						  <input type='text' name='username' class="form-control" value='<?php if(isset($error)){ echo $_POST['username'];}?>'>
+						  </div>
+						</div>
 
-		<p><label>Username</label><br />
-		<input type='text' name='username' value='<?php if(isset($error)){ echo $_POST['username'];}?>'></p>
+						<!-- Password Change input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="password">Password</label>  
+						  <div class="col-md-6">
+						  <input type='password' name='password' class="form-control" value='<?php if(isset($error)){ echo $_POST['password'];}?>'>
+						  </div>
+						</div>
 
-		<p><label>Password</label><br />
-		<input type='password' name='password' value='<?php if(isset($error)){ echo $_POST['password'];}?>'></p>
+						<!-- Password Change Confirm input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="password">Re Password</label>  
+						  <div class="col-md-6">
+						  <input type='password' name='passwordConfirm' class="form-control" value='<?php if(isset($error)){ echo $_POST['passwordConfirm'];}?>'>
+						  </div>
+						</div>
 
-		<p><label>Confirm Password</label><br />
-		<input type='password' name='passwordConfirm' value='<?php if(isset($error)){ echo $_POST['passwordConfirm'];}?>'></p>
+						<!-- Email input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="emaiul">Email</label>  
+						  <div class="col-md-6">
+						  <input type='email' name='email' class="form-control" value='<?php if(isset($error)){ echo $_POST['email'];}?>'>
+						  </div>
+						</div>
 
-		<p><label>Email</label><br />
-		<input type='text' name='email' value='<?php if(isset($error)){ echo $_POST['email'];}?>'></p>
-		
-		<p><input type='submit' name='submit' value='Add User'></p>
+						<!-- Button -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="submit"></label>
+						  <div class="col-md-4">
+						    <input type="submit" name="submit" class="btn btn-success btn-lg" value="Enviar"></input>
+						  </div>
+						</div>
 
-	</form>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-</div>
+	<script src="/static/js/vendor/bootstrap.min.js"></script>
+</body>
+</html>

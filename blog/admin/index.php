@@ -34,7 +34,7 @@ if(isset($_GET['delpost'])){
     <!-- End Seo -->
     <!-- CSS -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
-	<link rel="stylesheet" href="/static/css/main.css" />
+	<link rel="stylesheet" href="/static/css/main.min.css" />
 	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
 	<!-- End CSS -->
 	<!-- JS -->

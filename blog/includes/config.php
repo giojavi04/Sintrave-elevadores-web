@@ -36,8 +36,19 @@ function __autoload($class) {
    $classpath = '../../classes/class.'.$class . '.php';
    if ( file_exists($classpath)) {
       require_once $classpath;
-	} 		
-	 
+	}
+
+   //if call from within admin adjust the path
+   $classpath = 'blog/classes/class.'.$class . '.php';
+   if ( file_exists($classpath)) {
+      require_once $classpath;
+   }
+   
+   //if call from within admin adjust the path
+   $classpath = '../blog/classes/class.'.$class . '.php';
+   if ( file_exists($classpath)) {
+      require_once $classpath;
+   }
 }
 
 $user = new User($db); 

@@ -27,7 +27,7 @@ if(isset($_GET['deluser'])){
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<title>Usuarios administradores</title>
+	<title>Usuarios administrador</title>
 	<!-- Seo -->
 	<link rel="shortcut icon" href="/static/img/favicon.ico" />
 	<meta name="description" content="Sitio oficial que presenta toda la información sobre la empresa que se dedica a la venta, puesta en marcha y mantenimiento de todas las marcas de ascensores"/>

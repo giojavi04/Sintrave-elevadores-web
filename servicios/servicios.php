@@ -1,3 +1,6 @@
+<?php 
+require('../blog/includes/config.php');
+?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -142,7 +145,7 @@
 			<aside class="footer_menu clearfix">
 				<h2><span class="ico-h2 ico-foo_menu"></span>Empresa</h2>
 				<ul>
-					<li><a href="#"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
+					<li><a href="/blog/"><span class="ico_li"></span>Visita Nuestro BLOG</a></li>
 					<li><a href="/nosotros/"><span class="ico_li"></span>Aceca de nuestra empresa</a></li>
 					<li><a href="/servicios/"><span class="ico_li"></span>Servicios que brindamos</a></li>
 					<li><a href="/productos/"><span class="ico_li"></span>Productos que ofresemos</a></li>
@@ -154,26 +157,32 @@
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
-				<article class="noti_arti">
-					<time datetime="2014-03-13">
-						<span class="dia">13</span>
-						<span class="mes">Mar</span>
-					</time>
-					<div class="entry_cont">
-						<a href="#">Pronto contaremos con blog</a>
-						<p>Despues de la actualización total de nuestra pagina estamos dando últimos detalles para lanzar nuestro propio blog empresarial donde...</p>
-					</div>
-				</article>
-				<article class="noti_arti">
-					<time datetime="2014-03-13">
-						<span class="dia">5</span>
-						<span class="mes">Feb</span>
-					</time>
-					<div class="entry_cont">
-						<a href="#">Nuevo Diseño!</a>
-						<p>Para brindarte una mejor experiencia durante tu visita en nuestra pagina hemos renovado totalmente nuestra web...</p>
-					</div>
-				</article>
+				<?php
+					try {
+
+						$stmt = $db->query('SELECT postID, postTitle, postDesc, postDate FROM blog_posts ORDER BY postID DESC LIMIT 2');
+						while($row = $stmt->fetch()){
+
+							$limit = $row['postDesc'];
+							$substr = substr($limit, 0,110);
+
+							echo '<article class="noti_arti">';
+								echo '<time datetime="2014-03-13">';
+									echo '<span class="dia">'.date('j', strtotime($row['postDate'])).'</span>';
+									echo '<span class="mes">'.date('M', strtotime($row['postDate'])).'</span>';
+								echo '</time>';
+								echo '<div class="entry_cont">';
+									echo '<a href="../blog/viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a>';
+									echo '<p>'.$substr.' ...'.'</p>';
+								echo '</div>';
+							echo '</article>';
+
+						}
+
+					} catch(PDOException $e) {
+					    echo $e->getMessage();
+					}
+				?>
 			</div>
 			<div class="timeline">
 				<a class="twitter-timeline" href="https://twitter.com/Sintrave" data-widget-id="444133597075607552">Tweets por @Sintrave</a>
@@ -184,7 +193,7 @@
 	<footer>
 		<div class="f_left">
 			<a href="#" alt="Feed" title="Feed"><span></span></a> -
-			<a href="#" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
+			<a href="/sitemap.xml" alt="Mapa del sitio" title="Mapa del sitio">Site Map</a>
 		</div>
 		<div class="f_right">
 			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
