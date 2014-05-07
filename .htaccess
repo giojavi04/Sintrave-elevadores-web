@@ -15,6 +15,7 @@ RewriteRule ^servicios/$ /servicios/servicios.php [L]
 RewriteRule ^productos/$ /productos/productos.php [L]
 RewriteRule ^contacto/$ /contacto/contacto.php [L]
 RewriteRule ^blog/$ /blog/index.php [L]
+#RewriteRule ^blog/(.*)$ /blog/viewpost.php?$1=$2 [L,QSA]
 
 #Previnir hotlinking
 #RewriteCond %{HTTP_REFERER} !^$
