@@ -69,9 +69,20 @@ if($row['postID'] == ''){
 	</div>
 
 	<section class="wrapper_blog">
-
-		<p class="blog_return"><a href="./">Regresar al Blog</a></p>
-
+		<div class="content_return">
+			<a onclick="window.location.href='./'" class="return"><span class="flecha_return"></span>Regresar al Blog</a>
+			<div class="social_return">
+				<div class="btn_twitter">
+                    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-related="sintrave" data-dnt="true">Tweet</a>
+                </div>
+                <div id="fb-root" class="btn_facebook">
+                	<fb:like href="https://www.facebook.com/Sintrave" send="false" layout="button_count" show_faces="false" ></fb:like>
+				</div>
+				<div class="btn_googlemas">
+                    <g:plusone size="medium" href="http://sintrave.com"></g:plusone>  
+				</div>
+			</div>
+		</div>
 
 		<?php	
 			echo '<div class="article_blog">';
@@ -148,8 +159,10 @@ if($row['postID'] == ''){
 			<span></span>
 		</a>
 	</div>
-	
-	<script src="https://platform.twitter.com/widgets.js"></script>
+
+	<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <script src="https://platform.twitter.com/widgets.js"></script>
 	<script src="/static/js/main.min.js"></script>
 </body>
 </html>

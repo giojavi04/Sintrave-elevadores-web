@@ -93,6 +93,8 @@ footer
 	.f_right
 		float right
 		margin-right 1em
+		a
+			text-decoration none
 		p
 			font-size 14px
 			padding-top 2px
@@ -105,7 +107,6 @@ footer
 		span
 			display block
 			&:before
-				border-bottom 1px solid celeste_bajo
 				color celeste_bajo
 				content "\e617"
 				display block
@@ -120,7 +121,6 @@ footer
 		span
 			opacity .9
 			&:before
-				border-bottom 1px solid rojo
 				color rojo
 
 .clearfix, .pre_footer, footer
@@ -135,6 +135,46 @@ footer
 	display block
 	clear both
 	zoom 1
+	
+.content_return
+	display block
+	margin 1em auto 0 auto
+	overflow hidden
+	width 65%
+	.return, .social_return
+		display inline-block
+		vertical-align top
+	.return
+		background rojo
+		border-radius 10px 4px 10px 4px
+		border-bottom 3px solid rojo_oscuro
+		color letra
+		float left
+		padding .5em .6em
+		text-transform uppercase
+		text-decoration none
+		.flecha_return
+			display inline-block
+			&:before
+				display inline
+				content "\e614"
+				font-family "sin_icons"
+				font-size 1em
+				padding 0
+				text-decoration none
+	.return:hover
+		opacity .9
+		text-decoration underline
+	.social_return
+		float right
+		margin 10px auto 0 auto
+		vertical-align middle
+		div
+			display inline-block
+			margin 0 8px
+			vertical-align top
+		.btn_twitter
+			margin-right -2em
 .fixed
 	position fixed
 	top 0

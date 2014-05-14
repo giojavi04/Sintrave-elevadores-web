@@ -83,6 +83,9 @@ footer .f_right {
   float: right;
   margin-right: 1em;
 }
+footer .f_right a {
+  text-decoration: none;
+}
 footer .f_right p {
   font-size: 14px;
   padding-top: 2px;
@@ -101,7 +104,6 @@ footer .f_right p {
   display: block;
 }
 #IrArriba a span:before {
-  border-bottom: 1px solid #89c4e2;
   color: #89c4e2;
   content: "\e617";
   display: block;
@@ -123,7 +125,6 @@ footer .f_right p {
   filter: alpha(opacity=90);
 }
 #IrArriba a:hover span:before {
-  border-bottom: 1px solid #f36050;
   color: #f36050;
 }
 .clearfix,
@@ -144,6 +145,58 @@ footer:after {
   display: block;
   clear: both;
   zoom: 1;
+}
+.content_return {
+  display: block;
+  margin: 1em auto 0 auto;
+  overflow: hidden;
+  width: 65%;
+}
+.content_return .return,
+.content_return .social_return {
+  display: inline-block;
+  vertical-align: top;
+}
+.content_return .return {
+  background: #f36050;
+  -webkit-border-radius: 10px 4px 10px 4px;
+  border-radius: 10px 4px 10px 4px;
+  border-bottom: 3px solid #b91c23;
+  color: #fff;
+  float: left;
+  padding: 0.5em 0.6em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.content_return .return .flecha_return {
+  display: inline-block;
+}
+.content_return .return .flecha_return:before {
+  display: inline;
+  content: "\e614";
+  font-family: "sin_icons";
+  font-size: 1em;
+  padding: 0;
+  text-decoration: none;
+}
+.content_return .return:hover {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  text-decoration: underline;
+}
+.content_return .social_return {
+  float: right;
+  margin: 10px auto 0 auto;
+  vertical-align: middle;
+}
+.content_return .social_return div {
+  display: inline-block;
+  margin: 0 8px;
+  vertical-align: top;
+}
+.content_return .social_return .btn_twitter {
+  margin-right: -2em;
 }
 .fixed {
   position: fixed;
@@ -473,11 +526,6 @@ input {
 }
 .wrapper_blog .article_blog .link {
   color: #f36050;
-}
-.wrapper_blog .blog_return {
-  color: #f36050;
-  margin: 5px auto;
-  width: 60%;
 }
 /* Fin estilos Blog */
 /* --- header --- */
@@ -1722,58 +1770,6 @@ input {
 .pro_individual .content_p .scar .right .p_img {
   float: right;
 }
-.pro_individual .content_return {
-  display: block;
-  margin: 1em auto 0 auto;
-  overflow: hidden;
-  width: 65%;
-}
-.pro_individual .content_return .return,
-.pro_individual .content_return .social_return {
-  display: inline-block;
-  vertical-align: top;
-}
-.pro_individual .content_return .return {
-  background: #f36050;
-  -webkit-border-radius: 10px 4px 10px 4px;
-  border-radius: 10px 4px 10px 4px;
-  border-bottom: 3px solid #b91c23;
-  color: #fff;
-  float: left;
-  padding: 0.5em 0.6em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.pro_individual .content_return .return .flecha_return {
-  display: inline-block;
-}
-.pro_individual .content_return .return .flecha_return:before {
-  display: inline;
-  content: "\e614";
-  font-family: "sin_icons";
-  font-size: 1em;
-  padding: 0;
-  text-decoration: none;
-}
-.pro_individual .content_return .return:hover {
-  opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
-  text-decoration: underline;
-}
-.pro_individual .content_return .social_return {
-  float: right;
-  margin: 10px auto 0 auto;
-  vertical-align: middle;
-}
-.pro_individual .content_return .social_return div {
-  display: inline-block;
-  margin: 0 8px;
-  vertical-align: top;
-}
-.pro_individual .content_return .social_return .btn_twitter {
-  margin-right: -2em;
-}
 /* --- Fin-productos --- */
 /* --- contacto --- */
 .wrapper_c {
@@ -2115,6 +2111,9 @@ input {
   }
 }
 @media screen and (max-width: 768px) {
+  .content_return {
+    width: 85%;
+  }
   .header .header_content .hn_nav,
   .header .header_content .logo {
     float: none;
@@ -2251,9 +2250,6 @@ input {
     border-left: 45px solid transparent;
     left: -45px;
   }
-  .pro_individual .content_return {
-    width: 85%;
-  }
   .sec_producto .sp_p {
     margin: 0.8em auto;
   }
@@ -2275,6 +2271,9 @@ input {
   .slider_head .ri-grid .slider_title {
     font-size: 70%;
     margin-top: 3.5em;
+  }
+  .wrapper_blog .article_blog {
+    width: 90%;
   }
   .wrapper_c {
     font-size: 95%;
@@ -2659,6 +2658,9 @@ input {
   .slider_head .ri-grid .slider_title {
     font-size: 50%;
     margin-top: 5em;
+  }
+  .wrapper_blog .article_blog {
+    width: 90%;
   }
   .wrapper_c {
     font-size: 91%;
