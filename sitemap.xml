@@ -8,22 +8,34 @@
 
 <url>
   <loc>http://sintrave.com/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://sintrave.com/nosotros/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://sintrave.com/servicios/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://sintrave.com/productos/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://sintrave.com/contacto/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://sintrave.com/blog/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://sintrave.com/blog/viewpost.php?id=10</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://sintrave.com/blog/viewpost.php?id=9</loc>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>

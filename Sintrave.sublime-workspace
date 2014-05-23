@@ -551,12 +551,16 @@
 		"selected_items":
 		[
 			[
-				"p",
-				"Package Control: Enable Package"
+				"pac",
+				"Package Control: Install Package"
 			],
 			[
-				"pac",
-				"Package Control: Disable Package"
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Enable Package"
 			],
 			[
 				"if",
@@ -597,10 +601,6 @@
 			[
 				"styl",
 				"Set Syntax: Stylus"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
 			],
 			[
 				"syntax s",
@@ -655,7 +655,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 640.0
 	},
 	"console":
 	{
@@ -672,6 +672,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Javier/Downloads/atom-build/Atom/resources/app/menus/win32.json",
+		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
 		"/C/xampp/htdocs/sintrave_new/static/css/blog.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
 		"/C/xampp/htdocs/sintrave_new/productos/productos.php",
@@ -797,9 +799,7 @@
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/xampp/htdocs/sintrave_new/contacto/contacto.html",
 		"/C/xampp/htdocs/sintrave_new/productos/productos.html",
-		"/C/xampp/htdocs/sintrave_new/servicios/servicios.html",
-		"/C/xampp/htdocs/sintrave_new/static/css/galeria.styl",
-		"/C/xampp/htdocs/sintrave_new/galeria/galeria.html"
+		"/C/xampp/htdocs/sintrave_new/servicios/servicios.html"
 	],
 	"find":
 	{
@@ -1217,8 +1217,8 @@
 						"selection":
 						[
 							[
-								165,
-								165
+								169,
+								169
 							]
 						],
 						"settings":
