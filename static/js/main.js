@@ -1,22 +1,24 @@
 /*!
- * main.js v1.0.0
+ * main.js
+ * v1.0.5
  * http://sintrave.com
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Copyright 2014, Sintrave Elevadores
+ * Copyright 2015, Sintrave Elevadores
  * http://www.sintrave.com
  */
 
-$(document).ready(function(){
+(function($) {
 	a_index();
 	ajax_contact();
 	arriba();
 	menuactive();
 	scroll_producto();
 	submenu();
-});
+})(jQuery);
+
 //FUNCTION AJAX CONTACT FORM
 function ajax_contact(){
 	$("#ajax-contact-form").submit(function() {
@@ -54,6 +56,7 @@ function ajax_contact(){
         return false;
     });
 };
+
 //FUNCION SCROLL TO TOP
 function arriba(){
 	$("#IrArriba").hide();
@@ -69,6 +72,7 @@ function arriba(){
 		$('body,html').animate({scrollTop: 0}, 800);
 	});
 };
+
 //INDEX LINK A SCROLL SUAVE
 function a_index(){
 	$('.conoce a').on('click', function(e) {
@@ -88,6 +92,7 @@ function menuactive(){
 		$(this).toggleClass('selected');
 	});
 };
+
 //SUBMENU FIXED
 function submenu(){
 	//Scroll fixed submenu
@@ -112,6 +117,7 @@ function submenu(){
 	    },1200);
 	});
 };
+
 //MOSTRAR PRODUCTOS
 function scroll_producto(e){
 	$('.spp_p a').on('click', function(e) {

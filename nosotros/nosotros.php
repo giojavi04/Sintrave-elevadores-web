@@ -70,7 +70,7 @@ require('../blog/includes/config.php');
 					<h2>Nosotros</h2>
 					<p>SOLUCIONES  E INGENIERIA EN TRANSPORTE VERTICAL, una empresa con más de 20 años de experiencia en ascensores, misma que fue adquirida en labores de montaje y mantenimiento en diferentes empresas de elevación en el país. Hoy SINTRAVE, conformado por ingenieros en el área técnica y la de administración, enfoca sus actividades a la venta de ascensores, montacargas, monta autos, elevador para discapacitados y escaleras eléctricas en las marcas <strong>SL-Yaskawa</strong> y <strong>Fuji</strong>.</p>
 					<p>Contamos con especialistas capacitados en el exterior para la modernización y mantenimiento, comercializando los repuestos para el buen funcionamiento de los elevadores.</p>
-					<p>Nuestro compromiso es crecer día a días manteniendo como signos de identidad la honradez y el profesionalismo</p>	
+					<p>Nuestro compromiso es crecer día a día manteniendo como signos de identidad la honradez y el profesionalismo</p>	
 				</div>
 				<div class="right">
 					<figure class="cac_img">
@@ -89,7 +89,7 @@ require('../blog/includes/config.php');
 				<div class="right">
 					<h2>Garantía</h2>
 					<p>Posterior a la entrega recepción del elevador, SINTRAVE  concede una <strong>garantía de 2 años</strong> de todos sus componentes eléctricos y mecánicos, ya que tenemos la asesoría y respaldo de nuestros fabricantes, cumpliendo con las normas y certificaciones europeas que exige el mercado de la elevación.</p>
-					<p>Como cortesía de SINTRAVE, los <strong>4 primeros meses</strong> de funcionamiento, lo realizaremos el mantenimiento del elevador <strong>totalmente gratis</strong>.</p>
+					<p>Como cortesía de SINTRAVE, los <strong>4 primeros meses</strong> de mantenimiento técnico son <strong>totalmente gratuitos</strong>.</p>
 				</div>
 			</div>
 		</article>

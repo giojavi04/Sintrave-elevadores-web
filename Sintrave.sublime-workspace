@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"_",
+				"_POST  (variable)"
+			],
+			[
 				"tex",
 				"text-decoration"
 			],
@@ -74,10 +78,6 @@
 			[
 				"set_c",
 				"mysql_set_charset"
-			],
-			[
-				"_",
-				"_db"
 			],
 			[
 				"lo",
@@ -519,30 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "blog/viewpost.php",
-			"settings":
-			{
-				"buffer_size": 6023,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/css/main.styl",
-			"settings":
-			{
-				"buffer_size": 11657,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blog/includes/config.php",
-			"settings":
-			{
-				"buffer_size": 1362,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -551,12 +527,16 @@
 		"selected_items":
 		[
 			[
-				"p",
-				"Package Control: Enable Package"
+				"pac",
+				"Package Control: Install Package"
 			],
 			[
-				"pac",
-				"Package Control: Disable Package"
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Enable Package"
 			],
 			[
 				"if",
@@ -597,10 +577,6 @@
 			[
 				"styl",
 				"Set Syntax: Stylus"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
 			],
 			[
 				"syntax s",
@@ -655,11 +631,15 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 528.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -670,22 +650,67 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/sintrave_new"
+	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/sintrave_new/static/css/blog.styl",
-		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
+		"/Applications/MAMP/htdocs/sintrave_new/gruntfile.js",
+		"/Applications/MAMP/htdocs/sintrave_new/google530c53bddf6e02bf.html",
+		"/Applications/MAMP/htdocs/sintrave_new/index.php",
+		"/Applications/MAMP/htdocs/sintrave_new/blog/includes/config.php",
+		"/Applications/MAMP/htdocs/sintrave_new/config.php",
+		"/Applications/MAMP/htdocs/sintrave_new/.htaccess",
+		"/Users/javiermontalvo/Downloads/custsql-ipg34.eigbox.net.sql",
+		"/Applications/MAMP/htdocs/sintrave_new/blog/admin/login.php",
+		"/Applications/MAMP/htdocs/sintrave_new/blog/classes/class.password.php",
+		"/Applications/MAMP/htdocs/sintrave_new/blog/classes/class.user.php",
+		"/Users/javiermontalvo/Downloads/mail.js",
+		"/Applications/MAMP/htdocs/sintrave_new/Sintrave.sublime-project",
+		"/Users/javiermontalvo/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/javiermontalvo/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/javiermontalvo/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/C/xampp/htdocs/sintrave_new/index.php",
+		"/C/Users/Javier Montalvo/Downloads/jquery-popup-overlay-gh-pages/index.html",
+		"/C/xampp/htdocs/sintrave_new/static/index.php",
+		"/C/Users/Javier Montalvo/Downloads/jquery-popup-overlay-gh-pages/jquery.popupoverlay.js",
+		"/C/Users/Javier Montalvo/Downloads/jquery-popup-overlay-gh-pages/index.js",
+		"/C/xampp/htdocs/sintrave_new/static/js/main.min.js",
+		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
+		"/C/xampp/htdocs/sintrave_new/gruntfile.js",
+		"/C/Users/Javier Montalvo/Downloads/web/about.html",
+		"/C/xampp/htdocs/eje/envia.php",
+		"/C/xampp/htdocs/eje/index.php",
+		"/C/Users/Javier Montalvo/Documents/Node/autentication.js",
+		"/C/Users/Javier Montalvo/Downloads/vantage/header.php",
+		"/C/Users/Javier Montalvo/Downloads/vantage/style.less",
+		"/C/xampp/htdocs/jm/wp-config.php",
+		"/C/xampp/htdocs/jm/readme.html",
 		"/C/xampp/htdocs/sintrave_new/productos/productos.php",
 		"/C/xampp/htdocs/sintrave_new/blog/index.php",
+		"/C/xampp/htdocs/sintrave_new/google530c53bddf6e02bf.html",
+		"/C/xampp/htdocs/sintrave_new/static/css/main.styl",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/sintrave_new/contacto/contacto.php",
+		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.php",
+		"/C/xampp/htdocs/phonegap_ui/index.html",
+		"/C/Users/Javier Montalvo/Downloads/Software/Divergent/locale.cfg",
+		"/C/Users/Javier Montalvo/Downloads/Software/Divergent/metin2.cfg",
+		"/C/Users/Javier Montalvo/Downloads/Software/Divergent/mouse.cfg",
+		"/C/xampp/htdocs/sintrave_new/blog/viewpost.php",
+		"/C/xampp/htdocs/sintrave_new/blog/includes/config.php",
+		"/C/Users/Javier/Downloads/atom-build/Atom/resources/app/menus/win32.json",
+		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/C/xampp/htdocs/sintrave_new/static/css/blog.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/productos.styl",
 		"/C/xampp/htdocs/sintrave_new/static/css/responsive.styl",
-		"/C/xampp/htdocs/sintrave_new/blog/viewpost.php",
 		"/C/xampp/htdocs/sintrave_new/blog/admin/users.php",
 		"/C/xampp/htdocs/sintrave_new/blog/admin/menu.php",
 		"/C/xampp/htdocs/sintrave_new/blog/classes/class.user.php",
 		"/C/xampp/htdocs/sintrave_new/blog/admin/index.php",
 		"/C/xampp/htdocs/sintrave_new/blog/admin/login.php",
 		"/C/xampp/htdocs/sintrave_new/blog/classes/class.password.php",
-		"/C/xampp/htdocs/sintrave_new/index.php",
 		"/C/xampp/htdocs/sintrave_new/.htaccess",
 		"/C/Users/Javier/AppData/Local/Temp/Rar$DIa0.808/TableRecord.php",
 		"/C/Users/Javier/AppData/Local/Temp/Rar$DIa0.883/Table.php",
@@ -699,7 +724,6 @@
 		"/C/xampp/htdocs/sintrave_new/blog/admin/edit-user.php",
 		"/C/xampp/htdocs/sintrave_new/static/css/main.min.css",
 		"/C/xampp/htdocs/sintrave_new/blog/admin/logout.php",
-		"/C/xampp/htdocs/sintrave_new/blog/includes/config.php",
 		"/C/xampp/htdocs/sintrave_new/static/css/main.css",
 		"/C/Users/Javier/Desktop/financiero.html",
 		"/C/Users/Javier/Desktop/coordinacion.html",
@@ -709,10 +733,7 @@
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/User/AdvancedNewFile.sublime-settings",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
 		"/C/xampp/htdocs/sintrave_new/.gitignore",
-		"/C/xampp/htdocs/sintrave_new/contacto/contacto.php",
-		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.php",
 		"/C/xampp/htdocs/sintrave_new/servicios/servicios.php",
-		"/C/xampp/htdocs/sintrave_new/static/js/main.js",
 		"/C/xampp/htdocs/sintrave_new/firmas.html",
 		"/C/xampp/htdocs/sintrave_new/release/blog/admin.php",
 		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/register.php",
@@ -725,7 +746,6 @@
 		"/C/xampp/htdocs/sintrave_new/blog/news.php",
 		"/C/xampp/htdocs/hotel/kingsfieldexpress/session.php",
 		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/xampp/htdocs/sintrave_new/gruntfile.js",
 		"/C/xampp/htdocs/wordpress/wp-admin/themes.php",
 		"/C/xampp/htdocs/sintrave_new/release/contacto/contact.php",
 		"/C/xampp/htdocs/blog/languages/spanish/strings.php",
@@ -746,13 +766,11 @@
 		"/C/xampp/htdocs/sintrave_new/static/css/nosotros.styl",
 		"/C/xampp/htdocs/sintrave_new/package.json",
 		"/C/xampp/htdocs/laravel/.gitattributes",
-		"/C/xampp/htdocs/sintrave_new/static/js/main.min.js",
 		"/C/xampp/htdocs/sintrave_new/static/css/contacto.styl",
 		"/C/xampp/htdocs/sintrave_new/README.md",
 		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/delete.php",
 		"/C/xampp/htdocs/sintrave_new/email.html",
 		"/C/xampp/htdocs/sintrave_new/static/img/f/webmaster.jpg",
-		"/C/xampp/htdocs/sintrave_new/google530c53bddf6e02bf.html",
 		"/C/Users/Javier/Downloads/login/js/login.js",
 		"/C/Users/Javier/Downloads/login/js/acceso.js",
 		"/C/Users/Javier/Downloads/jquery.gridrotator.min.js",
@@ -765,45 +783,11 @@
 		"/C/xampp/htdocs/sintrave_new/static/js/vendor/modernizr.custom.js",
 		"/C/xampp/htdocs/sintrave_new/static/js/jquery.gridrotator.js",
 		"/C/xampp/htdocs/sintrave_new/static/css/normalize.min.css",
-		"/C/xampp/htdocs/siganm/administracion/clasificadores/asignaturas_modificar.php",
-		"/C/xampp/htdocs/siganm/administracion/clasificadores/asignaturas.php",
-		"/C/xampp/htdocs/sintrave_new/static/css/bootstrap.min.css",
-		"/C/xampp/htdocs/sintrave_new/release/blog/administrator/edit.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/usuario/logout.php",
-		"/C/xampp/htdocs/sintrave_new/static/css/fonts/glyphicons-halflings-regular.eot",
-		"/C/xampp/htdocs/sintrave_new/release/blog/config/verUser.php",
-		"/C/xampp/htdocs/sintrave_new/release/blog/usuario",
-		"/C/Users/Javier/Downloads/Templates admin bootstrap/admin-bootstrap/js/cvalidate.js",
-		"/C/Users/Javier/Downloads/54-sign-up-form/css/style.css",
-		"/C/xampp/htdocs/sintrave_new/contacto/contact.php",
-		"/C/Users/Javier/Downloads/SISTEMA-WEB-COLEGIOS/colegio/js/ingreso.js",
-		"/C/Users/Javier/Downloads/SISTEMA-WEB-COLEGIOS/colegio/js/alumnos.js",
-		"/C/xampp/htdocs/sintrave_new/static/css/servicios.styl",
-		"/C/xampp/htdocs/sintrave_ec/contact/style.css",
-		"/C/xampp/htdocs/sintrave_new/release/contacto",
-		"/C/xampp/htdocs/sintrave_new/release",
-		"/C/xampp/apache/logs/access.log",
-		"/C/xampp/apache/conf/httpd.conf",
-		"/C/xampp/apache/logs/error.log",
-		"/C/xampp/php/php.ini",
-		"/C/xampp/htdocs/sintrave_new/static/backend/twitter/TwitterAPIExchange.php",
-		"/C/xampp/apache/conf/extra/httpd-ssl.conf",
-		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
-		"/C/xampp/htdocs/sintrave_new/nosotros/nosotros.html",
-		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/C/xampp/htdocs/Twitter-Timeline-master/index.php",
-		"/C/xampp/htdocs/sintrave_new/index2.html",
-		"/C/xampp/htdocs/sintrave_new/index.html",
-		"/C/Users/Javier/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/xampp/htdocs/sintrave_new/contacto/contacto.html",
-		"/C/xampp/htdocs/sintrave_new/productos/productos.html",
-		"/C/xampp/htdocs/sintrave_new/servicios/servicios.html",
-		"/C/xampp/htdocs/sintrave_new/static/css/galeria.styl",
-		"/C/xampp/htdocs/sintrave_new/galeria/galeria.html"
+		"/C/xampp/htdocs/siganm/administracion/clasificadores/asignaturas_modificar.php"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -970,364 +954,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "blog/viewpost.php",
-					"settings":
-					{
-						"buffer_size": 6023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2234,
-								2234
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "static/css/main.styl",
-					"settings":
-					{
-						"buffer_size": 11657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1764.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "blog/includes/config.php",
-					"settings":
-					{
-						"buffer_size": 1362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1360,9 +994,14 @@
 	{
 		"height": 28.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Sintrave.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1393,10 +1032,25 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 242.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

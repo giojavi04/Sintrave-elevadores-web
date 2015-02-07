@@ -24,7 +24,7 @@ module.exports = function(grunt){
 				options: {
 					banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
         					'<%= grunt.template.today("yyyy-mm-dd") %> - ' +
-        					'Copyright 2014, Sintrave Elevadores */'
+        					'Copyright 2015, Sintrave Elevadores */'
 				},
 				files: {
 					'static/css/main.min.css': stylesDir + 'main.css'
@@ -36,7 +36,7 @@ module.exports = function(grunt){
 			options: {
 				 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
         				'<%= grunt.template.today("yyyy-mm-dd") %> - ' +
-        				'Copyright 2014, Sintrave Elevadores */'
+        				'Copyright 2015, Sintrave Elevadores */'
 			},
 			minifyjs: {
 				files:{
