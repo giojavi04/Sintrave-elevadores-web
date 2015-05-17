@@ -229,7 +229,7 @@ require('blog/includes/config.php');
 		</div>
 		<div class="f_right">
 			<!--<a href="https://plus.google.com/113418919977320803682" rel="publisher">Google+</a>-->
-			<p>Copyright © 2014 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
+			<p>Copyright © 2015 Sintrave Reserved. Design by <a href="https://twitter.com/giojavi04" target="_blank">@giojavi04</a></p>
 		</div>
 	</footer>
 	<div id='IrArriba'>
