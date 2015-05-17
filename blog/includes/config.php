@@ -4,12 +4,12 @@ session_start();
 
 //database credentials
 define('DBHOST','localhost');
-/*define('DBUSER','root');
+define('DBUSER','root');
 define('DBPASS','root');
-define('DBNAME','sintrave_blog');*/
-define('DBUSER','sintrave_blogadm');
-define('DBPASS','c^3fZ4JF5&^d');
 define('DBNAME','sintrave_blog');
+/*define('DBUSER','sintrave_blogadm');
+define('DBPASS','c^3fZ4JF5&^d');
+define('DBNAME','sintrave_blog');*/
 
 $db = new PDO("mysql:host=".DBHOST.";port=3306;dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
