@@ -19,7 +19,7 @@ require('../blog/includes/config.php');
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
 	<link rel="stylesheet" href="/static/css/main.min.css" />
-	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	
 	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
@@ -66,7 +66,7 @@ require('../blog/includes/config.php');
 		<div class="services">
 			<div class="ss_article">
 				<figure class="ssa_img">
-					<img src="/static/img/servicios/s_mantenimiento.png" alt="Sintrave - Mantenimiento">
+					<img src="/static/img/servicios/sintrave-servicio-mantenimiento.png" alt="Sintrave - Mantenimiento">
 				</figure>
 				<h2 class="ssa_h2">Mantenimiento</h2>
 				<p>El mantenimiento tiene por objetivo asegurar en la mayor medida posible, el correcto y normal funcionamiento de los equipos, mediante los mantenimientos preventivos, correctivos y predictivos garantizando en todo momento la operatividad de los ascensores y la seguridad de los usuarios</p>
@@ -74,7 +74,7 @@ require('../blog/includes/config.php');
 			</div>
 			<div class="ss_article">
 				<figure class="ssa_img">
-					<img src="/static/img/servicios/s_modernizacion.png" alt="Sintrave - Modernización">
+					<img src="/static/img/servicios/sintrave-servicio-modernizacion.png" alt="Sintrave - Modernización">
 				</figure>
 				<h2 class="ssa_h2">Modernización</h2>
 				<p>SINTRAVE realiza la modernización de los ascensores antiguos, por el nuevo sistema inteligente, mejorando la aceleración y desceleración de los ascensores, instalando controles con velocidad y frecuencia variable (VVVF) obteniendo con esto los siguientes beneficios:</p> 
@@ -87,7 +87,7 @@ require('../blog/includes/config.php');
 			</div>
 			<div class="ss_article">
 				<figure class="ssa_img">
-					<img src="/static/img/servicios/s_negocios.png" alt="Sintrave - Venta, instalación montaje">
+					<img src="/static/img/servicios/sintrave-servicio-comercializacion.png" alt="Sintrave - Venta, instalación montaje">
 				</figure>
 				<h2 class="ssa_h2">Comercialización</h2>
 				<p>Si tú estás desarrollando un proyecto donde requieres equipos de transporte vertical, con mucho gusto estamos para asesorarte y ofrecerte la mejor alternativa ya sea en ascensor de pasajeros, montacargas, elevador para discapacitados y soluciones residenciales tanto importados como de fabricación nacional.</p>
@@ -123,7 +123,7 @@ require('../blog/includes/config.php');
 						<li><span class="sicia_icon"></span>Montaje y puesta en marcha de grupos electrógenos</li>
 						<li><span class="sicia_icon"></span>Mantenimiento de puertas eléctricas automáticas</li>
 					</ul>
-					<img src="/static/img/servicios/i_em.jpg" alt="Sintrave - eléctrico y mecánico">
+					<img src="/static/img/servicios/sintrave-servicio-proyectos-electricos.jpg" alt="Sintrave - eléctrico y mecánico">
 				</li>
 				<li class="sici_article clearfix">
 					<h2>Proyectos mecánicos</h2>
@@ -135,7 +135,7 @@ require('../blog/includes/config.php');
 						<li><span class="sicia_icon"></span>Mantenimiento de todo tipo de bombas</li>
 						<li><span class="sicia_icon"></span>Mecanizado de piezas</li>
 					</ul>
-					<img src="/static/img/servicios/i_ei.jpg" alt="Sintrave - electromecánico industrial">
+					<img src="/static/img/servicios/sintrave-servicio-proyectos-mecanicos.jpg" alt="Sintrave - electromecánico industrial">
 				</li>
 			</ul>
 		</div>
@@ -153,7 +153,7 @@ require('../blog/includes/config.php');
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadoresEc/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -206,6 +206,7 @@ require('../blog/includes/config.php');
 		</a>
 	</div>
 	
+	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="https://platform.twitter.com/widgets.js"></script>
 	<script src="/static/js/main.min.js"></script>	
 </body>

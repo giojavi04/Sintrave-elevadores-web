@@ -19,7 +19,7 @@ require('../blog/includes/config.php');
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
 	<link rel="stylesheet" href="/static/css/main.min.css" />
-	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	
 	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
@@ -62,61 +62,61 @@ require('../blog/includes/config.php');
 					<h2>Tenemos lo que buscas!</h2>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_camillero.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_camillero.jpg" alt="Sintrave - Ascensor Camillero">	
 					<h3>Ascensor Camillero</h3>
 					<p>El elevador camillero tiene la especialidad de los entornos hospitalarios. La tecnología de control VVVF...</p>
 					<a href="#camillero">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_discapacitados.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_discapacitados.jpg" alt="Sintrave - Ascensor Discapacitados">	
 					<h3>Ascensor de Discapacitados</h3>
 					<p>Disponemos de una variedad de soluciones de accesibilidad enfocada a solventar los requerimientos...</p>
 					<a href="#discapacitados">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_carga.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_carga.jpg" alt="Sintrave - Ascensor Carga">	
 					<h3>Ascensor de Carga</h3>
 					<p>El ascensor montacargas utiliza la avanzada tecnología de micro-ordenador de control. A través de la unificación técnica...</p>
 					<a href="#carga">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_plato.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_plato.jpg" alt="Sintrave - Ascensor Montaplatos">	
 					<h3>Ascensor Montaplatos</h3>
 					<p>La durabilidad del producto y el servicio que brinda dentro de las instalaciones es muy importante para el cliente...</p>
 					<a href="#montaplato">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_panoramico.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_panoramico.jpg" alt="Sintrave - Ascensor Panorámico">	
 					<h3>Ascensor Panorámico</h3>
 					<p>El ascensor panorámico es un nuevo ascensor que integra el turismo y el elevador de pasajeros en uno solo...</p>
 					<a href="#panoramico">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_pasajero.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_pasajero.jpg" alt="Sintrave - Ascensor de Pasajeros">	
 					<h3>Ascensor de Pasajeros</h3>
 					<p>El ascensor de pasajeros es flexible en el diseño de la cabina. Es la opción ideal para hoteles, restaurantes...</p>
 					<a href="#pasajero">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_auto.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_auto.jpg" alt="Sintrave - Elevador de Autos">	
 					<h3>Elevador de Autos</h3>
 					<p>Este tipo de elevadores en casa son famosos por el estilo aristocrático y de decoración avanzada, la estética...</p>
 					<a href="#autos">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_hidraulico.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_hidraulico.jpg" alt="Sintrave - Elevador Hidráulico">	
 					<h3>Elevador Hidráulico</h3>
 					<p>El elevador hidráulico es diferente de otro ascensor. Se tiene sus propias ventajas de rendimiento y la aplicación...</p>
 					<a href="#hidraulico">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_escalera.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_escalera.jpg" alt="Sintrave - Escaleras y Pasillos Rodantes">	
 					<h3>Escaleras y Pasillos</h3>
 					<p>Elegantes y diseños modernos, traen la experiencia más fina de equitación. Aspecto diferencial, modelo rica...</p>
 					<a href="#escalera">Más sobre este producto --></a>
 				</div>
 				<div class="spp_p">
-					<img src="/static/img/productos/p_residencial.jpg" alt="Sintrave - Productos">	
+					<img src="/static/img/productos/p_residencial.jpg" alt="Sintrave - Solucioes Residencia">	
 					<h3>Soluciones Residenciales</h3>
 					<p>Tanto en las residencias de diseño moderno como en las que están dentro del casco colonial, han sido...</p>
 					<a href="#residencial">Más sobre este producto --></a>
@@ -149,12 +149,12 @@ require('../blog/includes/config.php');
 						<h3>Características</h3>
 						<p>Los varios dispositivos de seguridades permiten la nivelación del ascensor hasta el piso más cercano automáticamente en caso de un fallo de alimentación o que se detenga inesperadamente. Se puede tomar con prontitud el control del ascensor y comenzar a liberar a los pacientes para que el personal técnico actúe, de esta forma los pacientes no se quedarán atrapados en el ascensor.</p>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_camillero1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_camillero1.jpg" alt="Sintrave - Ascensor Camillero" class="dimg">
 						</figure>
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_camillero.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_camillero.jpg" alt="Sintrave - Ascensor Camillero" class="img">
 						</figure>
 					</div>
 				</article>
@@ -196,7 +196,7 @@ require('../blog/includes/config.php');
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_discapacitados.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_discapacitados.jpg" alt="Sintrave - Ascensor Discapacitados" class="img">
 						</figure>
 					</div>
 				</article>
@@ -242,7 +242,7 @@ require('../blog/includes/config.php');
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_carga_c2.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_carga_c2.jpg" alt="Sintrave - Ascensor Carga" class="img">
 						</figure>
 					</div>
 				</article>
@@ -279,12 +279,12 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>El montaplatos en esta serie son seguros, prácticos, elegantes, tranquilos, flexibles en la operación y de fácil mantenimiento.</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_platos1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_platos1.jpg" alt="Sintrave - Ascensor Montaplatos" class="dimg">
 						</figure>
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_platos.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_platos.jpg" alt="Sintrave - Ascensor Montaplatos" class="img">
 						</figure>
 					</div>
 				</article>
@@ -315,7 +315,7 @@ require('../blog/includes/config.php');
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_panoramico.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_panoramico.jpg" alt="Sintrave - Ascensor Panorámico" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -327,7 +327,7 @@ require('../blog/includes/config.php');
 							<p>Es sensible y reacciona a cualquier persona u objeto que entra en el rango de la sonda con las características de alta seguridad, como resultado los pasajeros se sienten más a gusto y seguros en entrar o salir de los ascensores.</p>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_panoramico1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_panoramico1.jpg" alt="Sintrave - Ascensor Panorámico" class="dimg">
 						</figure>
 					</div>
 				</article>
@@ -363,19 +363,19 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>Los principales motores pueden ser controlados con precisión en tiempo real a través del ajuste de corriente y tensión de acuerdo a la carga de los ascensores, para garantizar la velocidad y frenado del ascensor.</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_pasajero_e1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_pasajero_e1.jpg" alt="Sintrave - Ascensor de Pasajeros" class="dimg">
 						</figure>
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_pasajero_e.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_pasajero_e.jpg" alt="Sintrave - Ascensor de Pasajeros" class="img">
 						</figure>
 					</div>
 				</article>
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_pasajero_p.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_pasajero_p.jpg" alt="Sintrave - Ascensor de Pasajeros" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -385,7 +385,7 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>La máquina de tracción sin engranajes, mejora en gran medida el espacio a utilizarse debido a que no se construirá una sala de máquinas al mismo tiempo que reduce la pérdida de energía.</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_pasajero_p1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_pasajero_p1.jpg" alt="Sintrave - Ascensor de Pasajeros" class="dimg">
 						</figure>
 					</div>
 				</article>
@@ -397,12 +397,12 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>El peso de asignar los equipos de la máquina en el pozo puede ser transmitido por los componentes de estructuras de acero como guía, rieles, etc.; dentro del pozo. No hay necesidad de una sala de máquinas, se ahorra el espacio de construcción y reduce considerablemente el costo de construcción.</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_pasajero_ss1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_pasajero_ss1.jpg" alt="Sintrave - Ascensor de Pasajeros" class="dimg">
 						</figure>
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_pasajero_ss.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_pasajero_ss.jpg" alt="Sintrave - Ascensor de Pasajeros" class="img">
 						</figure>
 					</div>
 				</article>
@@ -410,7 +410,7 @@ require('../blog/includes/config.php');
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_pasajero_r.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_pasajero_r.jpg" alt="Sintrave - Ascensor de Pasajeros" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -420,7 +420,7 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>Perfecta combinación de GSM de comunicación móvil y de Internet recoge el ordenador de a bordo instantánea y datos del convertidor de frecuencia. Se trata de la conexión inalámbrica de larga distancia de transporte.</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_pasajero_r1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_pasajero_r1.jpg" alt="Sintrave - Ascensor de Pasajeros" class="dimg">
 						</figure>
 					</div>
 				</article>
@@ -451,7 +451,7 @@ require('../blog/includes/config.php');
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_auto.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_auto.jpg" alt="Sintrave - Elevador de Autos" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -490,7 +490,7 @@ require('../blog/includes/config.php');
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_hidraulico.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_hidraulico.jpg" alt="Sintrave - Ascensor Hidráulico" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -502,7 +502,7 @@ require('../blog/includes/config.php');
 							<p>Debido a que no tiene espacio superior de la máquina, las cargas verticales tales como la carga de la cabina, puede actuar sobre el hoyo bien a través del cilindro de aceite hidráulico.</p>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_hidraulico1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_hidraulico1.jpg" alt="Sintrave - Ascensor Hidráulico" class="dimg">
 						</figure>
 					</div>
 				</article>
@@ -540,14 +540,14 @@ require('../blog/includes/config.php');
 					</div>
 					<div class="right">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_ep_e.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_ep_e.jpg" alt="Sintrave - Escaleras y Pasillos Rodantes" class="img">
 						</figure>
 					</div>
 				</article>
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_ep_p.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_ep_p.jpg" alt="Sintrave - Escaleras y Pasillos Rodantes" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -585,7 +585,7 @@ require('../blog/includes/config.php');
 				<article class="scar">
 					<div class="left">
 						<figure class="p_img">
-							<img src="/static/img/productos/pp_solucion.jpg" alt="Sintrave - productos" class="img">
+							<img src="/static/img/productos/pp_solucion.jpg" alt="Sintrave - Soluciones Residenciales" class="img">
 						</figure>
 					</div>
 					<div class="right">
@@ -600,7 +600,7 @@ require('../blog/includes/config.php');
 							<li><span class="visto"></span>Cumplir con "Home ascensor Estándar Nacional GB/T21739-2008"</li>
 						</ul>
 						<figure class="d_img">
-							<img src="/static/img/productos/pp_solucion1.jpg" alt="Sintrave - productos" class="dimg">
+							<img src="/static/img/productos/pp_solucion1.jpg" alt="Sintrave - Soluciones Residenciales" class="dimg">
 						</figure>
 					</div>
 				</article>
@@ -621,7 +621,7 @@ require('../blog/includes/config.php');
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadoresEc/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -674,6 +674,7 @@ require('../blog/includes/config.php');
 		</a>
 	</div>
 	
+    <script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
     <script src="https://apis.google.com/js/plusone.js"></script>
     <script src="https://platform.twitter.com/widgets.js"></script>

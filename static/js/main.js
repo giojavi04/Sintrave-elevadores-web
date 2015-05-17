@@ -1,6 +1,6 @@
 /*!
  * main.js
- * v1.0.5
+ * v1.0.8
  * http://sintrave.com
  *
  * Licensed under the MIT license.
@@ -10,14 +10,14 @@
  * http://www.sintrave.com
  */
 
-(function($) {
+$(function(){ 
 	a_index();
 	ajax_contact();
 	arriba();
 	menuactive();
 	scroll_producto();
 	submenu();
-})(jQuery);
+});
 
 //FUNCTION AJAX CONTACT FORM
 function ajax_contact(){

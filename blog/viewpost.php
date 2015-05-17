@@ -29,7 +29,6 @@ if($row['postID'] == ''){
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
 	<link rel="stylesheet" href="/static/css/main.min.css" />
-	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
@@ -107,7 +106,7 @@ if($row['postID'] == ''){
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadoresEc/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -159,7 +158,8 @@ if($row['postID'] == ''){
 			<span></span>
 		</a>
 	</div>
-
+	
+	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
     <script src="https://apis.google.com/js/plusone.js"></script>
     <script src="https://platform.twitter.com/widgets.js"></script>

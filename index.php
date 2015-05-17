@@ -28,7 +28,6 @@ require('blog/includes/config.php');
 	<![endif]-->
 	<!-- End CSS -->
 	<!-- JS -->
-	<script src="static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="static/js/vendor/modernizr.custom.js"></script>
 	<!-- END JS -->
 </head>
@@ -131,7 +130,7 @@ require('blog/includes/config.php');
 	<div id="submenu"></div>
 	<section id="s_section" class="s_section">
 		<figure id="mas" class="s_a_descripcion">
-			<img src="static/img/logo_home.png" alt="sintrave" id="logo_svg">
+			<img src="static/img/logo_home.png" alt="Sintrave Elevadores" id="logo_svg">
 			<h2>SINTRAVE ELEVADORES</h2>
 			<h3>Es una empresa dedicada a la búsqueda permanente de la excelencia empresarial y la mejora continua, comprometida con la investigación y el desarrollo tecnológico.</h3>
 		</figure>
@@ -186,7 +185,7 @@ require('blog/includes/config.php');
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/+SintraveElevadores/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadoresEc/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -239,6 +238,7 @@ require('blog/includes/config.php');
 		</a>
 	</div>
 	<script src="https://platform.twitter.com/widgets.js"></script>
+	<script src="static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script type="text/javascript" src="static/js/jquery.gridrotator.min.js"></script>
 	<script src="static/js/jquery.popupoverlay.js"></script>
 	<script src="static/js/main.min.js"></script>

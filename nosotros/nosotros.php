@@ -19,7 +19,7 @@ require('../blog/includes/config.php');
     <!-- End Seo -->
 	<link rel="stylesheet" href="/static/css/normalize.min.css" />
 	<link rel="stylesheet" href="/static/css/main.min.css" />
-	<script async src="/static/js/vendor/jquery-2.1.0.min.js"></script>
+	
 	<script async src="/static/js/vendor/modernizr.custom.js"></script>
 </head>
 <body>
@@ -74,7 +74,7 @@ require('../blog/includes/config.php');
 				</div>
 				<div class="right">
 					<figure class="cac_img">
-						<img src="/static/img/nosotros/n_nosotros.png" alt="Sintrave - Nosotros">
+						<img src="/static/img/nosotros/nosotros-sintrave.png" alt="Sintrave - Nosotros">
 					</figure>
 				</div>
 			</div>
@@ -83,7 +83,7 @@ require('../blog/includes/config.php');
 			<div class="ca_contenido">
 				<div class="left">
 					<figure class="cac_img">
-						<img src="/static/img/nosotros/n_garantia.png" alt="Sintrave - Garantia">
+						<img src="/static/img/nosotros/garantia-sintrave.png" alt="Sintrave - Garantia">
 					</figure>
 				</div>
 				<div class="right">
@@ -110,7 +110,7 @@ require('../blog/includes/config.php');
 				</div>
 				<div class="right">
 					<figure class="cac_img">
-						<img src="/static/img/nosotros/n_seguridad.png" alt="Sintrave - Seguridad Industrial">
+						<img src="/static/img/nosotros/seguridad-sintrave.png" alt="Sintrave - Seguridad Industrial">
 					</figure>
 				</div>
 			</div>
@@ -130,7 +130,7 @@ require('../blog/includes/config.php');
 				</ul>
 				<a href="https://www.facebook.com/Sintrave" target="_blank"><span class="ico ico-facebook"></span></a>
 				<a href="https://twitter.com/Sintrave" target="_blank"><span class="ico ico-twitter"></span></a>
-				<a href="https://plus.google.com/113418919977320803682/posts" target="_blank"><span class="ico ico-google"></span></a>
+				<a href="https://plus.google.com/+SintraveElevadoresEc/posts" target="_blank"><span class="ico ico-google"></span></a>
 			</aside>
 			<div class="noticias">
 				<h2><span class="ico-h2 ico-noticia"></span>Ultimas Noticias</h2>
@@ -183,6 +183,7 @@ require('../blog/includes/config.php');
 		</a>
 	</div>
 	
+	<script src="/static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script src="https://platform.twitter.com/widgets.js"></script>
 	<script src="/static/js/main.min.js"></script>	
 </body>
