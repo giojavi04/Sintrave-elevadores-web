@@ -132,9 +132,9 @@ require('../blog/includes/config.php');
 			<article class="datos">
 				<h2>Nuestra Oficina</h2>
 				<h3>Dirección:</h3>
-				<p>Av. 10 de Agosto N26-52 y Ascázubi Edificio Proaño 2 Piso, Oficina 2</p>
+				<p>Av de la Prensa N44-88 y El telegrafo, piso 2 oficina 2</p>
 				<h3>Teléfonos:</h3>
-				<p><span class="pf pf_tel"></span>(593) 02 2 229 531 </p>
+				<p><span class="pf pf_tel"></span>(593) 02 2 267 548</p>
 				<p><span class="pf pf_tel"></span>(593) 02 2 964 661 </p>
 				<p><span class="pf pf_cel"></span> 0992860418</p>
 				<aside class="clearfix">
