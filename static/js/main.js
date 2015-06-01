@@ -17,6 +17,9 @@ $(function(){
 	menuactive();
 	scroll_producto();
 	submenu();
+
+	$('#my_popup').popup('show');
+	
 });
 
 //FUNCTION AJAX CONTACT FORM

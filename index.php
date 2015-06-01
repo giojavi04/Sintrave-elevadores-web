@@ -237,6 +237,10 @@ require('blog/includes/config.php');
 			<span></span>
 		</a>
 	</div>
+	<div id="my_popup">
+    	<img src="static/img/nueva-direccion.jpg" style="width: 100%;" alt="Nueva direccion">
+    	<button class="my_popup_close">Close</button>
+	</div>
 	<script src="https://platform.twitter.com/widgets.js"></script>
 	<script src="static/js/vendor/jquery-2.1.0.min.js"></script>
 	<script type="text/javascript" src="static/js/jquery.gridrotator.min.js"></script>
