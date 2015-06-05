@@ -134,8 +134,8 @@ require('../blog/includes/config.php');
 				<h3>Dirección:</h3>
 				<p>Av de la Prensa N44-88 y El telegrafo, piso 2 oficina 2</p>
 				<h3>Teléfonos:</h3>
-				<p><span class="pf pf_tel"></span>(593) 02 2 267 548</p>
-				<p><span class="pf pf_tel"></span>(593) 02 2 964 661 </p>
+				<p><span class="pf pf_tel"></span>(593) 02 5 133 233</p>
+				<p><span class="pf pf_tel"></span>(593) 02 2 964 661</p>
 				<p><span class="pf pf_cel"></span> 0992860418</p>
 				<aside class="clearfix">
 					<div class="social">
